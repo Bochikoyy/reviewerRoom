@@ -1,0 +1,879 @@
+THE HYPOTHALAMUS
+1. General Function of the Hypothalamus
+The hypothalamus is the major connection between the nervous system and
+endocrine system.
+It coordinates the activity of the pituitary gland by producing chemical messengers,
+especially:
+• Releasing hormones
+• Other peptides
+• Amines
+These substances control pituitary hormone secretion.
+The hypothalamus is also an important control center for many functions of the
+autonomic nervous system.
+2. Location and Structure of the Hypothalamus
+The hypothalamus is part of the diencephalon.
+It forms the floor of the third ventricle.
+Important structures associated with the hypothalamus include:
+• Optic chiasma
+• Tuber cinereum
+• Mammillary bodies
+• Median eminence
+The following structures are sometimes not included as part of the hypothalamus
+itself, although they are actually extensions of it into the pituitary:
+• Infundibulum
+• Neurohypophysis
+The neurohypophysis includes the stalk of the posterior pituitary and the posterior
+lobe.
+3. What Does the Hypothalamus Control?
+The hypothalamus produces peptides and amines that influence the pituitary gland.
+These signals can cause the pituitary to produce:
+A. Tropic hormones
+These hormones act on another endocrine gland and stimulate it to produce
+hormones.
+Example:
+Hypothalamus → pituitary ACTH → adrenal cortex → cortisol
+ACTH is therefore a tropic hormone because it stimulates another endocrine gland.
+B. Hormones that directly produce a biological effect
+Some pituitary hormones act more directly on tissues.
+Example:
+Prolactin (PRL) acts directly on tissues involved in milk production.
+THE PITUITARY GLAND (HYPOPHYSIS)
+4. Parts of the Pituitary Gland
+The pituitary gland, also called the hypophysis, consists of four major parts:
+1. Adenohypophysis – anterior pituitary
+o Mainly the pars distalis
+2. Neurohypophysis – posterior pituitary
+o Mainly the pars nervosa
+3. Pars intermedia – intermediate lobe
+4. Pars tuberalis
+5. Embryonic Origin of the Pituitary
+The anterior and posterior pituitary have different embryonic origins.
+Adenohypophysis
+• Develops from an upward extension of the embryonic oral ectoderm.
+• This structure is called Rathke's pouch.
+Neurohypophysis
+• Develops from a downward extension of neural ectoderm from the floor of
+the third ventricle.
+The two developing structures grow toward each other and form the pituitary gland.
+Easy reminder:
+Anterior pituitary → Rathke's pouch → oral ectoderm
+Posterior pituitary → neural ectoderm → hypothalamus
+THE NEUROHYPOPHYSIS / POSTERIOR PITUITARY
+6. The Posterior Pituitary Is an Extension of the Hypothalamus
+The neurohypophysis is different from the anterior pituitary because its nerve cell
+bodies are actually located in the hypothalamus.
+Most of these cell bodies are located in:
+• Supraoptic nucleus
+• Paraventricular nucleus
+Their axons extend from the hypothalamus down into the posterior pituitary.
+Structure:
+Hypothalamus (cell bodies) → axons → pituitary stalk → posterior pituitary (nerve
+endings)
+Therefore:
+Posterior pituitary = extension of the hypothalamus
+7. Neurosecretory Neurons
+The neurons that produce posterior pituitary hormones are called neurosecretory
+neurons.
+They are different from ordinary neurons.
+Neurosecretory neurons:
+
+-- 1 of 11 --
+
+1. Do not innervate other neurons
+o Although they themselves receive neural input.
+2. Release their secretory products into the bloodstream.
+3. Their hormones can travel to and act on distant tissues.
+This makes them a direct connection between the nervous system and endocrine
+system.
+Another important difference:
+Anterior pituitary hormones often stimulate other tissues or endocrine glands to
+produce hormones.
+Posterior pituitary hormones can directly cause the desired response in their target
+tissues.
+8. Main Posterior Pituitary Hormones
+The two major hormones associated with the neurohypophysis are:
+• Oxytocin
+• Vasopressin, also called antidiuretic hormone (ADH)
+Important point:
+Although they are released from the posterior pituitary, they are actually synthesized
+in the hypothalamus.
+9. Synthesis and Transport of Oxytocin and Vasopressin
+Both hormones are produced by magnocellular neurons.
+"Magnocellular" means the neurons have large cell bodies.
+Both oxytocin and vasopressin are produced in both the supraoptic and
+paraventricular nuclei.
+They are not strictly produced by only one nucleus.
+10. Formation of Vasopressin
+Vasopressin is first synthesized in the hypothalamic cell body as a preprohormone
+called:
+PrepropressoPhysin
+The process is:
+Preprohormone → removal of "pre" portion → prohormone → transported down
+axon → further cleavage → vasopressin
+A peptide fragment remaining after processing is called neurophysin II.
+11. Formation of Oxytocin
+Oxytocin is initially produced as the preprohormone:
+Preprooxyphysin
+The "pre" portion is removed, and the resulting prohormone is packaged into granules.
+As the granules move down the axon, the prohormone is cleaved to produce:
+Oxytocin + neurophysin I
+The physiological function of the neurophysins is not currently known.
+Additional point:
+Neurophysin I is released into the blood along with oxytocin and can be measured as
+an alternative indicator of oxytocin release.
+12. Transport to the Posterior Pituitary
+The hormones are made in the cell bodies in the hypothalamus.
+The secretory granules are then transported down the axons to the posterior
+pituitary.
+There, the hormones are stored in the nerve terminals until a stimulus causes their
+release.
+Easy flow:
+Hypothalamic cell body → hormone synthesis → secretory granules → axonal
+transport → posterior pituitary → storage in nerve endings
+13. Release of Oxytocin and Vasopressin
+Hormone release begins when the hypothalamic neuron is stimulated by neural
+input.
+Sequence:
+Neural stimulation
+→ depolarization of neuron
+→ action potential travels down the axon
+→ reaches nerve terminal
+→ Ca²⁺ enters the nerve terminal
+→ secretory granules fuse with the membrane
+→ exocytosis
+→ oxytocin or vasopressin enters the bloodstream
+Key requirement:
+Calcium (Ca²⁺) is required for hormone release.
+OXYTOCIN
+14. Main Effects of Oxytocin
+Oxytocin mainly causes smooth muscle contraction.
+Its major targets include:
+Mammary gland
+It causes contraction of myoepithelial cells surrounding the mammary alveoli.
+This pushes milk out of the alveoli and into the ducts and cisterns.
+Suckling → hypothalamus → oxytocin → myoepithelial contraction → milk ejection
+Uterus
+Oxytocin causes contraction of the myometrium of the uterus.
+Therefore, the major actions of oxytocin are:
+Mammary gland → milk ejection
+
+-- 2 of 11 --
+
+Uterus → smooth muscle contraction
+VASOPRESSIN / ADH
+15. Main Functions of Vasopressin
+Vasopressin has two major actions:
+Primary effect: Antidiuresis
+Its most important function is to help the kidneys retain water.
+This is why vasopressin is also called:
+Antidiuretic hormone (ADH)
+It is the most important hormone for controlling body water balance.
+Secondary effect: Vasopressor action
+Vasopressin can also cause contraction of vascular smooth muscle.
+This increases blood pressure.
+Easy reminder:
+ADH → saves water
+Vasopressin → also raises blood pressure
+16. Forms of Vasopressin in Different Species
+The major form differs among species:
+Species Main hormone form
+Most species Arginine vasopressin (AVP)
+Pigs Lysine vasopressin
+Birds Arginine vasotocin
+CONTROL OF VASOPRESSIN SECRETION
+17. Plasma Osmolality Controls ADH Release
+The most important stimulus for vasopressin release is a change in plasma
+osmolality.
+Osmolality = concentration of dissolved substances in body fluids relative to
+water.
+When plasma osmolality increases:
+This usually means there is too little water relative to solutes.
+↑ Plasma osmolality
+→ hypothalamic osmoreceptors increase their firing
+→ stimulate vasopressin-producing neurons
+→ ↑ vasopressin release
+→ kidneys retain more water
+→ body water increases
+→ osmolality moves back toward normal
+This is a negative-feedback system.
+The body normally keeps the solute-to-water ratio within approximately 1–2% of
+normal.
+18. Other Receptors Involved in Water Balance
+The body also has receptors in the:
+• Esophagus
+• Stomach
+These can detect water intake very quickly.
+This allows the body to respond to drinking even before major changes in plasma
+osmolality occur.
+19. Blood Volume Also Controls Vasopressin
+Vasopressin secretion is also influenced by blood volume.
+When blood volume decreases:
+↓ Blood volume
+→ stretch receptors in the atria detect the change
+→ neural pathways alter inhibition of the osmoreceptor system
+→ vasopressin release increases
+→ kidney retains more water
+→ blood volume is supported
+Changes that reduce blood pressure also stimulate vasopressin release through:
+• Baroreceptors in the carotid sinus
+• Baroreceptors in the aortic arch
+Important idea:
+↑ Osmolality → ↑ ADH
+↓ Blood volume → ↑ ADH
+↓ Blood pressure → ↑ ADH
+DIABETES INSIPIDUS (DI)
+20. What Is Diabetes Insipidus?
+Diabetes insipidus (DI) is a disorder in which the body cannot properly conserve
+water because ADH is absent or ineffective.
+The major signs are:
+• Polyuria = excessive urine production
+• Polydipsia = excessive thirst and water intake
+• Dilute urine with low specific gravity or osmolality
+21. Types of Diabetes Insipidus
+There are two major types:
+A. Central diabetes insipidus
+The problem is insufficient ADH secretion.
+There is an absolute or relative deficiency of circulating ADH.
+Central DI may be:
+• Primary
+
+-- 3 of 11 --
+
+o Idiopathic
+o Congenital
+• Secondary
+o Commonly associated with head trauma
+o Neoplasia can also cause it
+B. Nephrogenic diabetes insipidus
+ADH may be present, but the kidneys do not respond properly to it.
+Simple comparison:
+Central DI = not enough ADH
+Nephrogenic DI = ADH present, but kidney cannot respond
+22. Clinical Signs of Diabetes Insipidus in Dogs and Cats
+Central DI can occur:
+• At any age
+• In any breed
+• In either sex
+However, young adults around 6 months of age are most commonly affected.
+Major signs include:
+• Profound polyuria
+• Polydipsia
+• Nocturia = urinating during the night
+• Urinary incontinence
+• Signs often present for several months
+A commonly reported urine/water intake pattern is:
+>100 mL/kg/day
+compared with a normal range of approximately:
+40–70 mL/kg/day
+The severity depends on whether the ADH problem is partial or complete.
+Other possible signs:
+• Weight loss
+• Dehydration
+Animals may lose weight partly because they are constantly seeking water.
+23. Laboratory Findings in DI
+Routine tests are often surprisingly normal.
+CBC and serum chemistry
+Usually:
+Normal
+Plasma osmolality
+Often high because of dehydration:
+>310 mOsm/L
+This can occur in both:
+• Central DI
+• Nephrogenic DI
+Urinalysis
+Usually unremarkable except for persistently dilute urine.
+Typical urine specific gravity:
+1.004–1.012
+24. Primary Polydipsia vs DI
+Primary polydipsia is excessive drinking that is not caused by central or nephrogenic
+DI.
+Because these animals drink too much water, they may become overhydrated.
+Therefore:
+Primary polydipsia → low plasma osmolality
+Often:
+<290 mOsm/L
+This contrasts with DI, where plasma osmolality is often increased because of
+dehydration.
+25. Secondary Changes From Dehydration
+If the animal is prevented from drinking enough water, dehydration may cause findings
+such as:
+• Slightly increased hematocrit
+• Hypernatremia
+These findings are usually secondary to dehydration, rather than being the primary
+disorder.
+26. Diagnosing Diabetes Insipidus
+Tests used to distinguish:
+• Central DI
+• Nephrogenic DI
+• Primary polydipsia
+include:
+A. Modified water deprivation test
+This determines:
+1. Whether the body releases endogenous ADH when dehydrated.
+2. Whether the kidneys can respond to ADH.
+B. ADH supplementation / response test
+The animal's response to administered ADH can help distinguish whether the
+problem is:
+• Lack of ADH, or
+• Failure of the kidneys to respond to ADH.
+
+-- 4 of 11 --
+
+27. Important Safety Point About Water Deprivation Testing
+Common causes of polyuria and polydipsia (PU/PD) should be ruled out before
+performing a water deprivation test.
+This is especially important because:
+Undiagnosed renal failure + water deprivation → potentially serious illness
+Failure to recognize renal failure beforehand may result in:
+• An incorrect diagnosis
+• An inconclusive test
+• Significant morbidity
+SIADH
+28. Syndrome of Inappropriate Antidiuretic Hormone Secretion
+SIADH occurs when vasopressin is released inappropriately, even though there is no
+proper osmotic or blood-volume stimulus for its release.
+In other words:
+ADH is being secreted when the body does not actually need it.
+Hypersecretion is rare.
+29. Causes of SIADH
+Neoplasia (tumors) is often associated with SIADH.
+Some tumors produce ADH or ADH-like activity outside the normal hypothalamic-
+pituitary system. These are called ectopic tumors.
+The lungs are a common location for the tumors associated with SIADH.
+HIGH-YIELD SUMMARY
+Hypothalamus
+• Links the nervous and endocrine systems
+• Produces releasing hormones and other peptides/amines
+• Controls the pituitary
+• Also controls many autonomic nervous system functions
+Pituitary
+Adenohypophysis = anterior pituitary
+Neurohypophysis = posterior pituitary
+Embryology:
+Anterior → Rathke's pouch → oral ectoderm
+Posterior → neural ectoderm → hypothalamus
+POSTERIOR PITUITARY
+Oxytocin
+Produced in hypothalamus → transported down axons → released from posterior
+pituitary
+Main effects:
+• Mammary gland → milk ejection
+• Uterus → contraction
+Vasopressin/ADH
+Main effects:
+• Kidney → water retention
+• Blood vessels → vasoconstriction → ↑ blood pressure
+VASOPRESSIN CONTROL
+↑ Plasma osmolality → ↑ ADH → ↑ water retention
+↓ Blood volume → ↑ ADH
+↓ Blood pressure → ↑ ADH
+DIABETES INSIPIDUS
+Central DI
+↓ ADH secretion
+Nephrogenic DI
+Kidneys do not respond to ADH
+Typical signs:
+Polyuria + polydipsia + dilute urine
+Typical DI findings:
+• Plasma osmolality often >310 mOsm/L
+• Urine specific gravity approximately 1.004–1.012
+Primary polydipsia:
+• Plasma osmolality often <290 mOsm/L
+Diagnosis:
+Modified water deprivation test + ADH response
+Rule out renal failure and other common causes of PU/PD first.
+SIADH
+Inappropriately high ADH secretion despite no appropriate osmotic or volume
+stimulus
+Often associated with neoplasia, especially ectopic tumors involving the lungs.
+THE ANTERIOR PITUITARY
+1. Main Hormones of the Anterior Pituitary
+The adenohypophysis (anterior pituitary) includes the:
+• Pars distalis
+• Pars intermedia
+The six major hormones associated with the anterior pituitary are:
+1. Growth hormone (GH) or somatotropin
+2. Prolactin (PRL)
+3. Thyroid-stimulating hormone (TSH) or thyrotropin
+
+-- 5 of 11 --
+
+4. Follicle-stimulating hormone (FSH)
+5. Luteinizing hormone (LH)
+6. Corticotropin (ACTH) or adrenocorticotropic hormone
+2. Growth Hormone and Prolactin
+GH and PRL are called somatomammotropins.
+Growth hormone (GH)
+• Produced by somatotropes
+• Somatotropes are acidophilic cells
+• GH is a single-chain protein
+• Has two disulfide bonds
+Prolactin (PRL)
+• Produced by lactotropes
+• PRL is also a single-chain protein
+• Has three disulfide bonds
+Relationship between GH and PRL
+GH and PRL have some overlapping effects because about 50% of their amino acid
+sequences are similar.
+However:
+GH is strongly species-specific in its biological activity.
+This means GH from one species may not produce the same biological effects in
+another species.
+3. TSH, FSH, and LH
+TSH, FSH, and LH are produced by:
+• Thyrotropes → TSH
+• Gonadotropes → FSH and LH
+These three hormones are glycoproteins, meaning they contain carbohydrate
+groups attached to the protein.
+All three have:
+• α (alpha) subunit
+• β (beta) subunit
+The two subunits are held together by noncovalent bonds.
+Alpha subunit
+• The same among TSH, FSH, and LH
+• They are essentially interchangeable
+Beta subunit
+• Different for each hormone
+• Determines the hormone's specific biological action
+Easy rule:
+α subunit = shared/common
+β subunit = specific function
+4. Other Glycoprotein Gonadotropins
+Other hormones belong to the same general glycoprotein family, although they are not
+produced by the anterior pituitary.
+Examples include:
+• Equine chorionic gonadotropin (eCG), formerly called pregnant mare's
+serum gonadotropin
+• Primate chorionic gonadotropin
+These are produced by placental cells.
+ACTH AND THE PROOPIOMELANOCORTIN FAMILY
+5. ACTH Comes From a Common Prohormone
+ACTH and β-lipotropin belong to the proopiomelanocortin (POMC) family.
+This means both are made from the same large precursor molecule:
+POMC → cleavage → ACTH and other peptides
+POMC is produced in both:
+• Pars distalis
+• Pars intermedia
+However, the final products are different in each region.
+6. Pars Distalis
+In the pars distalis:
+POMC → ACTH
+ACTH is produced by corticotropes.
+ACTH then acts mainly on the adrenal cortex to stimulate production of adrenal
+hormones, especially cortisol.
+7. Pars Intermedia
+In the pars intermedia:
+ACTH → α-melanocyte-stimulating hormone (α-MSH)
+α-MSH is the predominant hormone of the pars intermedia.
+Another peptide fragment is also produced:
+Corticotropin-like intermediate lobe peptide
+Its physiological function is not known.
+8. β-Lipotropin
+In both the pars distalis and pars intermedia:
+β-lipotropin → β-endorphins + γ-lipotropin
+β-Endorphins
+• Have opioid activity
+• May help regulate or modulate gonadotropin secretion
+
+-- 6 of 11 --
+
+HYPOTHALAMIC CONTROL OF THE ANTERIOR PITUITARY
+9. How the Hypothalamus Controls the Anterior Pituitary
+For many years, scientists did not understand how the brain controlled the anterior
+pituitary.
+The key discovery was the hypothalamic-pituitary portal blood system.
+Important historical discovery
+In the 1930s, Popa and Fielding described the blood vessels connecting the
+hypothalamus and pituitary.
+Around 1950, Geoffrey Harris concluded that blood flows:
+Hypothalamus → anterior pituitary
+through a portal blood system.
+10. Hypophyseal Portal System
+The blood supply follows this general pathway:
+Dorsal hypophyseal artery
+→ capillary network in the median eminence
+→ portal veins
+→ capillary/sinusoidal network in the pars distalis
+The dorsal hypophyseal artery supplies the adenohypophysis.
+The ventral hypophyseal artery supplies the neurohypophysis.
+The portal system has two major venous pathways supplying different areas of the
+pars distalis:
+• One supplies the ventral/central region
+• One supplies the dorsal/peripheral region
+Main purpose of the portal system
+It allows hypothalamic hormones to travel directly to the anterior pituitary without
+first being diluted throughout the general circulation.
+11. Hypophysiotropic (Hypothalamic Releasing) Hormones
+The hypothalamus produces regulatory hormones called hypophysiotropic
+hormones.
+These are released into the median eminence and then enter the portal blood
+system.
+They travel to the anterior pituitary and control the secretion of its hormones.
+Basic pathway:
+Hypothalamus → releasing/inhibiting hormone → portal blood → anterior pituitary
+→ pituitary hormone
+The production of these hypothalamic regulatory hormones is itself controlled by:
+• Neural signals
+• Hormonal signals
+Some of these pituitary-related hormones are also found in other areas, including:
+• Brain
+• Gastrointestinal tract
+• Pancreas
+12. Major Hypothalamic Hormones
+Hypothalamic hormone Abbreviation Main pituitary effect
+Corticotropin-releasing hormone CRH ↑ ACTH
+Gonadotropin-releasing hormone GnRH ↑ FSH and LH
+Thyrotropin-releasing hormone TRH ↑ TSH
+Growth hormone-releasing
+hormone
+GHRH ↑ GH
+Somatostatin / GH-inhibiting
+hormone
+GHIH ↓ GH
+Dopamine / prolactin-inhibiting
+hormone
+PIH ↓ PRL; also inhibits TSH
+Prolactin-releasing factor PRF Stimulates PRL; source is
+uncertain
+All of these hypothalamic hormones are peptides except dopamine, which is a
+catecholamine.
+13. Important Details About Each Hypothalamic Hormone
+CRH
+• 41-amino-acid peptide
+• Stimulates corticotropes
+• Causes release of ACTH and other POMC-derived peptides
+GnRH
+• Decapeptide = 10 amino acids
+• Stimulates gonadotropes to release:
+o FSH
+o LH
+TRH
+• Tripeptide = 3 amino acids
+• Stimulates thyrotropes to release TSH
+GHRH
+• 44-amino-acid polypeptide
+• Stimulates somatotropes to release GH
+Somatostatin
+• Tetradecapeptide = 14 amino acids
+• Inhibits secretion of GH
+Dopamine
+• A catecholamine
+• Inhibits:
+
+-- 7 of 11 --
+
+o Prolactin secretion
+o TSH secretion
+TROPIC HORMONES
+14. Which Anterior Pituitary Hormones Are Tropic?
+A tropic hormone mainly acts on another endocrine tissue and stimulates it to
+produce hormones.
+Originally, four anterior pituitary hormones were considered tropic:
+• FSH
+• LH
+• TSH
+• ACTH
+GH is now also considered tropic
+GH stimulates the liver to produce somatomedins, especially:
+Insulin-like growth factor-1 (IGF-1)
+IGF-1 then contributes to the negative feedback regulation of GH.
+PRL
+PRL remains the main anterior pituitary hormone for which negative feedback from
+its target tissue hormones has not been demonstrated.
+FEEDBACK CONTROL OF THE ANTERIOR PITUITARY
+15. Negative Feedback Is the Main Control Mechanism
+The secretion of anterior pituitary protein hormones is mainly controlled by negative
+feedback.
+The target organ's hormone feeds back to reduce further stimulation from the
+hypothalamus and/or pituitary.
+16. Long-Loop Feedback
+In a long-loop feedback system, the hormone produced by the target endocrine
+organ feeds back to both:
+• Hypothalamus
+• Anterior pituitary
+Example: ACTH and cortisol
+Hypothalamus → CRH → anterior pituitary → ACTH → adrenal cortex → cortisol
+Then:
+Cortisol → inhibits CRH + inhibits ACTH
+This prevents excessive cortisol production.
+Easy flow:
+CRH → ACTH → cortisol
+Cortisol ─| CRH and ACTH
+17. Short-Loop Feedback
+A short-loop feedback system occurs when an anterior pituitary hormone directly
+inhibits the hypothalamus.
+Example:
+ACTH ─| CRH
+So:
+Pituitary hormone → inhibits hypothalamic releasing hormone
+18. Pulsatile Secretion of Gonadotropins
+Negative feedback does not mean that pituitary hormones are released continuously
+at a constant rate.
+For example, even though estrogen continuously inhibits gonadotropin secretion,
+FSH and LH are released in pulses.
+The gonadotropins alternate between:
+Secretion → no secretion → secretion → no secretion
+The ovarian hormonal environment influences the:
+• Pulse frequency
+• Pulse amplitude
+Progesterone-dominant state
+• Lower pulse frequency
+• Higher pulse amplitude
+Estrogen-dominant state
+• Higher pulse frequency
+• Lower pulse amplitude
+This demonstrates that hormone secretion is dynamic and pulsatile, rather than
+constant.
+CLINICAL APPLICATION: GROWTH HORMONE DISORDERS
+19. Growth Hormone Deficiency: Pituitary Dwarfism
+Pituitary dwarfism occurs when GH production is insufficient because of damage or
+abnormal development of the pituitary gland.
+Possible causes include:
+• Neoplasia
+• Degenerative disease
+• Developmental abnormalities
+Other pituitary hormones may also be decreased, including:
+• TSH
+• ACTH
+• LH
+• FSH
+• GH
+This condition may therefore result in panhypopituitarism when multiple pituitary
+hormones are deficient.
+
+-- 8 of 11 --
+
+20. Pituitary Dwarfism in Dogs
+It is most commonly seen in:
+German Shepherd dogs, usually 2–6 months old
+Other reported breeds include:
+• Carnelian bear dogs
+• Spitz-type dogs
+• Toy Pinschers
+• Weimaraners
+In German Shepherds, it is inherited as an:
+Autosomal recessive trait
+and is associated with a cystic Rathke's pouch.
+21. Clinical Signs of Pituitary Dwarfism
+The first signs usually appear during the first 2–3 months of life.
+Major signs:
+• Slow growth
+• Proportionate dwarfism
+• Mental retardation/developmental delay
+• Difficulty with house training
+Physical findings:
+• Retained puppy hair coat
+• Hypotonic skin
+• Truncal alopecia (hair loss over the body)
+• Hyperpigmentation
+• Infantile genitalia
+• Delayed dental eruption
+22. Clinicopathologic Findings
+Possible laboratory abnormalities include:
+• Eosinophilia
+• Lymphocytosis
+• Mild normocytic, normochromic anemia
+• Hypophosphatemia
+• Sometimes hypoglycemia
+Hypoglycemia may occur because of secondary adrenal insufficiency when ACTH is
+also deficient.
+23. Differential Diagnoses for Stunted Growth
+Other causes of poor growth must be considered, including:
+• Hypothyroid dwarfism
+• Portosystemic shunt
+• Diabetes mellitus
+• Hyperadrenocorticism
+• Malnutrition
+• Parasitism
+24. Diagnosis of Pituitary Dwarfism
+Diagnosis may involve measuring:
+• Serum GH
+• IGF-1 (somatomedin C)
+GH assays for dogs and cats are no longer commercially available in many settings.
+Advantage of IGF-1
+IGF-1 is:
+• More stable
+• Not species-specific
+Therefore, it is useful for detecting GH-related disorders.
+Affected dogs may also show subnormal responses to TSH and ACTH stimulation
+tests.
+Endogenous:
+• TSH ↓
+• ACTH ↓
+This occurs because multiple anterior pituitary hormones may be deficient.
+ACROMEGALY / HYPERSOMATOTROPISM
+25. What Is Acromegaly?
+Acromegaly is caused by chronic excessive GH secretion in an adult animal.
+Unlike pituitary dwarfism:
+Pituitary dwarfism = too little GH
+Acromegaly = too much GH
+26. Causes of Acromegaly
+Dogs
+Canine acromegaly is very rare.
+It is usually associated with administration of progestational drugs to intact female
+dogs to suppress estrus.
+These hormones stimulate mammary tissue to produce excessive GH.
+Cats
+Feline acromegaly is usually caused by a:
+GH-secreting anterior pituitary tumor
+These tumors usually:
+• Grow slowly
+• May be present for a long time before obvious signs develop
+
+-- 9 of 11 --
+
+It is most common in:
+• Older cats
+• Approximately 8–14 years old
+• More common in males
+27. Common Clinical Signs of Acromegaly
+The most common initial signs are often those of poorly controlled diabetes
+mellitus:
+• Polydipsia
+• Polyuria
+• Polyphagia
+A very important clue is:
+Weight gain despite uncontrolled diabetes
+Animals may develop an increase in lean body mass, rather than the expected weight
+loss associated with uncontrolled diabetes.
+28. Organ Enlargement
+Acromegaly can cause organomegaly.
+Possible findings include:
+• Renomegaly
+• Hepatomegaly
+• Enlargement of endocrine organs
+29. Physical Changes
+Some affected dogs and cats may develop enlargement of:
+• Paws/extremities
+• Jaw
+• Tongue
+• Forehead
+• Skull
+There may also be:
+• Increased muscle mass
+• Growth of the acral portions of the body
+Acral areas include the:
+• Paws
+• Chin
+• Skull
+30. Cardiovascular and Renal Changes
+These usually develop later in the disease.
+Cardiovascular
+• Cardiomegaly
+• Systolic murmurs
+• Congestive heart failure
+Renal
+Approximately 50% of acromegalic cats may eventually develop azotemia.
+31. Neurologic Signs
+Neurological signs commonly described in human acromegaly are generally not seen
+in small animals.
+Examples include:
+• Peripheral neuropathy
+• Paresthesias
+• Carpal tunnel syndrome
+• Sensory and motor defects
+• Headache
+• Visual field abnormalities
+These are generally not typical findings in acromegalic dogs and cats.
+32. Acromegaly and Diabetes Mellitus
+Insulin resistance and impaired glucose tolerance occur in essentially all cats and
+most dogs with acromegaly.
+This leads to:
+↑ Insulin resistance → ↑ blood glucose → diabetes mellitus
+Despite this severe insulin resistance:
+• Serum insulin concentrations are very high
+• Ketosis is uncommon
+Important clinical clue
+Suspect acromegaly in a diabetic cat, especially a male cat, when the diabetes is
+extremely insulin-resistant.
+33. Diagnosis of Acromegaly
+Definitive diagnosis requires evidence of increased:
+• GH, or
+• IGF-1
+Because canine and feline GH assays are no longer commercially available in many
+settings, IGF-1 is commonly used.
+IGF-1 is useful because it is:
+• Non-species-specific
+• More practical for testing
+Imaging
+In cats, the most definitive approach combines:
+↑ Serum IGF-1 + CT or MRI of the pituitary region
+
+-- 10 of 11 --
+
+The diagnosis should also consider and exclude other causes of insulin resistance,
+such as:
+• Hyperthyroidism
+• Hyperadrenocorticism
+34. Important Frequency in Diabetic Cats
+Acromegaly should be strongly considered in diabetic cats that fail to achieve
+remission despite appropriate treatment.
+The notes report that approximately 30% of diabetic cats that do not go into
+remission with an ultra-low-carbohydrate diet and insulin therapy may be
+acromegalic.
+HIGH-YIELD SUMMARY
+Anterior Pituitary Hormones
+GH → growth; stimulates liver to produce IGF-1
+PRL → reproductive/mammary functions
+TSH → stimulates thyroid
+FSH → gonadal function
+LH → gonadal function/ovulation
+ACTH → stimulates adrenal cortex
+Cell Types
+Cell Hormone
+Somatotrope GH
+Lactotrope PRL
+Thyrotrope TSH
+Gonadotrope FSH + LH
+Corticotrope ACTH
+Hypothalamus → Anterior Pituitary
+Hypothalamic hormone Effect
+CRH ↑ ACTH
+GnRH ↑ FSH + LH
+TRH ↑ TSH
+GHRH ↑ GH
+Somatostatin ↓ GH
+Dopamine ↓ PRL and ↓ TSH
+Feedback
+Long-loop:
+Target gland hormone → inhibits hypothalamus + pituitary
+Example:
+CRH → ACTH → cortisol
+Cortisol ─| CRH + ACTH
+Short-loop:
+Pituitary hormone → inhibits hypothalamus
+Example:
+ACTH ─| CRH
+Pituitary Disorders
+Pituitary dwarfism
+↓ GH
+Usually:
+• Young dogs
+• Especially German Shepherds
+• Slow growth
+• Proportionate dwarfism
+• Retained puppy coat
+• Alopecia
+• Hyperpigmentation
+• Delayed dental eruption
+• Possible multiple pituitary hormone deficiencies
+Acromegaly
+↑ GH in adults
+Dogs:
+Usually associated with progestational drugs
+Cats:
+Usually GH-secreting pituitary tumor
+Common clues:
+• Insulin-resistant diabetes mellitus
+• Polyuria
+• Polydipsia
+• Polyphagia
+• Increased lean body mass
+• Organ enlargement
+• Enlarged paws/jaw/tongue/skull
+Best practical marker for both GH-related disorders:
+IGF-1
+
+-- 11 of 11 --
+

@@ -1,0 +1,1278 @@
+THE THYROID GLAND
+1. Location and Structure
+In most mammals, the thyroid gland is located caudal to the trachea, usually
+around the 1st or 2nd tracheal ring.
+It is one of the most important endocrine glands for metabolic regulation.
+The thyroid is made up of many circular structures called thyroid follicles.
+Thyroid follicle
+Each follicle consists of follicular cells arranged in a circle around a central space
+called the follicular lumen.
+The lumen contains a thick, homogeneous substance called colloid.
+Colloid = major storage site of thyroid hormones
+Follicular cell appearance
+The shape of follicular cells changes depending on their activity:
+• Cuboidal cells → relatively inactive/basal secretion
+• Elongated cells → actively stimulated to release thyroid hormone
+2. Parafollicular Cells (C Cells)
+Another important thyroid cell is the:
+Parafollicular cell / C cell
+These cells are located outside the thyroid follicles.
+They produce:
+Calcitonin
+Calcitonin is important in the regulation of calcium metabolism.
+Remember:
+Follicular cells → T3 and T4
+C cells → calcitonin
+THYROID HORMONE SYNTHESIS
+3. Thyroid Hormones Are Made From Tyrosine and Iodine
+The thyroid hormones are unusual because they are made from:
+• Tyrosine
+• Iodine
+They are also unusual because a large amount of the finished hormone is stored
+outside the cells, within the colloid.
+The main thyroid hormones are:
+• T4 = thyroxine / tetraiodothyronine
+• T3 = triiodothyronine
+They contain 4 and 3 iodine atoms, respectively.
+4. Thyroglobulin
+Tyrosine is part of a very large protein called:
+Thyroglobulin (Tg)
+Thyroglobulin is produced inside the thyroid follicular cells and then secreted into
+the follicular lumen/colloid.
+Therefore:
+Follicular cell → thyroglobulin → colloid
+The tyrosine residues in thyroglobulin provide the basic structure from which thyroid
+hormones are formed.
+5. Iodide Uptake
+Iodine from the diet is converted to iodide in the gastrointestinal tract.
+The iodide is then transported through the blood to the thyroid.
+Thyroid follicular cells actively trap iodide from the blood.
+Because of this active transport:
+Intracellular iodide concentration can become about 25–200 times higher than
+the extracellular concentration.
+This allows the thyroid to collect enough iodide to make thyroid hormones.
+6. Addition of Iodine to Tyrosine
+Iodide moves across the apical membrane of the follicular cell toward the colloid.
+It is then attached to tyrosine residues within thyroglobulin.
+A tyrosine ring can receive up to 2 iodine molecules.
+One iodine:
+Monoiodotyrosine (MIT)
+Two iodines:
+Diiodotyrosine (DIT)
+7. Formation of T3 and T4
+The iodinated tyrosine molecules are then coupled together.
+T4 formation
+DIT + DIT → T4
+T4 is also called:
+Tetraiodothyronine / thyroxine
+It contains 4 iodine atoms.
+T3 formation
+MIT + DIT → T3
+T3 is called:
+Triiodothyronine
+It contains 3 iodine atoms.
+Easy memory:
+DIT + DIT = T4
+MIT + DIT = T3
+8. Thyroperoxidase
+
+-- 1 of 17 --
+
+An essential enzyme in thyroid hormone synthesis is:
+Thyroperoxidase (TPO)
+TPO works together with hydrogen peroxide (H₂O₂).
+It is responsible for:
+• Attaching iodine to tyrosine residues of thyroglobulin
+• Helping form T3 and T4
+Simple pathway:
+Tyrosine + iodine → MIT/DIT → coupling → T3/T4
+Unique feature:
+Thyroid hormones are the only hormones that contain a halogen, specifically
+iodine.
+THYROID HORMONE STORAGE
+9. Thyroid Hormones Are Stored Outside the Cells
+Most endocrine hormones are stored inside cells.
+The thyroid is unusual because its hormones are stored outside the follicular cells,
+in the colloid.
+The hormones remain attached to thyroglobulin while they are stored.
+Why is this important?
+It gives the thyroid a large reserve of thyroid hormone.
+This allows animals to continue producing adequate thyroid hormone for some time
+even during periods of iodine deficiency.
+Remember:
+Most endocrine glands → store hormone inside cells
+Thyroid → stores hormone outside cells in colloid
+RELEASE OF THYROID HORMONES
+10. How T3 and T4 Are Released
+Before the thyroid can release T3 and T4, the thyroglobulin containing the hormones
+must be brought back into the follicular cell.
+Sequence:
+Colloid thyroglobulin
+→ taken into follicular cell
+→ fuses with lysosomes
+→ lysosomal enzymes break down thyroglobulin
+→ T3 and T4 are released
+→ T3 and T4 leave the cell
+→ enter surrounding/interstitial fluid and then blood
+11. Role of Lysosomes
+The thyroglobulin-containing vesicles fuse with lysosomes inside the follicular cell.
+The lysosomal enzymes cleave:
+• MIT
+• DIT
+• T3
+• T4
+from thyroglobulin.
+The released T3 and T4 then pass through the basal cell membrane into the
+surrounding tissue and bloodstream.
+Because thyroid hormones are lipid-soluble, they can freely cross the cell
+membrane.
+12. Recycling of Iodine and Tyrosine
+The thyroid does not waste the iodine-containing building blocks.
+After thyroglobulin is broken down:
+MIT and DIT → deiodination → iodide + tyrosine
+An enzyme called:
+Iodotyrosine dehalogenase
+removes iodine from MIT and DIT.
+The recovered:
+• Iodide
+• Tyrosine
+are recycled and used to make more thyroid hormone.
+Important:
+MIT + DIT → iodine and tyrosine recycled
+T3 AND T4 PRODUCTION
+13. The Thyroid Mainly Produces T4
+The thyroid gland itself produces:
+• Mostly T4
+• Small amounts of T3
+However, most of the body's T3 is produced outside the thyroid.
+This happens when tissues convert T4 → T3.
+14. Conversion of T4 to T3
+The major tissues involved in converting T4 to T3 include:
+• Liver
+• Kidneys
+• Muscle
+The liver and kidneys have high concentrations of deiodinating enzymes.
+However, because muscle makes up such a large portion of the body, it produces a
+large amount of T3 overall.
+The important enzyme that removes iodine from the outer ring of T4 is:
+5′-monodeiodinase
+
+-- 2 of 17 --
+
+Reaction:
+T4 → T3
+T3 is an important biologically active thyroid hormone.
+15. Reverse T3
+T4 can also be converted into:
+Reverse T3 (rT3)
+In this case, iodine is removed from the inner ring instead of the outer ring.
+T4 → reverse T3
+Reverse T3 has very little biological activity compared with T3.
+Importantly:
+The thyroid gland itself does not produce reverse T3.
+It is produced by extrathyroidal tissues through deiodination of T4.
+T3/T4 CONVERSION SUMMARY
+T4 → T3
+• Iodine removed from the outer ring
+• Produces biologically active T3
+• Mainly occurs outside the thyroid
+T4 → reverse T3
+• Iodine removed from the inner ring
+• Produces a form with little biological activity
+• Also occurs outside the thyroid
+TRANSPORT OF THYROID HORMONES IN BLOOD
+16. Thyroid Hormones Are Transported Bound to Plasma Proteins
+T3 and T4 are lipid-soluble, so they do not dissolve well in the water-based plasma.
+Therefore, most thyroid hormones travel in the blood attached to plasma binding
+proteins.
+There is considerable species variation in the proteins that transport thyroid
+hormones.
+17. Main Thyroid Hormone-Binding Proteins
+There are three important plasma proteins:
+A. Thyroxine-binding globulin (TBG)
+TBG is generally the most important specific carrier.
+It:
+• Has high affinity for T4
+• Also carries T3
+• Has relatively low capacity because its concentration in plasma is low
+Important veterinary point:
+TBG has been found in domestic animals except cats.
+B. Albumin
+Albumin:
+• Has low affinity for T3 and T4
+• Has high capacity
+Why?
+Because albumin is present in very large amounts in plasma.
+Therefore, albumin can transport a large amount of thyroid hormone despite its
+weaker binding.
+In the absence of TBG:
+Albumin becomes the most important carrier.
+This is particularly relevant in species such as the cat, which lacks TBG.
+C. Thyroxine-binding prealbumin
+A third transport protein is:
+Thyroxine-binding prealbumin
+It:
+• Specifically binds T4
+• Has intermediate affinity and capacity
+• Falls between TBG and albumin in its binding characteristics
+The term "prealbumin" refers to how the protein moves during electrophoresis. It
+does not mean that it is a precursor used to make albumin.
+18. Free vs Bound Thyroid Hormone
+Most T3 and T4 in the blood is protein-bound.
+Only a very small amount is free.
+The free hormone is the biologically available form that can leave the blood and
+interact with target cells.
+Human values:
+• Free T4 ≈ 0.03%
+• Free T3 ≈ 0.3%
+Dog values:
+Dogs have a somewhat larger free fraction because their plasma proteins have a
+lower affinity for thyroid hormones.
+• Free T4 = slightly <1%
+• Free T3 = slightly >1%
+Key point:
+Bound hormone = mainly transport/storage reservoir
+Free hormone = available to interact with target tissues
+19. Equilibrium Between Free and Bound Hormone
+
+-- 3 of 17 --
+
+The amount of free and bound thyroid hormone can change depending on
+physiological or drug-related conditions.
+There is a continuous equilibrium:
+Bound hormone ⇌ Free hormone
+When free hormone is used by tissues, more hormone can be released from the
+protein-bound pool.
+The body rapidly adjusts this balance to maintain an appropriate concentration of free
+hormone.
+20. Factors That Can Change Free Thyroid Hormone Levels
+The free/bound balance can be affected by:
+• Illness
+• Drugs
+• Changes in plasma-binding proteins
+• Increased estrogen, such as during pregnancy
+When binding changes, the body can compensate by:
+• Reducing hormone metabolism, and/or
+• Increasing thyroid hormone production through TSH stimulation
+These responses help maintain an appropriate amount of free thyroid hormone.
+HIGH-YIELD SUMMARY
+Thyroid structure
+Thyroid follicle → follicular cells + colloid
+Colloid = major storage site of thyroid hormones
+C cells → calcitonin
+Hormone synthesis
+Iodide uptake → tyrosine in thyroglobulin → MIT/DIT → coupling → T3/T4
+Remember:
+MIT = 1 iodine
+DIT = 2 iodines
+MIT + DIT = T3
+DIT + DIT = T4
+TPO + H₂O₂ → iodination + coupling
+Storage
+T3/T4 are stored outside the follicular cells, attached to thyroglobulin in colloid.
+This provides a large hormone reserve and helps protect against short-term iodine
+deficiency.
+Release
+Thyroglobulin from colloid → follicular cell → lysosomes → T3/T4 released → blood
+MIT/DIT → deiodination → iodine + tyrosine recycled
+Peripheral conversion
+Thyroid → mostly T4
+Peripheral tissues → T4 → T3
+T4 → T3 = outer-ring deiodination
+T4 → reverse T3 = inner-ring deiodination
+Reverse T3 = little biological activity
+Blood transport
+Because T3 and T4 are lipid-soluble:
+Most = protein-bound
+Very little = free and biologically available
+Main transport proteins:
+TBG → high affinity, low capacity
+Albumin → low affinity, high capacity
+Thyroxine-binding prealbumin → intermediate
+Important species point:
+Cats do not have TBG.
+MOST IMPORTANT CONCEPTS TO MEMORIZE
+1. Follicular cells make T3/T4; C cells make calcitonin.
+2. Thyroid hormones are made from tyrosine + iodine.
+3. TPO is essential for iodination and coupling.
+4. T3 = MIT + DIT.
+5. T4 = DIT + DIT.
+6. The thyroid stores large amounts of T3/T4 in colloid attached to thyroglobulin.
+7. The thyroid produces mostly T4; most T3 is produced in peripheral tissues from
+T4.
+8. Reverse T3 has little biological activity.
+9. Most T3/T4 in blood is protein-bound; the free fraction is the biologically
+available form.
+10. TBG has high affinity/low capacity, whereas albumin has low affinity/high
+capacity.
+THYROID HORMONE METABOLISM, ACTIONS, AND REGULATION
+1. Main Ways Thyroid Hormones Are Metabolized
+The main way thyroid hormones are broken down is by removing iodine
+(deiodination).
+Another, less common pathway is conjugation with sulfates and glucuronides,
+mainly in the liver and kidneys.
+A third pathway involves changing the alanine part of the hormone through:
+
+-- 4 of 17 --
+
+• Transamination
+• Decarboxylation
+2. Deiodination
+Deiodination = removal of iodine from thyroid hormones.
+The enzymes involved in producing T3 and reverse T3 also help break down thyroid
+hormones:
+• 5′-deiodinase
+• 5-deiodinase
+These enzymes can remove iodine from either the 3 or 5 position of the hormone's
+phenolic rings.
+Important tissues for thyroid hormone breakdown:
+• Skeletal muscle
+• Liver
+• Kidneys
+Biological activity of deiodinated products
+Most deiodinated thyroid hormone products have little or no important metabolic
+activity.
+The major exception is:
+T4 → T3
+T3 is biologically active and is an important thyroid hormone.
+3. Conjugation
+Thyroid hormones can also be inactivated by attaching:
+• Sulfates
+• Glucuronides
+These conjugates are produced mainly in:
+• Liver
+• Kidneys
+However:
+Conjugation is less common than deiodination as a pathway for thyroid hormone
+metabolism.
+4. Other Metabolic Pathways
+Another less important pathway changes the alanine portion of thyroid hormones.
+This can happen through:
+• Transamination
+• Decarboxylation
+These reactions contribute to further breakdown and inactivation of thyroid
+hormones.
+5. Excretion of Thyroid Hormone Metabolites
+Most metabolized thyroid hormones are eliminated through the urine.
+Mainly in urine:
+• Deiodinated forms
+• Conjugated forms
+However, some unmetabolized thyroid hormones are secreted into bile and
+eventually eliminated in the feces.
+The conjugates in the intestine can then be broken down, releasing iodide.
+The iodide can be absorbed again and returned to the body through the:
+Enterohepatic cycle
+Simple flow:
+Thyroid hormone → liver metabolism → bile → intestine → iodide released →
+reabsorbed → returned to circulation
+6. Iodide Recycling: Humans vs Dogs
+Humans are more efficient than dogs at recovering iodide through:
+• Intrathyroidal recycling
+• Enterohepatic recycling
+This means humans are generally better at conserving and reusing iodine.
+HALF-LIFE OF THYROID HORMONES
+7. Thyroid Hormones Have Long Half-Lives in Humans
+Thyroid hormones remain in the body much longer than many other hormones.
+In humans:
+T3 → half-life ≈ 1 day
+T4 → half-life ≈ 6–7 days
+Most other hormones have half-lives of only minutes to hours.
+8. Why T4 Lasts Longer Than T3
+One important reason thyroid hormones have long half-lives is that much of them is
+bound to plasma proteins.
+Protein binding protects the hormones from being rapidly broken down.
+T4 has a longer half-life than T3 because:
+T4 binds more tightly to plasma proteins → less free T4 → slower degradation →
+longer half-life
+9. Important Veterinary Species Difference
+The half-life of T4 is much shorter in some domestic animals.
+In:
+• Dogs
+• Cats
+T4 has a half-life of less than 24 hours.
+This is much shorter than the human T4 half-life of 6–7 days.
+
+-- 5 of 17 --
+
+ACTIONS OF THYROID HORMONES
+10. Thyroid Hormones Control Basal Metabolism
+Thyroid hormones are considered the primary regulators of basal metabolic
+activity.
+They are important for the normal metabolic activity of almost all tissues.
+Because thyroid hormones affect many tissues simultaneously, their effects are
+difficult to separate into completely independent functions.
+11. How Thyroid Hormones Act on Cells
+Although thyroid hormones are made from amino acids, they behave much like lipid-
+soluble hormones.
+They can:
+Cross the cell membrane → enter the cell → interact with intracellular receptors
+Their main action is believed to involve the nucleus, where they influence the
+transcription of mRNA.
+Thyroid hormone receptors have also been identified on mitochondria, suggesting
+that thyroid hormones may have some direct effects there as well.
+12. Calorigenic Effect
+One of the most important actions of thyroid hormones is increasing:
+• Oxygen consumption
+• Heat production
+This is called the:
+Calorigenic effect
+Simple relationship:
+↑ Thyroid hormone → ↑ oxygen consumption → ↑ heat production
+The mitochondria are one important site involved in this effect.
+CARBOHYDRATE METABOLISM
+13. Effects on Carbohydrates
+Thyroid hormones affect carbohydrate metabolism in several ways.
+They:
+• Increase intestinal absorption of glucose
+• Help glucose enter muscle and fat cells
+• Make cells more responsive to insulin-mediated glucose uptake
+Effect on glycogen
+Small amounts of thyroid hormone can:
+↑ Glycogen formation
+Higher amounts can promote:
+↑ Glycogenolysis
+where glycogen is broken down to release glucose.
+PROTEIN METABOLISM AND GROWTH
+14. Role in Growth and Development
+Thyroid hormones work together with growth hormone (GH) and are essential for:
+• Normal growth
+• Normal development
+Part of their effect is due to increasing:
+• Amino acid uptake by tissues
+• Activity of enzymes involved in protein synthesis
+Thus:
+Thyroid hormone + GH → normal growth and development
+LIPID METABOLISM
+15. Effects on Lipids
+Thyroid hormones affect many aspects of fat metabolism, with an important effect
+on:
+Lipolysis = breakdown of fat
+They also tend to decrease plasma cholesterol.
+This appears to happen because thyroid hormones:
+1. Increase cellular uptake of LDLs
+2. Increase breakdown of LDL and cholesterol
+Important clinical connection:
+Thyroid hormone deficiency → decreased cholesterol clearance →
+hypercholesterolemia
+Therefore:
+Hypercholesterolemia is a characteristic finding of thyroid hormone deficiency.
+16. Catabolic Effects
+The effects of thyroid hormones on:
+• Carbohydrates
+• Proteins
+• Lipids
+are often described as catabolic, especially when thyroid hormone activity is
+excessive.
+"Catabolic" means promoting the breakdown or use of stored nutrients.
+NERVOUS SYSTEM EFFECTS
+17. Thyroid Hormones and the Nervous System
+Thyroid hormones are important for the normal development of the nervous
+system.
+This is especially important during:
+• Fetal development
+
+-- 6 of 17 --
+
+• Neonatal development
+Insufficient thyroid hormone during development can impair mental and nervous
+system development.
+In adults, inadequate thyroid hormone can be associated with:
+• Mental dullness
+• Lethargy
+• Reduced mental activity
+Therefore, adequate thyroid hormone is important for normal CNS function
+throughout life.
+18. Thyroid Hormones and the Sympathetic Nervous System
+Thyroid hormones increase the effects of the sympathetic nervous system.
+They do this partly by increasing the number or activity of:
+β-adrenergic receptors
+These receptors respond to catecholamines such as:
+• Epinephrine
+• Norepinephrine
+Therefore:
+↑ Thyroid hormone → ↑ β-adrenergic responsiveness → stronger sympathetic
+effects
+CARDIOVASCULAR EFFECTS
+19. Effects on the Heart
+Thyroid hormones increase:
+• Heart rate
+• Force of cardiac contraction
+This occurs partly because they increase the heart's responsiveness to
+catecholamines.
+They promote the expression of β-adrenergic receptors, making cardiac tissue more
+responsive to sympathetic stimulation.
+20. Effects on Blood Pressure
+Thyroid hormones can increase:
+Systolic blood pressure
+while generally causing little change in:
+Diastolic blood pressure
+This results in:
+↑ Cardiac output
+Thyroid hormone activity is therefore important for maintaining normal:
+• Cardiac contraction
+• Cardiac function
+• Transmission of nerve impulses in cardiac tissue
+These effects are especially obvious when thyroid hormone levels are excessively
+high.
+THYROID HORMONES AND DEVELOPMENT
+21. Amphibian Metamorphosis
+A classic demonstration of thyroid hormone action comes from amphibians.
+Normal:
+Thyroxine → tadpole develops into frog
+Without a thyroid:
+Thyroidectomy → tadpole remains large and does not normally undergo
+metamorphosis
+This dramatic effect is particularly characteristic of amphibians.
+In other animals, thyroid hormones do not cause such obvious metamorphosis, but
+they are still important for many subtle developmental and differentiation
+processes.
+22. Overall Role of Thyroid Hormones
+Although thyroid hormone effects are often described based on what happens when
+hormone levels are:
+• Too low
+• Too high
+it is better to remember that thyroid hormones are fundamentally needed for the
+normal metabolic activity of almost every tissue in the body.
+REGULATION BY TSH
+23. TSH Is the Main Regulator of the Thyroid Gland
+Thyroid-stimulating hormone (TSH), also called thyrotropin, is the major hormone
+controlling thyroid gland activity.
+TSH stimulates the thyroid through a signaling pathway involving:
+TSH receptor → cAMP → protein kinase activation → thyroid gland stimulation
+This promotes thyroid hormone synthesis and release.
+24. Negative Feedback of Thyroid Hormones
+Thyroid hormones regulate their own production through negative feedback.
+When T3 and T4 levels increase:
+↑ T3/T4 → ↓ TRH from hypothalamus → ↓ TSH from anterior pituitary → ↓ thyroid
+activity
+When thyroid hormone levels decrease:
+↓ T3/T4 → less negative feedback → ↑ TRH → ↑ TSH → ↑ thyroid activity
+Therefore, the system continuously adjusts thyroid hormone production to maintain
+appropriate levels.
+
+-- 7 of 17 --
+
+OVERALL THYROID AXIS
+When thyroid hormone is LOW:
+↓ T3/T4
+↓ negative feedback
+→ ↑ TRH from hypothalamus
+→ ↑ TSH from anterior pituitary
+→ thyroid gland stimulated
+→ ↑ T4 and T3
+When thyroid hormone is HIGH:
+↑ T3/T4
+→ stronger negative feedback
+→ ↓ TRH
+→ ↓ TSH
+→ reduced thyroid stimulation
+→ ↓ T3/T4 production
+HIGH-YIELD SUMMARY
+Thyroid Hormone Metabolism
+Main pathway = deiodination
+Important tissues:
+Liver + kidney + skeletal muscle
+Other pathways:
+• Sulfate conjugation
+• Glucuronide conjugation
+• Transamination
+• Decarboxylation
+Excretion:
+Deiodinated/conjugated forms → urine
+Unmetabolized hormone → bile → feces
+Some iodide is recovered through the enterohepatic cycle.
+Half-Life
+Humans:
+T3 ≈ 1 day
+T4 ≈ 6–7 days
+Dogs and cats:
+T4 <24 hours
+Protein binding helps prolong thyroid hormone half-life.
+Major Actions of Thyroid Hormones
+Metabolism
+↑ Basal metabolic rate
+↑ Oxygen consumption
+↑ Heat production
+Carbohydrates
+• ↑ Glucose absorption
+• ↑ Glucose uptake
+• ↑ Insulin-mediated glucose uptake
+• Small amounts → ↑ glycogen formation
+• Large amounts → ↑ glycogenolysis
+Proteins and growth
+• Work with GH
+• Essential for normal growth and development
+• ↑ Amino acid uptake
+• Support protein synthesis
+Lipids
+• ↑ Lipolysis
+• ↓ Plasma cholesterol
+• ↑ LDL uptake and degradation
+Thyroid deficiency → hypercholesterolemia
+Nervous system
+• Essential for fetal/neonatal CNS development
+• Adequate thyroid hormone supports normal adult CNS function
+Cardiovascular system
+• ↑ Heart rate
+• ↑ Contractility
+• ↑ β-adrenergic responsiveness
+• ↑ Systolic pressure
+• ↑ Cardiac output
+Development
+Thyroxine → amphibian metamorphosis
+THYROID REGULATION
+Hypothalamus → TRH
+↓
+Anterior pituitary → TSH
+↓
+Thyroid → T4 + T3
+↓
+T3/T4 ─| TRH + TSH
+This is negative feedback.
+Most important concepts to memorize
+
+-- 8 of 17 --
+
+1. Deiodination is the main pathway of thyroid hormone metabolism.
+2. T4 → T3 produces an active hormone, while most other deiodinated products
+have little activity.
+3. Thyroid hormones have long half-lives in humans because of strong plasma
+protein binding.
+4. Thyroid hormones increase basal metabolic activity, oxygen consumption, and
+heat production.
+5. Thyroid hormones increase tissue responsiveness to catecholamines by
+increasing β-adrenergic receptor activity.
+6. Thyroid hormone deficiency commonly causes hypercholesterolemia.
+7. TSH is the main regulator of thyroid gland activity.
+8. T3 and T4 provide negative feedback to both the hypothalamus and anterior
+pituitary.
+THYROID DISORDERS
+1. Goitrogens and Goiter
+What is a goiter?
+A goiter is an enlargement of the thyroid gland that usually develops when the thyroid
+cannot produce enough thyroid hormone.
+One major cause is iodine deficiency.
+Iodine deficiency
+If the diet does not provide enough iodine:
+↓ Iodine → ↓ thyroid hormone synthesis → thyroid stimulation increases → thyroid
+enlarges → goiter
+In many areas, iodine deficiency has been greatly reduced by using iodized salt.
+2. Goitrogenic Plants and Compounds
+Some plants contain substances called goitrogens, which interfere with thyroid
+hormone production.
+Important examples include cruciferous plants:
+• Cabbage
+• Kale
+• Rutabaga
+• Turnip
+• Rapeseed
+These plants contain progoitrin, which is converted to goitrin in the digestive tract.
+Goitrin
+Goitrin interferes with the organic binding of iodine during thyroid hormone
+synthesis.
+Other goitrogenic feeds contain thiocyanates.
+Thiocyanates
+Thiocyanates interfere with the thyroid's ability to trap/actively take up iodide.
+Therefore:
+Thiocyanates → ↓ iodide uptake
+Goitrin → ↓ organic binding of iodine
+Both can reduce thyroid hormone production and potentially cause goiter and
+hypothyroidism.
+3. Effect of Excess Iodine
+Increasing dietary iodine can sometimes help overcome the effects of thiocyanates.
+However, excess iodine is much less effective against goitrin.
+So:
+Extra iodine → may partially overcome thiocyanate effects
+Extra iodine → has less effect against goitrin
+4. Antithyroid Drugs
+Understanding how goitrogens interfere with thyroid hormone synthesis helped lead
+to the development of drugs used to treat hyperthyroidism.
+The most potent group mentioned is the:
+Thiocarbamides
+• Thiourea
+• Thiouracil
+Other antithyroid compounds include:
+• Sulfonamides
+• p-Aminosalicylic acid
+• Phenylbutazone
+• Chlorpromazine
+These compounds reduce thyroid hormone production through interference with
+thyroid hormone synthesis.
+HYPOTHYROIDISM IN DOGS
+5. Canine Hypothyroidism
+Hypothyroidism is one of the most important endocrine diseases in dogs.
+The most common cause of primary hypothyroidism is:
+Lymphocytic thyroiditis
+6. Causes of Hypothyroidism
+A. Primary hypothyroidism
+The problem is directly within the thyroid gland.
+Common or possible causes include:
+• Lymphocytic thyroiditis
+• Thyroid dysgenesis = abnormal development of the thyroid
+• Dyshormonogenesis = abnormal thyroid hormone production
+• T4 transport defects
+
+-- 9 of 17 --
+
+• Goitrogens
+• Rarely, iodine deficiency
+B. Secondary hypothyroidism
+The problem is at the level of the pituitary gland.
+Possible causes include:
+• Pituitary tumors
+• Radiation therapy
+• Glucocorticoid exposure
+Glucocorticoids may be either:
+• Produced by the body (endogenous), or
+• Given as medication (exogenous)
+C. Tertiary hypothyroidism
+The problem occurs at the level of the hypothalamus.
+It may be:
+• Acquired, such as from hypothalamic tumors
+• Congenital, due to defects involving TRH or the TRH receptor
+Easy way to remember:
+Primary = thyroid problem
+Secondary = pituitary problem
+Tertiary = hypothalamus problem
+7. Dogs at Higher Risk
+Hypothyroid dogs show a breed and age predisposition.
+Age
+High-risk breeds may develop signs as early as:
+2–3 years
+Lower-risk breeds often develop signs around:
+4–6 years
+Breeds reported to have increased risk include:
+• English Setters
+• Eurasiers
+• Spanish Water Dogs
+• Irish Red and White Setters
+• Dalmatians
+• Boxers
+• Shetland Sheepdogs
+• Tibetan Terriers
+• Kuvasz
+• German Wirehaired Pointers
+• Rhodesian Ridgebacks
+• Other susceptible breeds
+CLINICAL SIGNS OF CANINE HYPOTHYROIDISM
+8. General Clinical Signs
+The onset is usually:
+Slow and subtle
+The most common signs are:
+• Lethargy
+• Obesity
+9. Skin and Hair Changes
+Skin problems are among the most common findings after lethargy and obesity.
+Classic finding:
+Symmetrical truncal or tail-head alopecia
+Other common changes include:
+• Thickened skin
+• Dull, dry hair
+• Poor hair regrowth after clipping
+• Retained puppy hair coat
+The skin may become thick because of myxedematous accumulation in the
+dermis.
+Myxedema
+This refers to the accumulation of hydrophilic substances/fluid in tissues associated
+with severe thyroid hormone deficiency.
+10. Cardiovascular Signs
+Possible cardiovascular changes include:
+• Bradycardia
+• Decreased cardiac contractility
+• Atherosclerosis
+However, these are uncommon as the main presenting complaint.
+11. Neuromuscular and Nervous System Signs
+These are also relatively uncommon.
+Possible signs include:
+• Myopathy
+• Megaesophagus
+• Neuropathies
+• Facial nerve paralysis
+o Bilateral or unilateral
+
+-- 10 of 17 --
+
+• Vestibular disease
+• Lower motor neuron disorders
+12. Myxedema Coma
+Myxedema coma is rare in dogs.
+It is associated with:
+• Severe hypothyroidism
+• Myxedematous fluid accumulation in the brain
+• Severe hyponatremia
+It is a serious manifestation of thyroid hormone deficiency.
+13. Reproductive Signs
+Female dogs may develop reproductive problems such as:
+• Prolonged interestrous interval
+• Silent heat
+• Delivery of weak puppies
+• Delivery of stillborn puppies
+14. Other Clinical Signs
+Less common findings include:
+• Corneal lipid deposits
+• Constipation
+• Other gastrointestinal disturbances
+CLINICOPATHOLOGICAL FINDINGS
+15. Anemia
+Approximately 25–30% of hypothyroid dogs may have anemia.
+Possible causes include:
+• ↓ Erythropoietin
+• ↓ Bone marrow activity
+• ↓ Serum iron
+• ↓ Iron-binding capacity
+The anemia is usually mild and may be normocytic and normochromic.
+16. Hypercholesterolemia
+Approximately 75% of hypothyroid dogs develop:
+Hypercholesterolemia
+This occurs because of altered lipid metabolism, including:
+• ↓ Fecal cholesterol excretion
+• ↓ Conversion of lipids to bile acids
+Important connection:
+Hypothyroidism → ↓ lipid clearance → ↑ blood cholesterol
+17. Hyponatremia
+Mild hyponatremia has been reported in about 30% of hypothyroid dogs in one
+study.
+Possible mechanisms include:
+• Increased total body water
+• Reduced renal excretion of water
+• Retention of water associated with hydrophilic deposits in tissues
+18. Increased Creatine Phosphokinase
+An unusual laboratory finding is:
+↑ Serum creatine phosphokinase (CK/CPK)
+This may be related to hypothyroid myopathy.
+DIAGNOSIS OF CANINE HYPOTHYROIDISM
+19. Main Diagnostic Tests
+Diagnosis should not depend on one test alone.
+It should combine:
+• Signalment
+• History
+• Physical examination
+• Clinicopathological findings
+• Thyroid function tests
+Important thyroid tests include:
+• Total T4 (TT4)
+• Total T3 (TT3)
+• Free T4 (FT4)
+• Endogenous canine TSH
+20. Why T4 Results Can Be Misleading
+Many factors can affect serum T4.
+These include:
+• Age
+• Breed
+• Environmental temperature
+• Body temperature
+• Diurnal rhythm
+• Obesity
+• Malnutrition
+• Concurrent illness
+
+-- 11 of 17 --
+
+• Drugs
+Breed example
+Sighthounds may naturally have lower TT4 and FT4 than other dogs.
+Obesity
+Obese dogs may have mildly increased TT4.
+Puppies
+Puppies may have TT4 concentrations approximately:
+2–5 times higher than adult dogs
+There is also an age-related decrease in:
+• Serum TT4
+• Response to TSH stimulation
+21. Euthyroid Sick Syndrome
+Euthyroid sick syndrome occurs when a dog has another illness that causes thyroid
+hormone changes even though the thyroid gland itself is not truly failing.
+Typical changes include:
+↓ TT4
+and often:
+↑ reverse T3
+Diseases that can produce this pattern include:
+• Diabetes mellitus
+• Chronic renal failure
+• Hepatic insufficiency
+• Infections
+Important:
+A low TT4 does not automatically mean hypothyroidism.
+Other illnesses must be considered.
+22. Drugs That Can Lower TT4
+Several drugs can decrease basal TT4 concentrations, including:
+• Anesthetics
+• Phenobarbital
+• Primidone
+• Diazepam
+• Trimethoprim-sulfa
+• Quinidine
+• Phenylbutazone
+• Salicylates
+• Glucocorticoids
+Therefore, medication history is important when interpreting thyroid tests.
+23. Free T4
+Free T4 (FT4) means the T4 that is not bound to plasma proteins.
+In human medicine, FT4 is useful for distinguishing:
+True hypothyroidism vs euthyroid sick syndrome
+The preferred method is:
+Equilibrium dialysis = gold standard
+Other methods include:
+Analog immunoassays
+In humans, one FT4 measurement has approximately 90% diagnostic accuracy.
+In dogs, early studies suggested:
+• FT4 by equilibrium dialysis ≈ 90% accurate
+• Other FT4 assays were no better than TT4
+However, glucocorticoids can decrease both FT4 and TT4 in dogs.
+24. Endogenous TSH
+Endogenous TSH helps evaluate the feedback relationship between the thyroid,
+pituitary, and hypothalamus.
+In primary thyroid failure:
+↓ T4/FT4 → pituitary detects low thyroid hormone → ↑ TSH
+Therefore:
+Low FT4 + high TSH → strongly suggests primary hypothyroidism
+The increase in TSH becomes especially pronounced as FT4 decreases, making TSH a
+sensitive indicator of early thyroid failure.
+Important veterinary limitation
+TSH should not be used alone to evaluate thyroid function in animals.
+Approximately:
+20–30% of hypothyroid dogs can have normal TSH concentrations
+even though T3 and T4 are decreased.
+25. Thyroglobulin Autoantibody (TgAA)
+The antithyroglobulin autoantibody test (TgAA) can detect evidence of autoimmune
+thyroid disease.
+It is useful for:
+• Identifying thyroid pathology before obvious hypothyroidism develops
+• Detecting dogs with hereditary thyroid disease
+• Screening dogs before breeding
+26. TSH Stimulation Test
+For many years, the TSH stimulation test was considered the gold standard for
+diagnosing canine hypothyroidism.
+However, it has important limitations.
+It does not reliably distinguish:
+
+-- 12 of 17 --
+
+• Early hypothyroidism
+• Euthyroid sick syndrome
+It also does not identify:
+• Secondary hypothyroidism
+• Tertiary hypothyroidism
+Another major problem is that exogenous bovine TSH is no longer commercially
+available.
+27. Other Thyroid Tests
+Other tests include:
+• TRH stimulation test
+• Thyroid scan/scintigraphy
+• Thyroid biopsy
+However, each has disadvantages such as:
+• Expense
+• Inaccuracy
+• Invasiveness
+28. Practical Diagnostic Approach
+A practical approach described in the notes is:
+First:
+Measure:
+TT4 + TSH
+Then:
+Measure:
+FT4 by equilibrium dialysis
+Interpretation
+All 3 abnormal:
+TT4 abnormal + TSH abnormal + FT4 abnormal
+→ Hypothyroidism is likely.
+Two of the three abnormal:
+Possible:
+Primary hypothyroidism
+• ↑ TSH
+• ↓ FT4
+OR
+Secondary hypothyroidism
+• ↓ TSH
+• ↓ FT4
+Only one abnormal:
+Do not immediately diagnose hypothyroidism.
+Reevaluate the dog in 3–6 months.
+FELINE HYPERTHYROIDISM
+29. General Information
+Hyperthyroidism is the most common endocrinopathy in cats.
+The most common cause is:
+Adenomatous hyperplasia of the thyroid gland
+It usually affects:
+• Middle-aged to older cats
+There is:
+• No major breed predisposition
+• No major sex predisposition
+Although the incidence is reported to be higher in purebred cats than mixed-breed
+cats.
+30. Dietary Iodine and Feline Hyperthyroidism
+Commercial/balanced pet foods normally provide enough iodine.
+However, the iodine content of foods can vary considerably.
+Changes in dietary iodine have been studied as possible risk factors.
+Important distinction:
+Acute changes in dietary iodine can alter FT4.
+However, with chronic changes, the thyroid usually adapts, so chronic dietary iodine
+variation is unlikely by itself to explain feline hyperthyroidism.
+31. Goitrogens and Feline Hyperthyroidism
+Goitrogens can clearly cause hypothyroidism.
+There has also been a theory that chronic exposure to goitrogens could eventually
+contribute to toxic nodular goiter and hyperthyroidism.
+This remains a proposed explanation rather than a clearly established cause.
+32. Soy Isoflavones
+Soy proteins contain isoflavones, including:
+• Genistein
+• Daidzein
+These compounds have been found in many dry cat foods.
+They have been suggested as possible thyroid-disrupting compounds because some
+studies show that they can interfere with:
+• Thyroperoxidase
+• 5′-deiodinase
+Study in cats
+In a study of 18 healthy cats eating a soy diet containing 400 mg isoflavones/kg diet:
+• TT4 increased modestly but significantly
+
+-- 13 of 17 --
+
+• FT4 increased modestly but significantly
+• T3 did not change
+However, human research has generally not shown harmful effects of soy isoflavones
+on thyroid function when soy is part of a balanced diet with adequate iodine.
+Important interpretation:
+The evidence linking soy isoflavones to feline hyperthyroidism is inconsistent.
+33. Canned Cat Food and BADGE
+Canned cat foods have been associated with feline hyperthyroidism in several
+epidemiological studies.
+One suspected goitrogen is:
+Bisphenol-A-diglycidyl ether (BADGE)
+BADGE was used in the lining of easy-open pop-top cans.
+The proposed mechanism is:
+BADGE from can lining → possible leaching into food → ingestion by cat
+Cats may be particularly susceptible because they have a reduced ability to detoxify
+substances through hepatic glucuronidation.
+Bisphenol A has also been shown in experimental studies to:
+• Reduce T3 binding
+• Increase TSH
+• Cause hyperthyroidism/goiter in some experimental animals and some
+humans
+However, rodent studies suggest a large safety margin.
+Important:
+An epidemiological association does not prove cause and effect.
+Although more than 90% of cats in the United States eat commercial pet food as
+their main food source, only a relatively small proportion develop hyperthyroidism.
+34. Pathology of Feline Hyperthyroidism
+Feline hyperthyroidism resembles toxic nodular goiter in humans.
+It is characterized by:
+Autonomous growth of thyroid follicles
+This means the thyroid tissue can grow and produce hormones without normal
+dependence on TSH.
+35. TSH Receptor and G-Protein Signaling
+Normally:
+TSH → TSH receptor → G protein → cAMP → thyroid hormone production + cell
+growth
+In toxic nodular goiter, abnormalities can occur in this signaling system.
+Possible changes include:
+• Increased stimulatory G-proteins
+• Decreased inhibitory G-proteins
+• Mutations in the TSH receptor that keep it activated even without TSH
+Similar abnormalities have been investigated in hyperthyroid cats.
+In some cats, activating mutations of the TSH receptor may contribute to disease.
+Hyperthyroid cats may also have decreased expression of inhibitory G-proteins.
+Important difference from human Graves disease:
+Feline hyperthyroidism does not appear to be caused by stimulating antibodies
+against the TSH receptor.
+36. Environmental Risk Factors
+Several environmental factors have been investigated.
+Cat litter
+Use of cat litter has been associated with increased hyperthyroidism risk.
+However, this may simply reflect indoor living.
+Indoor cats tend to:
+• Live longer
+• Therefore have more opportunity to develop hyperthyroidism
+Pesticides and herbicides
+These have been associated with thyroid abnormalities in other species.
+Flea-control products
+Some studies found an association between flea-control products and feline
+hyperthyroidism.
+However:
+No specific product or ingredient was consistently identified as the cause.
+37. Brominated Flame Retardants
+Brominated flame retardants (BFRs) have also been proposed as possible
+environmental goitrogens/carcinogens.
+One group of interest is:
+Polybrominated diphenyl ethers (PBDEs)
+These compounds were detected in cats at serum levels reported to be 10–400 times
+higher than levels found in humans.
+Possible reasons include:
+• Indoor living
+• Frequent grooming
+• Exposure to furniture and carpets
+• Smaller body size
+However, this remains a proposed association, not proof of causation.
+CLINICAL SIGNS OF FELINE HYPERTHYROIDISM
+38. Hypermetabolic Signs
+Hyperthyroidism produces a state of hypermetabolism.
+
+-- 14 of 17 --
+
+Common clinical signs include:
+• Polyphagia
+• Weight loss
+• Vomiting
+• Diarrhea
+• Polydipsia
+• Polyuria
+A common pattern is:
+Increased appetite + weight loss
+39. Sympathetic Nervous System Signs
+Hyperthyroidism also increases sympathetic activity.
+Typical signs include:
+• Hyperactivity
+• Tachycardia
+• Pupillary dilation
+• Behavioral changes
+40. Long-Term Complications
+Long-standing hyperthyroidism can lead to:
+Cardiovascular
+• Hypertrophic cardiomyopathy
+• High-output heart failure
+General
+• Cachexia = severe loss of body condition/muscle
+Severe chronic disease may eventually be fatal.
+CLINICOPATHOLOGICAL FINDINGS
+41. Erythrocytosis and Stress Leukogram
+Hyperthyroid cats may develop:
+Erythrocytosis
+and a:
+Stress leukogram
+The stress leukogram may include:
+• Neutrophilia
+• Lymphocytosis
+These changes are related to increased circulating catecholamines.
+42. BUN and Creatinine
+Increased breakdown of muscle may cause:
+↑ BUN
+without a similar increase in creatinine.
+Why?
+Hyperthyroidism also increases:
+Glomerular filtration rate (GFR)
+The increased GFR may temporarily mask underlying kidney disease.
+Therefore, a seemingly normal creatinine does not necessarily mean that renal
+function is normal.
+43. Urinalysis
+The effect on urinalysis is variable.
+However, many hyperthyroid cats have:
+↓ Urine specific gravity
+especially when they have polyuria.
+44. Liver Enzymes
+The increased metabolic rate causes liver hypermetabolism.
+As a result:
+ALT and AST may be increased.
+Increased liver enzyme activities occur in approximately:
+80–90% of hyperthyroid cats
+45. Cholesterol
+Hyperthyroidism can cause:
+↓ Serum cholesterol
+This is mainly due to:
+↑ Hepatic clearance of cholesterol
+rather than reduced cholesterol synthesis.
+DIAGNOSIS OF FELINE HYPERTHYROIDISM
+46. Total T4
+The usual initial diagnostic test is:
+Total T4 (TT4)
+An increased TT4 strongly supports hyperthyroidism in a compatible cat.
+47. Free T4
+As cats are diagnosed at earlier stages, FT4 can be particularly useful for detecting:
+Early or occult hyperthyroidism
+However, FT4 should generally be interpreted together with clinical findings and other
+thyroid tests.
+48. T3 Suppression Test
+A T3 suppression test can help confirm hyperthyroidism in borderline cases.
+In a normal cat:
+
+-- 15 of 17 --
+
+Administering T3 causes negative feedback:
+Exogenous T3 → ↓ TSH → ↓ thyroid activity → ≥50% decrease in T4
+So:
+Normal cat → T4 decreases by at least 50%
+In a hyperthyroid cat:
+The thyroid gland functions more autonomously and does not respond normally to
+the negative-feedback effect.
+Therefore:
+Hyperthyroid cat → T4 does not decrease appropriately
+This makes the test useful for borderline cases.
+49. Thyroid Scintigraphy
+Thyroid scintigraphy can be used to visualize thyroid tissue that is hyperfunctional.
+It helps identify areas of increased thyroid activity.
+HIGH-YIELD COMPARISON
+Canine Hypothyroidism vs Feline Hyperthyroidism
+Feature Canine Hypothyroidism Feline Hyperthyroidism
+Hormone state ↓ Thyroid hormone ↑ Thyroid hormone
+Common species Dogs Cats
+Typical age Adult dogs Middle-aged/older cats
+Common cause Lymphocytic thyroiditis Adenomatous hyperplasia
+Metabolic state Hypometabolic Hypermetabolic
+Weight Weight gain/obesity Weight loss despite ↑
+appetite
+Heart rate Bradycardia Tachycardia
+Skin Alopecia, thickened skin,
+dry coat
+Usually not the classic
+finding
+Cholesterol ↑ ↓
+GI signs Possible constipation Vomiting/diarrhea
+Water intake May vary ↑ Polydipsia + polyuria
+Main screening
+hormone
+TT4 + TSH TT4
+Additional test FT4 by equilibrium dialysis FT4, T3 suppression,
+scintigraphy
+GOITROGEN SUMMARY
+Goiter:
+↓ Thyroid hormone production → thyroid enlargement
+Goitrogens:
+Goitrin → interferes with iodine organification
+Thiocyanate → interferes with iodide trapping
+Examples of goitrogenic plants:
+Cabbage, kale, rutabaga, turnip, rapeseed
+Excess iodine:
+Can sometimes overcome thiocyanate, but is less effective against goitrin.
+CANINE HYPOTHYROIDISM: MOST IMPORTANT POINTS
+Most common primary cause:
+Lymphocytic thyroiditis
+Classic signs:
+Lethargy + obesity + symmetrical alopecia + dry/dull hair + poor hair regrowth
+Important laboratory findings:
+Hypercholesterolemia (~75%)
+Anemia (~25–30%)
+Mild hyponatremia (~30%)
+Possible ↑ CK
+Important diagnostic rule:
+Low TT4 alone does NOT prove hypothyroidism.
+Consider:
+• Breed
+• Age
+• Illness
+• Drugs
+• Euthyroid sick syndrome
+Practical testing:
+TT4 + TSH → FT4 by equilibrium dialysis
+FELINE HYPERTHYROIDISM: MOST IMPORTANT POINTS
+Most common feline endocrinopathy
+Most common pathology:
+Adenomatous hyperplasia → autonomous thyroid tissue
+Classic clinical picture:
+Polyphagia + weight loss + hyperactivity + tachycardia
+Also:
+Vomiting + diarrhea + PU/PD
+Important laboratory findings:
+↑ BUN may occur
+Creatinine may remain normal because GFR is increased
+↓ urine specific gravity
+↑ ALT/AST in ~80–90%
+↓ cholesterol
+Diagnosis:
+TT4 → FT4 for early/occult cases
+
+-- 16 of 17 --
+
+T3 suppression test → borderline cases
+Scintigraphy → identifies hyperfunctional thyroid tissue
+
+-- 17 of 17 --
+

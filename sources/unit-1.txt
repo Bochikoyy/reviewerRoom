@@ -1,0 +1,1027 @@
+GENERAL CONCEPTS
+1. What Are Hormones?
+Hormones are chemical messengers produced by specific tissues or cells. They are
+usually carried through the blood (vascular system) to other tissues, where they
+produce effects even at very low concentrations.
+The endocrine system uses hormones to coordinate, regulate, and control
+physiological processes throughout the body.
+Traditional definition of a hormone
+A hormone is a chemical that:
+• Is produced by a specific endocrine organ or tissue
+• Is transported through the blood
+• Acts on a distant target organ or tissue
+• Produces an effect at very low concentrations
+This definition is useful in veterinary medicine, but it is not completely strict because
+some substances considered hormones, such as prostaglandins and
+somatomedins, are produced by many different tissues rather than by one specific
+endocrine organ.
+2. Other Chemical Signaling Systems
+Not all chemical messengers travel through the blood. Some act mainly locally,
+allowing cells to communicate with nearby cells or with themselves.
+A. Paracrine effectors
+• The chemical messenger is released into the interstitial fluid.
+• It usually acts on nearby or adjacent cells.
+• If the messenger acts on the same cell that produced it, it is called an
+autocrine effector.
+Remember:
+• Paracrine = acts on nearby cells
+• Autocrine = acts on the cell that produced it
+B. Neurotransmitters
+• These chemicals are used for communication:
+o between neurons, or
+o between neurons and their target cells
+• Their action is generally limited to a short distance and a specific area of the
+target cell.
+C. Exocrine effectors
+• These substances are released into a body cavity or duct, rather than into
+the bloodstream.
+• Example: substances produced by the pancreas that are released into the
+gastrointestinal tract.
+3. Endocrine and Nervous Systems Work Together
+The endocrine system and nervous system are closely connected.
+• The nervous system is mainly responsible for rapid control of body
+functions.
+• The endocrine system generally produces slower but longer-lasting
+effects.
+• Together, they coordinate many physiological processes.
+Example: Milk Let-Down Reflex
+The milk let-down reflex shows how the nervous and endocrine systems work
+together.
+Sequence:
+1. Suckling occurs
+→ The mammary gland is stimulated.
+2. Nerve impulses are generated
+→ Signals travel from the mammary gland to the hypothalamus through the spinal
+tract.
+3. Hypothalamic neurons are stimulated
+→ Neurosecretory neurons in the supraoptic and paraventricular nuclei synthesize
+oxytocin.
+4. Oxytocin is transported
+→ It travels down the axons of these neurons.
+5. Oxytocin is released into the blood
+→ It is released from nerve endings in the posterior pituitary into the bloodstream.
+6. Oxytocin reaches the mammary gland
+→ It causes contraction of myoepithelial cells.
+7. Milk is pushed out
+→ Myoepithelial cells surround the alveoli, which contain the milk-secreting cells.
+→ Their contraction pushes milk into the larger cisternae near the teat and then into
+the teat.
+Simple flow:
+Suckling → Nerve impulses → Hypothalamus → Oxytocin release → Blood →
+Mammary gland → Myoepithelial contraction → Milk let-down
+4. Direct Interaction Between the Nervous and Endocrine Systems
+The interaction between the two systems can be even more direct.
+Example: Adrenal Medulla
+• The endocrine cells of the adrenal medulla are directly controlled by
+preganglionic neurons.
+• During stress, these neurons stimulate the adrenal medulla.
+• The adrenal medulla then rapidly releases its hormones into the blood.
+This allows the body to respond immediately to stressful situations.
+Shared chemical transmitters
+
+-- 1 of 13 --
+
+Some chemical messengers are found in both nervous and endocrine tissues,
+including:
+• Epinephrine
+• Dopamine
+• Histamine
+• Somatostatin
+This further demonstrates the close relationship between the nervous and endocrine
+systems.
+5. Major Functions Controlled by Hormones
+The endocrine system helps regulate many important body functions, especially:
+• Metabolism
+• Growth
+• Reproduction
+A. Hormones involved in energy metabolism
+These hormones help regulate how the body uses and stores energy:
+• Insulin
+• Glucagon
+• Cortisol
+• Epinephrine
+• Thyroid hormones
+• Growth hormone
+B. Hormones involved in mineral metabolism
+These help maintain proper mineral and electrolyte balance, especially calcium
+and sodium-related regulation:
+• Parathyroid hormone (PTH)
+• Calcitonin
+• Aldosterone
+• Angiotensin
+• Renin
+C. Hormones involved in growth
+Growth is controlled by several hormones and growth factors, including:
+• Growth hormone
+• Thyroid hormone
+• Insulin
+• Estrogen
+• Androgens
+• Various growth factors
+D. Hormones involved in reproduction
+Important reproductive hormones include:
+• Estrogen
+• Androgens
+• Progesterone
+• Luteinizing hormone (LH)
+• Follicle-stimulating hormone (FSH)
+• Prolactin (PRL)
+• Oxytocin
+6. Signal Amplification in the Endocrine System
+One important characteristic of hormones is signal amplification.
+This means that a very small amount of hormone can produce a large biological
+effect.
+Example with steroid hormones
+A single steroid hormone molecule can activate a gene.
+That can lead to:
+1 hormone → many mRNA molecules → many enzyme molecules
+Example with protein hormones
+One protein hormone molecule can stimulate the production of many cAMP
+molecules.
+Then:
+1 hormone → many cAMP molecules → activation of many enzymes
+Because of this amplification, hormones can produce strong effects even when
+present in extremely small amounts.
+Important concentration
+Hormones can produce significant effects at plasma concentrations as low as
+approximately:
+10⁻¹¹ to 10⁻¹² mol
+7. Hormones Can Affect Existing Enzyme Activity
+Hormones do not only cause cells to make new proteins or enzymes.
+They can also change the activity of enzymes that are already present in the cell.
+This means that cells have some basic or basal enzyme activity even when no
+hormone is present. Hormones can increase or decrease this activity.
+8. Speed and Duration of Hormonal Effects
+Hormonal responses are generally:
+• Slower to begin
+• Longer-lasting
+Hormonal effects may last from:
+minutes → days
+This is different from the nervous system.
+Endocrine vs Nervous System
+Feature Endocrine System Nervous System
+
+-- 2 of 13 --
+
+Main
+messenger
+Hormones Neurotransmitters/nerve
+signals
+Transport Usually through blood Along neurons/synapses
+Speed Relatively slow Very rapid
+Duration Longer-lasting Usually short
+Typical
+duration
+Minutes to days Milliseconds to seconds
+Main role Long-term or widespread
+regulation
+Rapid control
+Key idea to remember
+Nervous system = fast and short-lasting
+Endocrine system = slower and longer-lasting
+However, the two systems are not separate. They work together to maintain and
+regulate normal physiological functions.
+SYNTHESIS OF HORMONES
+Hormones can be divided into several major classes:
+Hormone class Examples
+Proteins Growth hormone (GH), insulin, ACTH
+Peptides Oxytocin, vasopressin
+Amines Dopamine, melatonin, epinephrine
+Steroids Cortisol, progesterone, vitamin D
+The way a hormone is produced and stored depends mainly on whether it is a
+protein/peptide hormone or a steroid hormone.
+1. Protein and Peptide Hormone Synthesis
+Basic process:
+Preprohormone → Prohormone → Active hormone → Storage in granules →
+Exocytosis
+Protein and peptide hormones are first made as larger inactive precursor molecules
+called preprohormones.
+Step 1: Synthesis in ribosomes
+• Hormone synthesis begins on ribosomes.
+• The newly forming molecule is called a preprohormone.
+• The "pre" portion directs the molecule to the rough endoplasmic reticulum
+(RER).
+• As the preprohormone is being made, it enters the inside of the RER.
+Step 2: Formation of the prohormone
+• Enzymes called peptidases in the RER quickly remove the "pre" portion.
+• The remaining molecule is called a prohormone.
+• The prohormone leaves the RER inside small vesicles that bud off from the
+RER.
+Step 3: Processing in the Golgi apparatus
+• The vesicles carrying the prohormone move to the Golgi apparatus.
+• They fuse with the Golgi membranes and are processed into secretory
+granules.
+• The prohormone is then cleaved into its active hormone.
+• Most of the hormone reaches its final active form in the Golgi apparatus,
+although some prohormone may remain.
+Step 4: Storage
+• The active protein/peptide hormone is stored in secretory granules inside
+the endocrine cell.
+• A small amount may be released continuously, but most is stored until a
+specific signal tells the cell to release it.
+Step 5: Release by exocytosis
+When the appropriate signal is received:
+↑ Intracellular Ca²⁺ → granules fuse with cell membrane → exocytosis → hormone
+released
+Exocytosis requires:
+• ATP for energy
+• Calcium (Ca²⁺)
+The increase in cytoplasmic calcium can come from:
+• Release of Ca²⁺ from the endoplasmic reticulum
+• Release of Ca²⁺ from mitochondria
+• Influx of Ca²⁺ from outside the cell
+Easy flow to remember:
+Ribosome → Preprohormone → RER removes "pre" → Prohormone → Golgi → Active
+hormone → Secretory granules → Ca²⁺ + ATP → Exocytosis → Blood
+Key point:
+Protein and peptide hormones are made first, stored in granules, and released
+when needed.
+2. Steroid Hormone Synthesis
+Steroid hormones are different from protein hormones.
+Steroids are lipophilic (fat-soluble) and are mainly made from cholesterol.
+Major steroid groups include:
+Adrenocortical hormones
+• Glucocorticoids
+• Mineralocorticoids
+Sex hormones
+• Estrogens
+
+-- 3 of 13 --
+
+• Progesterone
+• Androgens
+All steroid hormones have a common four-ring, 17-carbon structure that comes
+from cholesterol.
+3. Where Does the Cholesterol Come From?
+Most steroid-producing cells obtain cholesterol from the blood.
+Main source:
+Liver → cholesterol → blood → steroid-producing cell
+The liver produces cholesterol, which can be transported in the blood as part of low-
+density lipoproteins (LDLs).
+How cholesterol enters the cell
+1. LDL binds to a receptor on the cell membrane.
+2. The LDL enters the cell.
+3. Lysosomal enzymes break down the LDL.
+4. The cholesterol is released.
+The cholesterol can then either:
+• Be used immediately to make steroids, or
+• Be stored inside the cell as cholesterol ester.
+A small amount of steroid precursor can also be synthesized within the cell from
+acetate, but most steroid hormones come from cholesterol.
+4. How Steroid Hormones Are Made
+The first step in making all steroid hormones from cholesterol is:
+Cholesterol → Pregnenolone
+This occurs in the mitochondria.
+After pregnenolone is formed, it undergoes additional chemical changes. These
+reactions may occur:
+• In the mitochondria, or
+• In other parts of the cell after the steroid molecule moves there.
+The exact control of steroid movement between different cell compartments is not
+completely understood.
+5. Different Cells Make Different Steroid Hormones
+The type of steroid hormone produced depends on the enzymes present in the cell.
+In other words:
+The enzymes determine which steroid hormone it can make.
+Example: Adrenal cortex
+Cells of the adrenal cortex have specific enzymes called hydroxylases.
+These enzymes are needed to modify specific carbon positions, particularly:
+• Carbon 11
+• Carbon 21
+These reactions are essential for producing:
+• Glucocorticoids
+• Mineralocorticoids
+6. Sex Steroid Synthesis
+Sex steroid production generally follows this sequence:
+Pregnenolone → Progesterone → Androgens → Estrogens
+However, different cells contain different enzymes, so they cannot all produce every
+type of steroid.
+Example: Leydig cells of the testis
+Leydig cells can:
+• Make pregnenolone
+• Make progesterone
+• Convert progesterone into androgens
+But they lack the enzymes needed to convert androgens into estrogens.
+Therefore, Leydig cells mainly produce androgens, rather than estrogens.
+7. Adrenal Cortex Can Also Make Sex Steroids
+The adrenal cortex has enzyme systems that allow it to produce:
+• Adrenocortical hormones
+• Sex steroids
+Normally, the adrenal cortex produces:
+• Large amounts of adrenocortical hormones
+• Small amounts of sex steroids
+However, in certain pathological conditions, adrenal production of sex steroids can
+increase.
+8. Steroid Hormones Are NOT Stored
+This is one of the most important differences between steroid and protein hormones.
+Protein/peptide hormones:
+Stored in secretory granules → released when needed
+Steroid hormones:
+Not stored → synthesized and released immediately
+Because steroids are lipophilic, they can easily pass through the cell membrane by
+simple diffusion.
+Therefore:
+Rate of steroid hormone secretion = rate of steroid hormone synthesis
+The two processes are therefore tightly coupled.
+What is stored?
+Steroid-producing cells do not store large amounts of the finished hormone.
+The main stored material is the precursor cholesterol, stored as cholesterol ester.
+
+-- 4 of 13 --
+
+PROTEIN/PEPTIDE VS STEROID HORMONES
+Feature Protein/Peptide
+Hormones
+Steroid Hormones
+Starting material Amino acid chains/protein
+precursors
+Cholesterol
+Initial synthesis Ribosomes Mainly mitochondria + other
+cell compartments
+Precursor Preprohormone →
+prohormone
+Cholesterol → pregnenolone →
+other steroids
+Storage Stored in secretory
+granules
+Not stored as finished
+hormone
+Release Exocytosis Simple diffusion
+Main requirement
+for release
+Ca²⁺ and ATP No exocytosis required
+Secretion Can be stored and released
+when signaled
+Usually released as soon as
+synthesized
+Main control of
+secretion
+Release of stored hormone Rate of synthesis
+HIGH-YIELD SUMMARY
+Protein and peptide hormones
+Ribosome → Preprohormone → RER → Prohormone → Golgi → Active hormone →
+Granules → Ca²⁺ + ATP → Exocytosis
+• Made as preprohormones
+• RER removes the "pre" portion
+• Prohormone is processed in the Golgi
+• Stored in secretory granules
+• Released by exocytosis
+• Release requires Ca²⁺ and ATP
+Steroid hormones
+Cholesterol → Pregnenolone → Steroid hormone → Diffusion out of cell
+• Mainly derived from cholesterol
+• First step occurs in the mitochondria
+• Specific enzymes determine which steroid is produced
+• Not stored as finished hormones
+• Released by simple diffusion
+• Synthesis and secretion occur together
+• Cholesterol can be stored as cholesterol ester
+TRANSPORT OF HORMONES IN THE BLOOD
+Hormones that act on distant target tissues must be transported through the
+bloodstream.
+The way a hormone is carried in the blood depends mainly on whether it is water-
+soluble (hydrophilic) or fat-soluble (lipophilic).
+1. Protein Hormones Are Hydrophilic
+Protein and peptide hormones are hydrophilic, meaning they dissolve easily in
+water.
+Since blood plasma is mostly water, these hormones can travel through the
+bloodstream in dissolved form.
+Forms of protein hormones in the blood
+Protein hormones may circulate as:
+• Monomers = one unit
+• Polymers = multiple units
+For example, insulin can occur in different forms.
+Some hormones that normally have several subunits may also circulate as individual
+subunits.
+However:
+Subunit form → lower biological activity/potency
+This means that separating the subunits generally makes the hormone less effective.
+Key point:
+Protein/peptide hormones = hydrophilic → dissolve directly in plasma → usually
+do not need carrier proteins.
+2. Steroid and Thyroid Hormones Are Lipophilic
+Steroid hormones and thyroid hormones are lipophilic, meaning they are fat-
+soluble.
+Because blood is an aqueous (water-based) environment, these hormones have poor
+solubility in plasma.
+Therefore, they usually cannot travel freely through the blood in large amounts.
+Instead, they are transported by binding to plasma proteins.
+3. Types of Transport Proteins
+There are two important types of protein binding involved in transporting steroid and
+thyroid hormones:
+A. Specific/high-affinity binding proteins
+These proteins have a strong preference for particular hormones.
+Example:
+Transcortin
+• Has a high affinity for cortisol
+• Also has a high affinity for corticosterone
+
+-- 5 of 13 --
+
+• It can also transport progesterone, although it binds progesterone less
+strongly
+Important characteristic:
+High affinity = strong binding but low capacity
+These proteins have low capacity because they are present in relatively small
+amounts in plasma.
+B. Nonspecific/low-affinity binding proteins
+The main example is albumin.
+• Albumin binds steroid hormones with low affinity.
+• However, albumin is present in very high concentrations in plasma.
+Therefore:
+Low affinity = weaker binding but high capacity
+Albumin can carry large amounts of steroid hormones because there is so much
+albumin in the blood.
+4. Free Hormone vs Bound Hormone
+A hormone can exist in the blood in two forms:
+Bound hormone
+Hormone attached to a transport protein.
+Free (unbound) hormone
+Hormone that is not attached to a protein.
+The free form is the biologically active form.
+A hormone must become free/unbound before it can enter a target cell and produce
+its biological effect.
+Important relationship:
+Bound hormone ⇌ Free hormone
+There is a continuous equilibrium between the two forms.
+When free hormone is used by tissues, more bound hormone quickly dissociates
+from its carrier protein and becomes free.
+This allows the body to maintain a supply of active hormone.
+5. How Much Hormone Is Free?
+Only a small portion of a lipophilic hormone in the blood is usually free.
+General rule:
+About 1% of the total hormone is free
+The remaining majority is bound to proteins.
+Exception: Cortisol
+Cortisol has a somewhat larger free fraction:
+Up to about 10% of cortisol may be free.
+Remember:
+Most lipophilic hormone = bound
+Small amount = free and biologically active
+6. Why Protein Binding Is Important
+Binding to carrier proteins provides several advantages:
+• It allows lipophilic hormones to be transported through watery blood.
+• It creates a reservoir of hormone that can quickly release free hormone.
+• It helps maintain a relatively stable concentration of free hormone.
+The free hormone is continually used by tissues, and the bound hormone can
+dissociate quickly to replace it.
+7. Measurement of Hormone Levels
+For most hormones, laboratories usually measure the total hormone concentration,
+meaning:
+Free hormone + Bound hormone = Total hormone
+Exception: Thyroid hormones
+For thyroid hormones, there is often greater interest in determining the amounts of:
+• Bound hormone
+• Free hormone
+because the relationship between these forms is especially important when
+evaluating thyroid function.
+8. Steroid Hormone Concentration Reflects Secretion
+For steroid hormones:
+Synthesis → Release → Blood concentration
+Steroid hormone synthesis and secretion are tightly linked because steroids are
+generally not stored in large amounts inside endocrine cells.
+Also, their metabolic clearance rates are usually relatively constant.
+Therefore:
+Plasma steroid concentration can often give a good indication of the rate at which
+the steroid is being secreted.
+9. Physiological Conditions Can Change Hormone Transport
+The relationship between hormone concentration and secretion can change when the
+body changes the amount of hormone-binding proteins.
+Example: Pregnancy in humans
+During pregnancy:
+• Production of estrogen increases
+• Estrogen can increase the production of estrogen-binding proteins
+• More hormone may therefore become bound
+• This can affect the metabolism and clearance of estrogen
+
+-- 6 of 13 --
+
+Thus, physiological conditions can change hormone levels not only by changing
+hormone production but also by changing binding proteins and hormone
+metabolism.
+HIGH-YIELD COMPARISON
+Feature Protein/Peptide Hormones Steroid & Thyroid Hormones
+Solubility Hydrophilic Lipophilic
+Blood transport Dissolved directly in plasma Bound to plasma proteins
+Need carrier
+proteins?
+Generally no Yes
+Free hormone Circulates mainly dissolved Usually only a small fraction
+Active form Free hormone Free hormone
+Main binding
+proteins
+Usually not important for
+transport
+Specific proteins + albumin
+Example Insulin Cortisol, progesterone, thyroid
+hormones
+TYPES OF BINDING PROTEINS
+High-affinity proteins
+Strong binding + low capacity
+Example:
+Transcortin → cortisol
+Albumin
+Weak binding + high capacity
+Reason:
+Albumin is present in very large amounts in plasma.
+EASY FLOW TO REMEMBER
+Protein/peptide hormones:
+Hydrophilic → dissolve in plasma → circulate freely
+Steroid/thyroid hormones:
+Lipophilic → cannot dissolve well in plasma → bind carrier proteins → small free
+fraction → free hormone enters target cells → biological effect
+Most important concept:
+BOUND = transport/reservoir
+FREE = biologically active
+HORMONE-CELL INTERACTION
+A hormone only affects certain cells even though it may circulate throughout the
+body. This is because target cells have specific receptors that recognize and bind
+the hormone.
+1. Location of Hormone Receptors
+The location of the receptor depends on the type of hormone.
+Protein and peptide hormones
+• These hormones cannot pass through the cell membrane because they are
+water-soluble.
+• Their receptors are located on the plasma membrane of the target cell.
+Steroid hormones
+• Steroids are lipid-soluble, so they can pass through the cell membrane.
+• Their receptors are found inside the cell, in the:
+o Cytoplasm, or
+o Nucleus
+Easy rule:
+Protein/peptide → receptor on the cell membrane
+Steroid → receptor inside the cell
+2. Why Only Certain Cells Respond to Hormones
+Although some hormones, especially steroids, can enter many or even most cells,
+they only produce an effect in cells that have the correct receptor.
+Hormone receptors have two important characteristics:
+Specificity
+A receptor recognizes and binds a particular hormone.
+High affinity
+The receptor can bind the hormone strongly, even when the hormone is present in
+very small amounts in the blood.
+Therefore:
+Specific receptor + high affinity → small hormone concentration can still produce
+a strong biological response
+3. Termination of Hormone Action
+A hormone's effect must eventually stop.
+The most common way this happens is when the hormone dissociates (separates)
+from its receptor.
+Hormone-receptor binding is noncovalent, meaning the hormone and receptor are
+not permanently chemically attached.
+Usually:
+↓ Hormone concentration in blood → more hormone leaves receptor → hormone
+action decreases/stops
+When the hormone concentration falls, the chemical equilibrium favors dissociation
+rather than continued binding.
+4. Receptor Internalization
+Hormone action can also stop when the hormone-receptor complex is taken into
+the cell by endocytosis.
+
+-- 7 of 13 --
+
+Inside the cell:
+• Lysosomal enzymes break down the hormone.
+• The receptor is protected because it is associated with the membrane of the
+vesicle.
+• The receptor can then be recycled back to the plasma membrane and used
+again.
+Simple sequence:
+Hormone + receptor → endocytosis → hormone degraded → receptor recycled
+5. Number of Receptors
+Cells normally have many more receptors than are actually needed to produce a
+biological response.
+In fact:
+Less than 50% of receptors usually need to be occupied to produce a maximal
+response.
+This means a cell can still respond maximally even when many receptors are
+unoccupied.
+6. Receptor Regulation
+Although cells have excess receptors, the number of receptors can change.
+Changes in receptor number mainly affect the cell's sensitivity to a hormone, rather
+than its maximum possible response.
+More receptors
+↑ Receptors → ↑ chance of hormone-receptor interaction → ↑ sensitivity
+Fewer receptors
+↓ Receptors → ↓ chance of interaction → ↓ sensitivity
+7. Upregulation: Increasing Receptor Numbers
+A hormone can sometimes stimulate production of more receptors for a different
+hormone.
+Example: Ovarian follicle
+During the later part of the follicular phase:
+• FSH stimulates ovarian granulosa cells.
+• FSH causes the cells to increase their LH receptors.
+• The predominant receptor changes from FSH receptors to LH receptors.
+This allows control of the ovarian follicle to shift from FSH to LH.
+This change is important for:
+• Ovulation
+• Luteinization, which is the formation of the corpus luteum
+Key concept:
+FSH → increases LH receptors → follicle becomes more responsive to LH →
+ovulation + luteinization
+8. Downregulation: Decreasing Receptor Numbers
+Continuous exposure to a hormone can cause the number of its receptors to
+decrease.
+This is called downregulation.
+It may occur when:
+• A hormone or agonist continuously stimulates the receptor.
+• An agonist has a very high affinity for the receptor.
+• Hormone levels become pathologically high.
+Result:
+Persistent high hormone exposure → ↓ receptor numbers → ↓ cell sensitivity →
+hormone resistance
+This can cause an animal to become less responsive or resistant to continued
+hormone treatment.
+POSTRECEPTOR CELL RESPONSES
+After a hormone binds to its receptor, the cell must produce a response.
+The mechanism depends on whether the hormone is a steroid or a protein/peptide
+hormone.
+9. Steroid Hormone Action
+Steroid hormones can cross the plasma membrane because they are lipid-soluble.
+They can then interact with receptors in the cytoplasm or nucleus.
+A. Steroids with cytoplasmic receptors
+Examples:
+• Androgens
+• Glucocorticoids
+The sequence is:
+Steroid enters cell → binds cytoplasmic receptor → receptor becomes activated →
+complex moves into nucleus → binds DNA → mRNA produced → protein synthesis
+→ biological response
+Step-by-step:
+1. The steroid passes through the plasma membrane.
+2. It binds its specific receptor in the cytoplasm.
+3. The hormone-receptor complex becomes activated.
+4. The complex moves into the nucleus.
+5. It binds specific regions of DNA called response elements on the chromatin.
+6. This stimulates the production of messenger RNA (mRNA).
+7. mRNA moves to the ribosomes.
+8. Ribosomes use the mRNA to make specific proteins/enzymes.
+9. These proteins produce the desired biological response.
+
+-- 8 of 13 --
+
+B. Steroids with nuclear receptors
+Some steroids, such as estrogen, can enter the nucleus and bind directly to their
+nuclear receptors.
+The basic outcome is still:
+Steroid → receptor → DNA response element → mRNA → protein synthesis →
+biological effect
+10. Why Steroid Effects Are Usually Slower
+Steroid hormones generally produce effects by changing gene expression and
+making new proteins.
+Because protein synthesis takes time:
+Steroid hormone action = relatively slow but often longer-lasting
+11. Protein and Peptide Hormone Action
+Protein and peptide hormones cannot cross the plasma membrane.
+Therefore, they cannot directly enter the cell and interact with intracellular DNA
+receptors like steroids do.
+Instead, they bind to receptors on the plasma membrane.
+The receptor then activates an internal signaling molecule called a second
+messenger.
+Basic pathway:
+Hormone → membrane receptor → second messenger → intracellular
+enzymes/proteins → biological response
+12. cAMP: An Important Second Messenger
+One of the best-known second messengers is cyclic AMP (cAMP).
+Sequence:
+Hormone binds receptor → activates adenylyl cyclase → cAMP increases → protein
+kinases activated → cellular response
+Step-by-step:
+1. Protein/peptide hormone binds to its receptor on the plasma membrane.
+2. This activates the enzyme adenylyl cyclase.
+3. Adenylyl cyclase produces cAMP.
+4. cAMP activates protein kinases.
+5. Protein kinases phosphorylate proteins.
+6. These changes produce the biological response.
+13. Other Second Messengers
+cAMP is not the only second messenger.
+Important examples include:
+Calcium (Ca²⁺)
+• Changes in cytoplasmic calcium can act as an important intracellular signal.
+• Calcium can work with proteins such as calmodulin.
+IP₃ (inositol triphosphate)
+• Produced from phosphatidylinositol metabolism.
+• One major action of IP₃ is to stimulate the release of Ca²⁺ from intracellular
+stores.
+DAG (diacylglycerol)
+• Also produced from phosphatidylinositol metabolism.
+• Can activate phospholipase A.
+• This promotes formation of arachidonic acid.
+• Arachidonic acid is then used to produce prostaglandins.
+Important flow:
+IP₃ → ↑ intracellular Ca²⁺
+DAG → phospholipase A activation → arachidonic acid → prostaglandins
+14. Protein/Peptide Hormones Usually Act Faster
+Protein and peptide hormones often produce a faster response than steroid
+hormones.
+Why?
+Because they can activate enzymes and proteins that already exist inside the cell.
+They usually do not need to wait for the cell to make new enzymes.
+Compare:
+Protein/peptide hormone:
+Hormone → membrane receptor → second messenger → activates existing enzymes →
+rapid response
+Steroid hormone:
+Hormone → intracellular receptor → DNA → mRNA → new protein synthesis → slower
+response
+HIGH-YIELD COMPARISON
+Feature Protein/Peptide Hormones Steroid Hormones
+Can cross cell
+membrane?
+No Yes
+Receptor location Plasma membrane Cytoplasm or nucleus
+Main mechanism Second messengers Gene regulation
+Examples Insulin, peptide hormones Cortisol, estrogen,
+androgens
+Major signaling
+molecules
+cAMP, Ca²⁺, IP₃, DAG Hormone-receptor
+complex
+Main cellular effect Activates existing
+proteins/enzymes
+Stimulates new protein
+synthesis
+Speed Usually faster Usually slower
+
+-- 9 of 13 --
+
+HIGH-YIELD RECEPTOR CONCEPTS
+Specificity
+Correct receptor = correct hormone response
+High affinity
+Strong receptor-hormone binding → effective even at low hormone
+concentrations
+Upregulation
+↑ receptor number → ↑ sensitivity
+Example:
+FSH → ↑ LH receptors in granulosa cells
+Downregulation
+↓ receptor number → ↓ sensitivity/resistance
+Example:
+Persistently high hormone/agonist exposure → receptor loss → reduced response
+Most important distinction
+STEROIDS:
+Enter cell → bind intracellular receptor → affect DNA → make new proteins
+PROTEIN/PEPTIDE HORMONES:
+Bind membrane receptor → use second messenger → activate existing cell
+machinery
+METABOLISM OF HORMONES
+Hormone activity is limited by how quickly hormones are metabolized and removed
+from the body.
+The metabolism process is different for steroid, thyroid, and protein hormones.
+1. Steroid Hormone Metabolism
+Steroid hormones are mainly metabolized in the liver.
+The usual process is:
+Steroid → reduction → conjugation → increased water solubility → excretion in urine
+Step 1: Reduction
+The steroid molecule is chemically modified, usually by reduction.
+Step 2: Conjugation
+The modified steroid is combined with:
+• Sulfates
+• Glucuronides
+This process is called conjugation.
+Why is conjugation important?
+Steroid hormones are naturally lipid-soluble. Conjugation makes them much more
+water-soluble.
+Therefore:
+Water-soluble steroid metabolites → easier removal → excreted in urine
+Main organ:
+Liver
+2. Thyroid Hormone Metabolism
+During metabolism of thyroid hormones, iodine molecules are removed from the
+hormone.
+This process is called deiodination.
+So:
+Thyroid hormone → removal of iodine → metabolites
+3. Protein Hormone Metabolism
+Protein hormones are broken down by enzymes called peptidases.
+If the protein hormone contains disulfide bonds, these bonds are first reduced
+before the protein is cleaved.
+Basic sequence:
+Disulfide bond reduction → peptidase cleavage → smaller hormone
+fragments/metabolites
+4. Are Hormone Metabolites Always Inactive?
+Usually, a hormone metabolite is less biologically active than the original hormone.
+However, this is not always true.
+Some steroid metabolites or conjugates may still have significant biological activity.
+Example 1: Testosterone → Dihydrotestosterone (DHT)
+Testosterone → DHT
+This conversion occurs inside certain tissues.
+The question is whether this should be considered "metabolism" because:
+• DHT is produced from testosterone.
+• However, DHT is more biologically potent than testosterone.
+Therefore, not every metabolic conversion makes a hormone less active.
+Example 2: Estradiol → Estrone
+Peripheral tissues, including adipose tissue, can convert:
+Estradiol-17β → Estrone
+This is considered a form of hormone metabolism.
+However:
+• Estrone is a natural estrogen
+• It is still relatively potent biologically
+Key point:
+Metabolism does not always mean complete loss of biological activity.
+5. Hormone Clearance
+Clearance refers to how quickly a hormone is removed from the blood.
+In most situations, hormone metabolism and clearance are relatively constant.
+
+-- 10 of 13 --
+
+Therefore, the concentration of a hormone in the blood usually reflects its rate of
+synthesis/secretion.
+Simple relationship:
+↑ Hormone synthesis/secretion → ↑ Blood hormone concentration
+↓ Hormone synthesis/secretion → ↓ Blood hormone concentration
+This is because the rate at which the hormone is normally cleared tends to remain
+fairly stable.
+6. Factors That Can Change Hormone Clearance
+Although clearance is usually relatively constant, it can change under certain
+conditions.
+Pregnancy
+In humans, pregnancy can increase the production of hormone-binding plasma
+proteins.
+More hormone may become bound to these proteins, which can decrease hormone
+clearance.
+Liver disease
+Liver disease can decrease the amount of hormone-binding proteins.
+This may increase hormone clearance in some situations.
+Important idea:
+Changes in binding proteins can alter the rate at which hormones are cleared from
+the circulation.
+FEEDBACK CONTROL MECHANISMS
+Hormone concentrations must be carefully controlled because the effects of
+hormones depend on their concentration in the blood.
+The main factor determining blood hormone concentration is generally the rate of
+hormone secretion.
+The body uses feedback systems to keep hormone levels within an appropriate
+range.
+7. Negative Feedback
+Negative feedback is the most important and most common hormone control
+system.
+In negative feedback:
+↑ Hormone concentration → ↓ further hormone production/secretion
+The purpose is to prevent hormone levels from becoming too high and to help
+maintain a stable internal environment.
+Basic principle:
+Too little hormone → increase production
+Enough/too much hormone → decrease production
+This creates a continuous adjustment toward the optimal hormone concentration.
+8. Hypothalamus-Pituitary Negative Feedback
+The hypothalamus and anterior pituitary gland are important control centers for
+many endocrine systems.
+When hormone levels are too low:
+↓ Target gland hormone
+→ hypothalamus detects the low level
+→ ↑ releasing hormone
+→ anterior pituitary releases more tropic hormone
+→ target endocrine organ is stimulated
+→ ↑ target hormone production
+When hormone levels are too high:
+↑ Target gland hormone
+→ hypothalamus decreases releasing hormone
+→ anterior pituitary decreases tropic hormone
+→ target organ decreases hormone production
+→ ↓ target hormone
+General flow:
+Low target hormone → ↑ Hypothalamic releasing hormone → ↑ Pituitary tropic
+hormone → ↑ Target gland hormone
+High target hormone → ↓ Hypothalamic releasing hormone → ↓ Pituitary tropic
+hormone → ↓ Target gland hormone
+9. Negative Feedback Is Continuous, Not "All-or-None"
+The endocrine system does not simply switch hormone production completely on or
+off.
+Instead, hormone production is continuously adjusted.
+The system constantly monitors hormone concentrations and makes small changes
+to keep the level near the desired physiological set point.
+Key concept:
+Negative feedback = continuous adjustment toward an optimal level
+10. Negative Feedback Can Also Control Physiological Substances
+Negative feedback is not limited to situations where one hormone controls another
+hormone.
+A physiological substance can also trigger a hormonal response that brings the
+substance back toward normal.
+Example: Blood glucose and insulin
+↑ Blood glucose → ↑ insulin secretion → glucose is reduced toward normal
+Although increased glucose causes more insulin, this is still considered negative
+feedback because the final effect of insulin is to decrease the original increase in
+glucose.
+
+-- 11 of 13 --
+
+Simple idea:
+Change in physiological variable → hormone response → variable moves back
+toward normal
+11. Positive Feedback
+Positive feedback is much less common than negative feedback.
+In positive feedback:
+Initial stimulus → increased hormone response → stronger stimulus → even greater
+hormone release
+Instead of opposing the original change, the system amplifies it.
+12. Example of Positive Feedback: LH Surge Before Ovulation
+A classic example is the preovulatory LH surge.
+Sequence:
+Ovarian follicle develops
+→ follicle produces increasing amounts of estrogen
+→ increased estrogen stimulates the hypothalamic-pituitary system
+→ LH secretion increases greatly
+→ large LH surge
+→ ovulation
+→ the stimulus for the LH surge decreases
+Thus:
+↑ Estrogen → ↑ LH → ovulation → estrogen stimulus declines
+The LH surge is therefore a positive-feedback response to increasing estrogen.
+Important point:
+The LH response does not continue forever. There is a definite endpoint:
+Ovulation
+The duration of the LH surge is also influenced by control mechanisms within the
+hypothalamus.
+NEGATIVE VS POSITIVE FEEDBACK
+Feature Negative Feedback Positive Feedback
+Main
+effect
+Opposes the original change Amplifies the original change
+Purpose Maintains stability Produces a major, usually temporary
+event
+Frequency Very common Less common
+Example ↑ Glucose → ↑ insulin → ↓
+glucose
+↑ Estrogen → ↑ LH → ovulation
+End result Returns variable toward
+normal
+Drives process toward a specific
+endpoint
+ENDOCRINE SECRETORY PATTERNS
+Hormones are not always released at a constant rate.
+Their secretion can follow rhythmic patterns that are influenced by factors such as:
+• Sleep
+• Light
+• Other environmental or physiological signals
+13. Circadian Rhythm
+A circadian rhythm is a biological rhythm that follows an approximately 24-hour
+cycle.
+Many daily hormone rhythms are influenced by light or darkness.
+Important terminology:
+Circadian rhythm
+= approximately 24-hour rhythm and is the preferred general term.
+Diurnal rhythm
+= specifically refers to a rhythm associated with activity during the daytime.
+Nocturnal rhythm
+= refers to a rhythm that is active mainly at night.
+Therefore, not every 24-hour rhythm should automatically be called "diurnal."
+14. Ultradian Rhythm
+Hormonal changes can also occur at much shorter intervals.
+A rhythm occurring repeatedly within a day, often approximately every hour, is called
+an:
+Ultradian rhythm
+Example concept:
+Instead of one large hormone release each day, a hormone may be released in
+repeated pulses throughout the day.
+HIGH-YIELD SUMMARY
+Hormone Metabolism
+Steroids
+Reduction → sulfate/glucuronide conjugation → ↑ water solubility → urinary
+excretion
+• Mainly metabolized by the liver
+• Conjugation makes steroids easier to eliminate
+Thyroid hormones
+Iodine is removed during metabolism
+Protein hormones
+Disulfide bonds may be reduced → peptidases cleave the hormone
+Important exception:
+Metabolites are not always inactive.
+
+-- 12 of 13 --
+
+Examples:
+• Testosterone → DHT, which is more potent
+• Estradiol → estrone, which remains a natural and relatively potent estrogen
+FEEDBACK CONTROL
+Negative feedback
+Most common
+↑ Hormone → ↓ further hormone secretion
+Main purpose:
+Maintain stable hormone levels
+Positive feedback
+Less common
+↑ Stimulus → ↑ hormone → stronger response
+Example:
+↑ Estrogen → LH surge → ovulation
+SECRETORY RHYTHMS
+Circadian = approximately 24-hour rhythm
+Diurnal = related to daytime
+Nocturnal = related to nighttime
+Ultradian = shorter rhythms, often occurring about every hour
+One-Line Exam Reminders
+Steroid metabolism:
+Reduction + conjugation → water-soluble → urine
+Protein hormone metabolism:
+Peptidases break them down
+Negative feedback:
+High hormone → decrease production
+Positive feedback:
+Stimulus increases response
+Circadian:
+~24 hours
+Ultradian:
+Shorter than 24 hours
+
+-- 13 of 13 --
+
