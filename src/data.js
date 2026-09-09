@@ -172,57 +172,113 @@ export const lessons = [
     id:2,title:'The body’s control center',sourceTitle:'Hypothalamus & pituitary',subtitle:'Follow the conversation between the brain and its glands—from a neural signal to growth, water balance, and feedback.',pages:11,time:30,tags:['Hypothalamus','Pituitary','Water balance'],
     objectives:['Compare the origins and connections of the anterior and posterior pituitary.','Trace oxytocin and ADH synthesis, transport, and release.','Map anterior pituitary hormones, feedback loops, and GH disorders.'],
     sections:[
-      section('A bridge between brain and body',[1],'The hypothalamus links nervous and endocrine control. It is part of the diencephalon and forms the floor of the third ventricle.',[
-        ['Chemical control','Releasing and inhibitory signals coordinate pituitary secretion; the hypothalamus also regulates autonomic functions.'],
-        ['Anterior pituitary','The adenohypophysis develops from oral ectoderm through Rathke’s pouch. The pars distalis is its main glandular portion.'],
-        ['Posterior pituitary','The neurohypophysis develops from neural ectoderm and is an extension of the hypothalamus.'],
-        ['Other regions','The notes also distinguish the pars intermedia and pars tuberalis.']
-      ],'Anterior: glandular, oral ectoderm. Posterior: neural, hypothalamic extension.'),
-      section('Posterior pituitary: made above, released below',[1,2],'Oxytocin and vasopressin are synthesized in hypothalamic magnocellular neurons, then transported to posterior pituitary nerve endings.',[
-        ['Where synthesis happens','Both supraoptic and paraventricular nuclei contribute; avoid assigning each hormone exclusively to one nucleus.'],
-        ['Processing','Oxytocin is associated with neurophysin I; vasopressin with neurophysin II during precursor processing.'],
-        ['Axonal transport','Secretory granules travel down axons and are stored in nerve terminals.'],
-        ['Release','An action potential reaches the terminal, calcium enters, and granules release hormone by exocytosis into blood.']
-      ],'Hypothalamic synthesis → axonal transport → posterior pituitary storage and release'),
-      section('Oxytocin and vasopressin',[2,3],'These hormones act directly on target tissues, but their physiological roles differ.',[
-        ['Oxytocin','Contracts mammary myoepithelial cells for milk ejection and uterine myometrium for contraction.'],
-        ['Vasopressin / ADH','Its primary role is antidiuresis: promoting renal water retention. It also has a vascular smooth-muscle pressor effect.'],
-        ['Species names','Most species use arginine vasopressin; pigs have lysine vasopressin; birds have arginine vasotocin.'],
-        ['Release signals','Increased plasma osmolality, decreased blood volume, or decreased blood pressure stimulate vasopressin release.']
-      ],'Higher osmolality → more ADH → more water retained → osmolality moves toward normal.'),
-      section('When water regulation goes wrong',[3,4,5],'Diabetes insipidus (DI) involves failure to conserve water because ADH is deficient or the kidneys fail to respond.',[
-        ['Central DI','Insufficient ADH secretion. Typical study findings include polyuria, polydipsia, and persistently dilute urine.'],
-        ['Nephrogenic DI','The kidney fails to respond appropriately despite the presence of ADH.'],
-        ['Primary polydipsia','Excessive drinking can dilute plasma, contrasting with the tendency toward dehydration and higher osmolality in DI.'],
-        ['Testing principle','An ADH response helps distinguish hormone deficiency from renal resistance. Water deprivation is a supervised veterinary diagnostic procedure; renal failure and other causes of PU/PD must first be excluded.'],
-        ['SIADH','ADH is released without an appropriate osmotic or volume stimulus. The unit discusses associations with ectopic neoplasia.']
-      ],'Central DI = insufficient signal. Nephrogenic DI = insufficient target response.'),
-      section('Meet the anterior pituitary hormones',[5,6],'Each hormone is associated with a characteristic pituitary cell type and target function.',[
-        ['GH & PRL','Somatotropes produce growth hormone; lactotropes produce prolactin. These related protein hormones are called somatomammotropins.'],
-        ['TSH, FSH & LH','Thyrotropes produce TSH; gonadotropes produce FSH and LH. Their glycoprotein structure has a common alpha subunit and a beta subunit that confers specificity.'],
-        ['ACTH','Corticotropes process POMC to produce ACTH, which stimulates the adrenal cortex.'],
-        ['POMC products','Processing differs by pituitary region. The pars intermedia produces alpha-MSH; related processing also yields beta-endorphins.'],
-        ['GH and the liver','GH stimulates IGF-1 production, giving it an indirect, tropic role as well as direct effects.']
-      ],'Somatotrope → GH · Lactotrope → PRL · Thyrotrope → TSH · Gonadotrope → FSH/LH · Corticotrope → ACTH'),
-      section('Portal vessels and hypothalamic signals',[7,8],'The hypophyseal portal system carries hypothalamic regulatory hormones directly to the anterior pituitary without first diluting them throughout systemic blood.',[
-        ['Route','Median eminence capillaries → portal veins → pars distalis capillary network.'],
-        ['Releasing signals','CRH stimulates ACTH; GnRH stimulates FSH and LH; TRH stimulates TSH; GHRH stimulates GH.'],
-        ['Inhibitory signals','Somatostatin inhibits GH. Dopamine inhibits prolactin and is a catecholamine rather than a peptide.'],
-        ['Long-loop feedback','A target-gland hormone inhibits upstream control: cortisol inhibits CRH and ACTH.'],
-        ['Short-loop feedback','A pituitary hormone feeds back to the hypothalamus, such as ACTH inhibition of CRH. Gonadotropin secretion remains pulsatile.']
-      ],'CRH → ACTH → cortisol; cortisol feeds back to the hypothalamus and pituitary.'),
-      section('Too little GH: pituitary dwarfism',[8,9],'Insufficient pituitary GH can cause proportionate dwarfism. Multiple hormone deficiencies may coexist in panhypopituitarism.',[
-        ['Typical presentation','Young German Shepherd dogs are a classic example in the unit. Slow growth may be accompanied by retained puppy coat and delayed dental eruption.'],
-        ['Other signs','Truncal alopecia, hyperpigmentation, and immature genitalia can occur.'],
-        ['Broader assessment','Other causes of poor growth include hypothyroidism, nutritional problems, parasitism, and portosystemic shunts.'],
-        ['IGF-1','IGF-1 is a more stable marker of the GH axis than a single pulsatile GH measurement. Other pituitary axes may also need assessment.']
-      ],'Proportionate poor growth + retained puppy coat → recall the GH axis.'),
-      section('Too much GH: hypersomatotropism',[9,10,11],'Chronic GH excess in an adult produces acromegalic changes and often marked insulin resistance.',[
-        ['Species contrast','The unit associates feline disease with GH-secreting pituitary tumors and canine disease with progestational stimulation of mammary GH.'],
-        ['A useful pattern','Poorly controlled diabetes accompanied by weight gain or increased lean mass raises suspicion of GH excess.'],
-        ['Physical changes','Organ enlargement and enlarged paws, jaw, tongue, or skull may occur.'],
-        ['Evaluation','IGF-1 and pituitary imaging support assessment in cats. Other causes of insulin resistance must also be considered.']
-      ],'GH excess → insulin resistance + tissue growth; IGF-1 helps assess the axis.')
+      section('1. The hypothalamus and pituitary: a brain–endocrine bridge',[1],'The hypothalamus is the major connection between the nervous and endocrine systems. It produces releasing hormones, inhibitory hormones, other peptides, and amines that coordinate the pituitary; it also controls important autonomic functions.',[
+        ['Location','The hypothalamus is part of the diencephalon and forms the floor of the third ventricle. Important neighboring structures include the optic chiasma, tuber cinereum, mammillary bodies, and median eminence.'],
+        ['Pituitary relationship','The infundibulum and neurohypophysis are extensions of hypothalamic tissue into the pituitary region.'],
+        ['Tropic versus direct action','A tropic hormone stimulates another endocrine gland, such as pituitary ACTH stimulating the adrenal cortex. Prolactin acts more directly on milk-producing tissue.'],
+        ['Four pituitary regions','Adenohypophysis (anterior pituitary, mainly pars distalis), neurohypophysis (posterior pituitary, mainly pars nervosa), pars intermedia, and pars tuberalis.'],
+        ['Embryology','The adenohypophysis grows upward from oral ectoderm as Rathke’s pouch. The neurohypophysis grows downward from neural ectoderm in the floor of the third ventricle.']
+      ],'Anterior pituitary = oral ectoderm and glandular tissue. Posterior pituitary = neural ectoderm and hypothalamic extension.',{
+        caption:'Pituitary regions and origin',headers:['Region','Main identity','Embryonic / anatomical relationship'],rows:[
+          ['Adenohypophysis','Anterior pituitary; pars distalis','Upward oral-ectoderm extension (Rathke’s pouch)'],['Neurohypophysis','Posterior pituitary; pars nervosa','Downward neural-ectoderm extension of hypothalamus'],['Pars intermedia','Intermediate lobe','Part of adenohypophysis'],['Pars tuberalis','Tuberal portion','Part of pituitary around the stalk']
+        ]}),
+      section('2. Posterior pituitary: neurosecretory neurons',[1,2],'The neurohypophysis is an extension of the hypothalamus, not an independent gland that makes its own oxytocin and vasopressin. Its nerve cell bodies are in the hypothalamus and their axons terminate in the posterior pituitary.',[
+        ['Neurosecretory neurons','They receive neural input but do not primarily innervate other neurons. Instead, they release their secretory products into blood so the hormones can reach distant tissues.'],
+        ['Two nuclei','Most cell bodies are in the supraoptic and paraventricular nuclei. Both nuclei can contribute to both oxytocin and vasopressin; assigning one hormone exclusively to one nucleus is an oversimplification.'],
+        ['Vasopressin precursor','Vasopressin begins as prepropressoPhysin. Removal of the pre-segment creates a prohormone; axonal processing produces vasopressin and neurophysin II.'],
+        ['Oxytocin precursor','Oxytocin begins as preprooxyphysin. Processing produces oxytocin and neurophysin I. Neurophysin I is released with oxytocin and can serve as an indicator of oxytocin release, although its physiological role is uncertain.'],
+        ['Release sequence','Neural stimulation → depolarization → action potential down the axon → Ca²⁺ entry at the terminal → granule fusion → exocytosis into blood.']
+      ],'Hypothalamic cell body → axonal transport → posterior pituitary nerve terminal → blood.',{
+        caption:'Posterior pituitary hormone handling',headers:['Stage','Oxytocin','Vasopressin / ADH'],rows:[
+          ['Preprohormone','Preprooxyphysin','PrepropressoPhysin'],['Associated neurophysin','Neurophysin I','Neurophysin II'],['Made in','Hypothalamic magnocellular neurons','Hypothalamic magnocellular neurons'],['Released from','Posterior pituitary nerve terminals','Posterior pituitary nerve terminals']
+        ]}),
+      section('3. Oxytocin and vasopressin / ADH',[2,3],'The two principal posterior-pituitary hormones act directly on target tissues after being synthesized in the hypothalamus.',[
+        ['Oxytocin: mammary gland','It contracts myoepithelial cells around mammary alveoli, pushing milk into ducts and cisterns for milk ejection.'],
+        ['Oxytocin: uterus','It contracts uterine myometrium and contributes to uterine contraction.'],
+        ['ADH: kidney','Its primary role is antidiuresis, promoting renal water retention and supporting body-water balance.'],
+        ['ADH: blood vessels','Its secondary pressor action contracts vascular smooth muscle and can increase blood pressure.'],
+        ['Species forms','Most species have arginine vasopressin (AVP); pigs have lysine vasopressin; birds have arginine vasotocin.']
+      ],'Oxytocin contracts mammary and uterine smooth muscle. ADH conserves water and can raise vascular tone.'),
+      section('4. How vasopressin release is controlled',[2,3],'The most important stimulus for ADH release is increased plasma osmolality, but volume and pressure receptors also contribute.',[
+        ['Osmotic control','Increased plasma osmolality means too little water relative to solute. Hypothalamic osmoreceptors fire more, vasopressin neurons release ADH, kidneys retain water, and osmolality moves back toward normal.'],
+        ['Rapid drinking signal','Receptors in the esophagus and stomach can detect water intake before a large change in plasma osmolality occurs.'],
+        ['Volume control','Decreased blood volume alters atrial stretch-receptor signaling and increases ADH release.'],
+        ['Pressure control','Reduced blood pressure stimulates baroreceptors in the carotid sinus and aortic arch, which also increase ADH release.'],
+        ['Feedback','The body normally keeps the solute-to-water relationship within a narrow range; ADH is part of a negative-feedback loop.']
+      ],'↑ plasma osmolality, ↓ blood volume, or ↓ blood pressure → ↑ ADH → water retention.',{
+        caption:'Major stimuli for ADH release',headers:['Stimulus','Sensor / pathway','Result'],rows:[
+          ['↑ Plasma osmolality','Hypothalamic osmoreceptors','↑ ADH → kidney retains water'],['↓ Blood volume','Atrial stretch receptors and hypothalamic pathways','↑ ADH → supports circulating volume'],['↓ Blood pressure','Carotid-sinus and aortic-arch baroreceptors','↑ ADH → water retention and pressor support'],['Water intake','Esophageal and gastric receptors','Early adjustment before osmolality changes']
+        ]}),
+      section('5. Diabetes insipidus, primary polydipsia, and SIADH',[3,4],'Disorders of ADH secretion or response produce characteristic water-balance patterns. The clinical signs can be striking even when routine bloodwork is otherwise normal.',[
+        ['Central DI','There is insufficient circulating ADH. Primary causes include idiopathic or congenital disease; secondary causes include head trauma and neoplasia.'],
+        ['Nephrogenic DI','ADH may be present, but the kidney does not respond appropriately.'],
+        ['Clinical pattern','Profound polyuria, polydipsia, nocturia, urinary incontinence, weight loss, and dehydration can occur. The unit notes that young adults around six months may be commonly affected, but DI can occur at any age, breed, or sex.'],
+        ['Typical measurements','Urine / water intake may exceed 100 mL/kg/day versus a normal approximate 40–70 mL/kg/day. Plasma osmolality is often >310 mOsm/L in DI; urine specific gravity may remain around 1.004–1.012.'],
+        ['Primary polydipsia','Excessive drinking itself can cause overhydration and plasma osmolality often <290 mOsm/L, contrasting with dehydrated DI.'],
+        ['Secondary dehydration findings','If water access is inadequate, hematocrit may rise slightly and hypernatremia may develop; these are consequences of dehydration rather than the primary defect.'],
+        ['Testing and safety','A modified water-deprivation test asks whether endogenous ADH is released during dehydration and whether kidneys respond to it. ADH supplementation can help separate deficiency from renal resistance. Rule out common PU/PD causes and renal failure first; water deprivation in an animal with unrecognized renal failure can cause serious illness.'],
+        ['SIADH','Vasopressin is secreted without a proper osmotic or volume stimulus. It is rare and is often associated with neoplasia, including ectopic ADH-producing tumors; the lungs are a common site discussed in the unit.']
+      ],'Central DI = too little ADH. Nephrogenic DI = kidney resistance. SIADH = inappropriate ADH.',{
+        caption:'Conceptual comparison of water-balance disorders',headers:['Condition','Primary problem','Expected pattern'],rows:[
+          ['Central DI','Insufficient ADH secretion','PU/PD, dilute urine, often high plasma osmolality'],['Nephrogenic DI','Kidney does not respond to ADH','PU/PD, dilute urine, often high plasma osmolality'],['Primary polydipsia','Excessive water intake','Overhydration and often low plasma osmolality'],['SIADH','Inappropriate ADH release','ADH despite no appropriate osmotic / volume stimulus']
+        ]}),
+      section('6. Anterior pituitary hormones and POMC',[5,6],'The adenohypophysis contains pars distalis and pars intermedia. Six major anterior-pituitary hormones are GH, PRL, TSH, FSH, LH, and ACTH.',[
+        ['GH / somatotropin','Produced by acidophilic somatotropes. It is a single-chain protein with two disulfide bonds.'],
+        ['PRL','Produced by lactotropes. It is also a single-chain protein, with three disulfide bonds. GH and PRL share about 50% amino-acid similarity, but GH activity is strongly species-specific.'],
+        ['TSH, FSH, and LH','Produced by thyrotropes and gonadotropes. They are glycoproteins with a shared alpha subunit and hormone-specific beta subunits held together noncovalently.'],
+        ['Other glycoproteins','eCG, formerly pregnant mare’s serum gonadotropin, and primate chorionic gonadotropin are placental members of the broader glycoprotein family.'],
+        ['POMC in pars distalis','Corticotropes process POMC to ACTH, which stimulates the adrenal cortex, especially cortisol production.'],
+        ['POMC in pars intermedia','Processing produces α-MSH as the predominant product and corticotropin-like intermediate-lobe peptide of uncertain function. β-lipotropin can yield β-endorphins and γ-lipotropin; β-endorphins have opioid activity and may modulate gonadotropin secretion.']
+      ],'Shared alpha subunit; specific beta subunit. POMC processing depends on pituitary region.',{
+        caption:'Anterior pituitary cells and products',headers:['Cell / region','Hormone or product','Key point'],rows:[
+          ['Somatotrope','GH','Growth; stimulates IGF-1'],['Lactotrope','PRL','Mammary / reproductive functions'],['Thyrotrope','TSH','Stimulates thyroid'],['Gonadotrope','FSH and LH','Gonadal function and ovulation'],['Corticotrope / pars distalis','ACTH from POMC','Stimulates adrenal cortex'],['Pars intermedia','α-MSH and related peptides','Regional POMC processing']
+        ]}),
+      section('7. Hypothalamic control and the portal system',[6,7],'The hypophyseal portal system lets hypothalamic hormones reach the anterior pituitary without first being diluted throughout general circulation. Popa and Fielding described the connecting vessels in the 1930s; Geoffrey Harris later concluded that blood flows from hypothalamus to anterior pituitary through this portal system.',[
+        ['Vascular route','Dorsal hypophyseal artery → capillary network in median eminence → portal veins → capillary / sinusoidal network in pars distalis.'],
+        ['Regional supply','The dorsal hypophyseal artery supplies the adenohypophysis; the ventral hypophyseal artery supplies the neurohypophysis. Two portal venous pathways supply ventral / central and dorsal / peripheral pars-distalis regions.'],
+        ['Hypophysiotropic hormones','Releasing and inhibiting hormones enter the median eminence, travel in portal blood, and control anterior-pituitary secretion. Neural and hormonal signals regulate their production; related hormones can also be found in brain, gastrointestinal tract, and pancreas.'],
+        ['Core sequence','Hypothalamus → releasing / inhibiting hormone → portal blood → anterior pituitary → pituitary hormone.']
+      ],'Portal blood keeps hypothalamic signals concentrated at the anterior pituitary.',{
+        caption:'Major hypothalamic regulators',headers:['Hormone','Abbreviation','Main pituitary effect'],rows:[
+          ['Corticotropin-releasing hormone','CRH','↑ ACTH and POMC-derived peptides'],['Gonadotropin-releasing hormone','GnRH','↑ FSH and LH'],['Thyrotropin-releasing hormone','TRH','↑ TSH'],['Growth hormone-releasing hormone','GHRH','↑ GH'],['Somatostatin / GH-inhibiting hormone','GHIH','↓ GH'],['Dopamine / prolactin-inhibiting hormone','PIH','↓ PRL and also ↓ TSH'],['Prolactin-releasing factor','PRF','Stimulates PRL; source uncertain']
+        ]}),
+      section('8. Hypothalamic peptides, tropic hormones, and feedback',[7,8],'The hypothalamic signals differ in size and chemistry, and the anterior-pituitary hormones participate in both direct actions and endocrine axes.',[
+        ['Peptide details','CRH is a 41-amino-acid peptide; GnRH is a decapeptide; TRH is a tripeptide; GHRH is a 44-amino-acid polypeptide; somatostatin is a tetradecapeptide. Dopamine is the exception: it is a catecholamine.'],
+        ['Tropic hormones','FSH, LH, TSH, and ACTH act on other endocrine tissues. GH is also considered tropic because it stimulates the liver to produce IGF-1 (somatomedin), which contributes to GH feedback. PRL remains the major anterior-pituitary hormone without demonstrated target-hormone negative feedback.'],
+        ['Long-loop feedback','CRH → ACTH → adrenal cortex → cortisol; cortisol inhibits both hypothalamic CRH and pituitary ACTH.'],
+        ['Short-loop feedback','A pituitary hormone can inhibit its hypothalamic releasing hormone; ACTH inhibition of CRH is the example in the unit.'],
+        ['Pulsatile gonadotropins','FSH and LH alternate between secretion and no secretion. Progesterone-dominant states produce lower pulse frequency and higher amplitude; estrogen-dominant states produce higher frequency and lower amplitude.']
+      ],'Long loop = target-gland hormone acts on hypothalamus and pituitary. Short loop = pituitary hormone acts on hypothalamus.',{
+        caption:'Feedback patterns',headers:['Pattern','Example','Targets / result'],rows:[
+          ['Long-loop','CRH → ACTH → cortisol','Cortisol inhibits CRH and ACTH'],['Short-loop','ACTH →| CRH','Pituitary signal inhibits hypothalamic release'],['Pulsatile secretion','FSH / LH pulses','Frequency and amplitude vary with ovarian hormonal state']
+        ]}),
+      section('9. Growth hormone deficiency: pituitary dwarfism',[8,9],'Pituitary dwarfism results from insufficient GH due to pituitary damage or abnormal development. Other pituitary hormones may also be deficient, producing panhypopituitarism.',[
+        ['Typical dogs','It is classically described in German Shepherd dogs around 2–6 months old and is inherited as an autosomal-recessive trait associated with a cystic Rathke’s pouch. Other reported breeds include Carnelian bear dogs, Spitz-type dogs, Toy Pinschers, and Weimaraners.'],
+        ['Early signs','Slow growth, proportionate dwarfism, developmental delay or mental retardation, and difficulty with house training.'],
+        ['Physical signs','Retained puppy hair coat, hypotonic skin, truncal alopecia, hyperpigmentation, infantile genitalia, and delayed dental eruption.'],
+        ['Laboratory findings','Possible eosinophilia, lymphocytosis, mild normocytic normochromic anemia, hypophosphatemia, and sometimes hypoglycemia from secondary adrenal insufficiency when ACTH is deficient.'],
+        ['Differentials','Hypothyroid dwarfism, portosystemic shunt, diabetes mellitus, hyperadrenocorticism, malnutrition, and parasitism can also cause stunted growth.'],
+        ['Diagnosis','Serum GH and IGF-1 may be measured. IGF-1 is more stable and not species-specific; GH assays for dogs and cats are often unavailable. Subnormal TSH and ACTH responses can suggest multiple pituitary deficiencies.']
+      ],'Young, proportionate, slow growth plus retained puppy coat should prompt assessment of the GH axis.'),
+      section('10. Acromegaly / hypersomatotropism',[9,10,11],'Acromegaly is chronic excessive GH secretion in an adult. It contrasts with juvenile GH deficiency and is strongly associated with insulin resistance.',[
+        ['Causes by species','In dogs it is rare and usually associated with progestational drugs given to intact females for estrus suppression; mammary tissue is stimulated to produce excess GH. In cats it is usually caused by a slowly growing GH-secreting anterior-pituitary tumor, especially in older males around 8–14 years.'],
+        ['Initial clues','Polyuria, polydipsia, and polyphagia may resemble poorly controlled diabetes mellitus, but weight gain or increased lean body mass despite uncontrolled diabetes is a major clue.'],
+        ['Growth changes','Renomegaly, hepatomegaly, endocrine-organ enlargement, larger paws, jaw, tongue, forehead, or skull, and increased muscle mass can occur.'],
+        ['Later complications','Cardiomegaly, systolic murmurs, congestive heart failure, and azotemia may develop; approximately half of acromegalic cats may eventually develop azotemia. Neurologic signs common in human acromegaly are generally not typical in small animals.'],
+        ['Diabetes mechanism','GH increases insulin resistance and impairs glucose tolerance. Insulin concentrations can be very high and ketosis is uncommon. Suspect acromegaly in a diabetic cat, especially a male, with extreme insulin resistance.'],
+        ['Diagnosis','IGF-1 is practical because it is stable and not species-specific. In cats, increased IGF-1 plus CT or MRI of the pituitary region is the most definitive approach discussed. Exclude other insulin-resistance causes such as hyperthyroidism and hyperadrenocorticism. Around 30% of diabetic cats that fail remission with an ultra-low-carbohydrate diet and insulin may be acromegalic.']
+      ],'GH deficiency harms growth early; GH excess in adults causes tissue growth and severe insulin resistance.',{
+        caption:'GH disorders in the unit',headers:['Feature','Pituitary dwarfism','Acromegaly / hypersomatotropism'],rows:[
+          ['Timing','Juvenile','Adult'],['GH state','Deficient','Excessive'],['Signature pattern','Proportionate slow growth, retained puppy coat','Insulin-resistant diabetes plus acral / organ growth'],['Useful marker','IGF-1; other pituitary axes','IGF-1 plus imaging when indicated'],['Classic veterinary context','Young German Shepherd','Older male cat or progestational-drug exposure in dog']
+        ]}),
+      section('11. Lesson 2 high-yield chains',[1,11],'Use these chains after studying the complete notes and before beginning the flashcards.',[
+        ['Posterior pituitary','Hypothalamic synthesis → axonal transport → posterior-pituitary release.'],
+        ['ADH control','↑ osmolality or ↓ volume / pressure → ↑ ADH → renal water retention.'],
+        ['DI','Central = ↓ ADH. Nephrogenic = kidney resistance. Both commonly cause PU/PD and dilute urine.'],
+        ['Anterior pituitary','CRH → ACTH; GnRH → FSH/LH; TRH → TSH; GHRH → GH; somatostatin → ↓ GH; dopamine → ↓ PRL.'],
+        ['Feedback','CRH → ACTH → cortisol; cortisol inhibits CRH and ACTH.'],
+        ['GH disorders','Deficient juvenile GH → dwarfism. Excess adult GH → acromegaly and insulin resistance.']
+      ],'If you can explain the direction of every arrow, you are ready to test yourself.')
     ],
     questions:[
       mc('Which structure forms the floor of the third ventricle?','Hypothalamus',['Pars distalis','Adrenal cortex','Thyroid follicle'],'The hypothalamus is part of the diencephalon and forms the third ventricle floor.',1),
@@ -261,59 +317,133 @@ export const lessons = [
     id:3,title:'Small gland, wide-reaching effects',sourceTitle:'The thyroid gland',subtitle:'Explore thyroid hormone synthesis, metabolism, and the patterns that connect a gland’s activity to the whole animal.',pages:17,time:35,tags:['Thyroid','Metabolism','Veterinary patterns'],
     objectives:['Trace T3 and T4 synthesis, colloid storage, and release.','Explain transport, peripheral conversion, and feedback.','Compare canine hypothyroid and feline hyperthyroid patterns.'],
     sections:[
-      section('Inside a thyroid follicle',[1,2],'A thyroid follicle is a ring of follicular cells surrounding a lumen filled with colloid. The colloid provides an unusual extracellular hormone reserve.',[
-        ['Follicular cells','Produce thyroglobulin and the thyroid hormones T3 and T4.'],
-        ['Parafollicular cells','C cells produce calcitonin, which participates in calcium regulation.'],
-        ['Thyroglobulin','This large protein provides tyrosine residues used to build thyroid hormones. It is secreted into the follicular lumen.'],
-        ['Storage','T3 and T4 remain attached to thyroglobulin within the colloid until they are released.']
-      ],'Follicular cells → T3/T4. C cells → calcitonin. Colloid → hormone reserve.'),
-      section('Building T3 and T4',[1,2],'Iodine and tyrosine come together on thyroglobulin. Iodination and coupling form the thyroid hormones.',[
-        ['Iodide trapping','Follicular cells actively concentrate iodide from the circulation and transfer it toward the colloid.'],
-        ['Organification','Iodine is attached to tyrosine residues: one iodine forms MIT, two form DIT.'],
-        ['Coupling','MIT + DIT forms T3. DIT + DIT forms T4.'],
-        ['The key enzyme','Thyroperoxidase (TPO), working with hydrogen peroxide, supports iodination and coupling.'],
-        ['Release and recycling','Thyroglobulin is taken back into cells and degraded in lysosomes. T3/T4 enter blood; iodine and tyrosine from MIT/DIT are recycled.']
-      ],'Iodide uptake → MIT/DIT → coupling → colloid storage → lysosomal release'),
-      section('Conversion and circulating carriers',[2,3,4],'The thyroid secretes mostly T4. Peripheral conversion supplies much of the body’s active T3.',[
-        ['Outer-ring deiodination','Removal of an outer-ring iodine converts T4 into active T3. Liver, kidney, and muscle contribute.'],
-        ['Inner-ring deiodination','This produces reverse T3, which has little biological activity compared with T3.'],
-        ['Plasma transport','Most circulating thyroid hormone is bound to proteins. The free fraction is available to target tissues.'],
-        ['Carrier contrast','TBG has high affinity and low capacity. Albumin has low affinity and high capacity; the notes emphasize its importance in cats.'],
-        ['Dynamic balance','Illness, drugs, and changing binding proteins can shift free/bound relationships and complicate interpretation of total values.']
-      ],'The thyroid mainly supplies T4; peripheral tissues help determine active T3 availability.'),
-      section('Metabolism and duration',[4,5],'Deiodination is the major metabolic pathway. Conjugation with sulfates and glucuronides provides additional routes.',[
-        ['An active conversion','T4 → T3 is the major reminder that removing iodine does not always inactivate a hormone.'],
-        ['Elimination','Metabolites are eliminated in urine; biliary and intestinal handling also participate in iodine recycling.'],
-        ['Protein binding','Stronger plasma binding helps protect hormone from rapid clearance.'],
-        ['Species matter','The unit contrasts human T4 persistence of about 6–7 days with a T4 half-life below 24 hours in dogs and cats. Do not transfer human time scales directly to veterinary species.']
-      ],'Binding and species differences influence how long a hormone remains in circulation.'),
-      section('What thyroid hormones do',[5,6,7],'Thyroid hormones regulate basal metabolic activity and support growth, development, and normal nervous-system function.',[
-        ['Cellular action','Intracellular receptors influence gene transcription and the production of proteins.'],
-        ['Calorigenic effect','Oxygen consumption and heat production increase.'],
-        ['Nutrient metabolism','Thyroid hormones influence glucose handling, protein turnover, and lipolysis. Excess hormone favors increased nutrient use.'],
-        ['Cholesterol','Thyroid hormones promote cholesterol clearance; deficiency can contribute to hypercholesterolemia.'],
-        ['Growth and sympathetic effects','They cooperate with GH and support fetal/neonatal nervous-system development. Increased beta-adrenergic responsiveness contributes to stronger cardiac and sympathetic effects.']
-      ],'Think metabolism, heat, growth, brain development, and adrenergic responsiveness.'),
-      section('Feedback and goitrogens',[7,8,9],'The hypothalamic–pituitary–thyroid axis adjusts thyroid stimulation through negative feedback.',[
-        ['The axis','Hypothalamic TRH → anterior pituitary TSH → thyroid T3/T4. Thyroid hormones reduce upstream stimulation.'],
-        ['TSH action','TSH supports thyroid hormone production and thyroid tissue growth.'],
-        ['Goiter','Impaired hormone synthesis can increase compensatory stimulation and enlarge the thyroid. Enlargement alone does not specify hormone output.'],
-        ['Goitrogen contrast','The unit describes goitrin as interfering with organification and thiocyanate as interfering with iodide trapping.']
-      ],'TRH → TSH → T3/T4; thyroid hormone feeds back to reduce stimulation.'),
-      section('Canine hypothyroidism',[9,10,11,12,13],'A hypometabolic pattern can include lethargy, weight gain, and characteristic coat changes. These findings guide assessment but are not diagnostic by themselves.',[
-        ['Level of the problem','Primary disease is in the thyroid, secondary in the pituitary, tertiary in the hypothalamus. The unit emphasizes lymphocytic thyroiditis as a primary cause.'],
-        ['Typical pattern','Lethargy, obesity, symmetrical alopecia, dry coat, and poor hair regrowth. Hypercholesterolemia and mild anemia may be present.'],
-        ['Low TT4 is not enough','Breed, age, concurrent illness, and medications affect thyroid measurements. Euthyroid sick syndrome can lower TT4 without primary thyroid failure.'],
-        ['Interpreting a panel','TT4, free T4, and endogenous TSH are considered together with clinical context. Equilibrium dialysis is the preferred FT4 method discussed in the unit.'],
-        ['TSH limitation','Some hypothyroid dogs have normal TSH. TgAA supports evidence of autoimmune thyroid pathology but does not alone establish current hormone deficiency.']
-      ],'Low TT4 alone does not prove hypothyroidism: interpret the patient and the panel.'),
-      section('Feline hyperthyroidism',[13,14,15,16,17],'The contrasting hypermetabolic pattern is weight loss despite increased appetite, often with hyperactivity and tachycardia.',[
-        ['Common pathology','The unit describes adenomatous hyperplasia and autonomous thyroid follicular activity, usually in middle-aged or older cats.'],
-        ['Clinical pattern','Polyphagia, weight loss, increased activity, tachycardia, vomiting or diarrhea, and PU/PD can occur.'],
-        ['Renal interpretation','Increased GFR and loss of muscle mass can mask underlying kidney disease, so apparently normal creatinine requires context.'],
-        ['Testing','TT4 is the usual initial test. FT4 and other investigations can help in equivocal cases but require clinical interpretation.'],
-        ['Evidence matters','Dietary and environmental exposures discussed in the PDF are proposed associations, not established proof of causation.']
-      ],'Dog: slow, weight gain, low thyroid. Cat: fast, weight loss, high thyroid.')
+      section('1. Thyroid location and follicle structure',[1],'In most mammals the thyroid lies caudal to the trachea, commonly around the first or second tracheal ring. It is a major endocrine regulator of metabolism. Each follicle is a circle of follicular cells around a lumen filled with thick, homogeneous colloid.',[
+        ['Follicular cells','Make thyroglobulin and thyroid hormones. Cuboidal cells suggest relatively basal activity; elongated cells indicate active stimulation and release.'],
+        ['Colloid','The lumen contents are the major storage site for thyroid hormone. The stored hormone is outside the cells, attached to thyroglobulin.'],
+        ['Parafollicular cells','C cells sit outside the follicles and produce calcitonin, which participates in calcium regulation.'],
+        ['Memory rule','Follicular cells -> T3 and T4. C cells -> calcitonin.']
+      ],'Follicle = cells + colloid. The colloid is an extracellular thyroid-hormone reserve.',{
+        caption:'Thyroid structures and products',headers:['Structure','Main product or feature','Activity clue'],rows:[
+          ['Follicular cell','Thyroglobulin, T3, and T4','Cuboidal = basal; elongated = actively releasing'],['Colloid / lumen','Extracellular storage of T3/T4 on thyroglobulin','Thick, homogeneous reserve'],['Parafollicular (C) cell','Calcitonin','Outside follicles; calcium regulation']
+        ]}),
+      section('2. Thyroid hormone synthesis: tyrosine, iodine, and TPO',[1,2],'Thyroid hormones are unusual because they are made from the amino acid tyrosine plus iodine, and much of the finished hormone is stored outside the cell.',[
+        ['Thyroglobulin','Follicular cells synthesize this very large protein and secrete it into the follicular lumen. Its tyrosine residues provide the framework for hormone synthesis.'],
+        ['Iodide uptake','Dietary iodine becomes iodide in the gastrointestinal tract. Follicular cells actively trap iodide; intracellular concentration can reach about 25-200 times the extracellular concentration.'],
+        ['Organification','Iodide crosses the apical membrane toward colloid and is attached to thyroglobulin tyrosine. One iodine forms monoiodotyrosine (MIT); two form diiodotyrosine (DIT).'],
+        ['Coupling','MIT + DIT -> T3 (triiodothyronine). DIT + DIT -> T4 (thyroxine / tetraiodothyronine).'],
+        ['Thyroperoxidase','TPO works with hydrogen peroxide to attach iodine and support coupling. Thyroid hormones are the only hormones containing the halogen iodine.']
+      ],'MIT has one iodine; DIT has two. MIT + DIT = T3, and DIT + DIT = T4.',{
+        caption:'Synthesis reactions',headers:['Step','What happens','Product / result'],rows:[
+          ['Iodide trapping','Follicular cell concentrates iodide from blood','Iodide available at colloid'],['Organification','TPO attaches iodine to thyroglobulin tyrosines','MIT or DIT'],['Coupling 1','MIT + DIT','T3 / triiodothyronine'],['Coupling 2','DIT + DIT','T4 / thyroxine']
+        ]}),
+      section('3. Colloid storage, release, and recycling',[2,3],'The thyroid stores a large reserve of hormone outside its cells. When release is needed, thyroglobulin returns to the follicular cell and is dismantled.',[
+        ['Storage advantage','T3 and T4 stay attached to thyroglobulin in colloid. This extracellular reserve can support hormone supply during a period of iodine deficiency.'],
+        ['Release sequence','Colloid thyroglobulin is endocytosed, the vesicle fuses with lysosomes, and lysosomal enzymes cleave thyroglobulin. T3 and T4 then cross the basal membrane into interstitial fluid and blood.'],
+        ['Lipid solubility','Released T3 and T4 can cross the follicular-cell membrane because they are lipid-soluble.'],
+        ['Iodine and tyrosine recovery','Iodotyrosine dehalogenase removes iodine from MIT and DIT. Iodide and tyrosine are recycled for new hormone synthesis.']
+      ],'Colloid -> follicular cell -> lysosome -> T3/T4 into blood; MIT/DIT -> iodide + tyrosine recycled.'),
+      section('4. T4, T3, and reverse T3: peripheral conversion',[2,3,4],'The gland itself secretes mostly T4. Peripheral tissues determine much of the active T3 available to the body.',[
+        ['T4 output','The thyroid makes mostly T4 and only a small amount of T3.'],
+        ['Active conversion','Liver and kidneys have high deiodinating-enzyme concentrations; skeletal muscle contributes a large total amount because it makes up so much body mass. 5-prime monodeiodinase removes iodine from the outer ring: T4 -> T3.'],
+        ['Reverse T3','Inner-ring deiodination produces reverse T3 (rT3), which has little biological activity. The thyroid does not make rT3; it is formed in extrathyroidal tissues.'],
+        ['Interpretation','Thyroid output and tissue conversion are separate steps. A change in conversion can alter activity even when T4 is the main gland product.']
+      ],'Outer-ring deiodination activates T4 to T3. Inner-ring deiodination produces low-activity reverse T3.',{
+        caption:'Peripheral conversion',headers:['Reaction','Iodine removed from','Biological result'],rows:[
+          ['T4 -> T3','Outer ring','Active T3; mainly extrathyroidal'],['T4 -> reverse T3','Inner ring','Little biological activity; extrathyroidal']
+        ]}),
+      section('5. Transport in blood: free and protein-bound hormone',[3,4],'T3 and T4 are lipid-soluble and travel mainly attached to plasma proteins. The free fraction is small but biologically available.',[
+        ['Thyroxine-binding globulin (TBG)','High affinity for T4 and also carries T3; low capacity because plasma concentration is low. TBG is found in domestic animals except cats.'],
+        ['Albumin','Low affinity but high capacity because it is abundant. In cats, which lack TBG, albumin is especially important.'],
+        ['Thyroxine-binding prealbumin','Specifically binds T4 with intermediate affinity and capacity. Prealbumin describes electrophoretic movement, not a precursor to albumin.'],
+        ['Free fraction','Human free T4 is about 0.03% and free T3 about 0.3%. Dogs have somewhat larger fractions: slightly under 1% free T4 and slightly over 1% free T3.'],
+        ['Equilibrium','Bound hormone is a transport and storage reservoir. Bound <-> free hormone continuously adjusts as tissues use the free fraction. Illness, drugs, binding-protein changes, and increased estrogen can shift this balance.']
+      ],'Bound hormone is the reservoir; free hormone can leave plasma and act on target cells.',{
+        caption:'Thyroid hormone carriers',headers:['Protein','Affinity','Capacity / species point'],rows:[
+          ['TBG','High','Low; absent in cats'],['Albumin','Low','High; important in cats'],['Thyroxine-binding prealbumin','Intermediate','Intermediate; binds T4']
+        ]}),
+      section('6. Metabolism, excretion, and half-life',[4,5],'Deiodination is the main metabolic pathway. Conjugation and changes to the alanine portion provide additional inactivation routes.',[
+        ['Deiodination','5-prime and 5-deiodinases remove iodine from the 3 or 5 position. Skeletal muscle, liver, and kidneys are important sites. T4 -> T3 is the major active exception; most other deiodinated products have little activity.'],
+        ['Conjugation','Liver and kidneys attach sulfate or glucuronide groups. This is less common than deiodination.'],
+        ['Other pathways','Transamination and decarboxylation change the alanine portion and contribute to breakdown.'],
+        ['Excretion and recycling','Deiodinated and conjugated forms mostly leave in urine. Some hormone enters bile and feces; intestinal breakdown releases iodide that can return through the enterohepatic cycle. Humans recover iodide more efficiently than dogs through intrathyroidal and enterohepatic recycling.'],
+        ['Half-life','In humans T3 lasts about 1 day and T4 about 6-7 days. Strong protein binding helps T4 last longer. In dogs and cats, T4 half-life is less than 24 hours.']
+      ],'Protein binding and species differences matter when interpreting thyroid-hormone duration.',{
+        caption:'Metabolism and duration',headers:['Topic','Key detail'],rows:[
+          ['Main pathway','Deiodination'],['Other pathways','Sulfate/glucuronide conjugation; transamination; decarboxylation'],['Humans','T3 ~1 day; T4 ~6-7 days'],['Dogs and cats','T4 <24 hours'],['Excretion','Mostly urine; bile/feces also contribute; iodide can recycle']
+        ]}),
+      section('7. Actions of thyroid hormones',[5,6,7],'Thyroid hormones are the primary regulators of basal metabolic activity across nearly all tissues. They behave like lipid-soluble hormones: they cross membranes and act mainly through intracellular and nuclear receptors that affect mRNA transcription; receptors also occur on mitochondria.',[
+        ['Calorigenic effect','They increase oxygen consumption and heat production, with mitochondria as an important site.'],
+        ['Carbohydrates','They increase intestinal glucose absorption, help glucose enter muscle and fat, and increase responsiveness to insulin-mediated uptake. Small amounts can increase glycogen formation; higher amounts promote glycogenolysis.'],
+        ['Proteins and growth','They work with GH, increase amino-acid uptake and protein-synthesis enzyme activity, and are essential for normal growth and development.'],
+        ['Lipids','They increase lipolysis and cellular LDL uptake and breakdown. Deficiency reduces cholesterol clearance and commonly causes hypercholesterolemia. Excess activity is broadly catabolic, increasing use of stored nutrients.'],
+        ['Nervous system','They are essential for fetal and neonatal CNS development. Low adult thyroid activity may cause mental dullness, lethargy, and reduced mental activity.'],
+        ['Sympathetic and cardiovascular effects','They increase beta-adrenergic receptor number or activity, heart rate, contractile force, cardiac output, systolic pressure, and cardiac responsiveness to catecholamines. Diastolic pressure changes little.'],
+        ['Development example','Thyroxine permits amphibian tadpole metamorphosis; after thyroidectomy a tadpole remains large and does not normally become a frog.']
+      ],'Thyroid hormones coordinate metabolism, heat, growth, CNS function, sympathetic tone, and cardiovascular performance.',{
+        caption:'Major actions by system',headers:['System','Principal effects'],rows:[
+          ['Metabolic','Basal metabolism, oxygen use, heat production'],['Carbohydrate','Glucose absorption/uptake; glycogen formation at low levels, glycogenolysis at high levels'],['Protein and growth','Amino-acid uptake, protein synthesis, cooperation with GH'],['Lipid','Lipolysis, LDL uptake and breakdown, lower cholesterol'],['CNS','Fetal/neonatal development; adult alertness'],['Heart / sympathetic','Beta-adrenergic responsiveness, heart rate, contractility, systolic pressure']
+        ]}),
+      section('8. TSH regulation and negative feedback',[7,8],'TSH (thyrotropin) is the main regulator of the thyroid gland. TSH receptor activation uses cAMP and protein kinase signaling to stimulate synthesis, release, and thyroid growth.',[
+        ['Low hormone state','Low T3/T4 means less negative feedback -> increased hypothalamic TRH -> increased pituitary TSH -> thyroid stimulation -> increased T3/T4.'],
+        ['High hormone state','High T3/T4 strengthens feedback -> decreased TRH -> decreased TSH -> reduced thyroid stimulation and production.'],
+        ['Axis','Hypothalamus TRH -> anterior pituitary TSH -> thyroid T4 and T3. T3/T4 inhibit both upstream levels.']
+      ],'TRH -> TSH -> thyroid hormone; T3/T4 feed back to TRH and TSH.',{
+        caption:'Thyroid axis',headers:['Hormone state','Hypothalamus','Pituitary','Thyroid response'],rows:[
+          ['Low T3/T4','TRH increases','TSH increases','Synthesis and release increase'],['High T3/T4','TRH decreases','TSH decreases','Stimulation and production decrease']
+        ]}),
+      section('9. Goiter, goitrogens, and antithyroid drugs',[8,9],'A goiter is thyroid enlargement, often a compensatory response when hormone synthesis is inadequate. Iodine deficiency and dietary or drug goitrogens can interrupt the pathway.',[
+        ['Iodine deficiency','Low iodine -> low hormone synthesis -> increased thyroid stimulation -> gland enlargement. Iodized salt has reduced this problem in many areas.'],
+        ['Goitrogenic plants','Cabbage, kale, rutabaga, turnip, and rapeseed contain progoitrin, converted in the gut to goitrin. Goitrin interferes with organic binding of iodine.'],
+        ['Thiocyanate','Thiocyanates interfere with active iodide trapping. Extra iodine may partly overcome thiocyanate but is much less effective against goitrin.'],
+        ['Antithyroid compounds','Thiocarbamides such as thiourea and thiouracil are potent examples. Sulfonamides, p-aminosalicylic acid, phenylbutazone, and chlorpromazine can also reduce thyroid-hormone production.']
+      ],'Goitrin blocks organification; thiocyanate blocks iodide trapping; both can reduce hormone production.',{
+        caption:'Goitrogens and their targets',headers:['Agent or source','Interferes with','Possible result'],rows:[
+          ['Iodine deficiency','Substrate supply','Low T3/T4 and goiter'],['Goitrin from crucifers','Organic binding / organification','Low synthesis, goiter'],['Thiocyanate','Active iodide uptake','Low synthesis, goiter'],['Thiocarbamides and listed drugs','Thyroid-hormone synthesis','Reduced thyroid output']
+        ]}),
+      section('10. Canine hypothyroidism: causes, risk, and signs',[9,10,11],'Canine hypothyroidism is usually a slowly developing hypometabolic disease. Lymphocytic thyroiditis is the most common primary cause.',[
+        ['Primary, secondary, tertiary','Primary = thyroid disease (lymphocytic thyroiditis, dysgenesis, dyshormonogenesis, T4 transport defects, goitrogens, rarely iodine deficiency). Secondary = pituitary tumors, radiation, or endogenous/exogenous glucocorticoids. Tertiary = hypothalamic tumors or congenital TRH/TRH-receptor defects.'],
+        ['Risk pattern','Some high-risk breeds show signs at 2-3 years; lower-risk dogs often present around 4-6 years. Reported breeds include English Setters, Eurasiers, Spanish Water Dogs, Irish Red and White Setters, Dalmatians, Boxers, Shetland Sheepdogs, Tibetan Terriers, Kuvasz, German Wirehaired Pointers, and Rhodesian Ridgebacks.'],
+        ['Common signs','Slow subtle onset, lethargy, obesity, symmetrical truncal or tail-head alopecia, thickened skin, dull dry hair, poor regrowth after clipping, and retained puppy coat. Myxedema is hydrophilic material in tissues.'],
+        ['Other systems','Possible bradycardia, decreased contractility, atherosclerosis, myopathy, megaesophagus, neuropathy, facial nerve paralysis, vestibular or lower-motor-neuron disease, rare myxedema coma with severe hyponatremia, reproductive problems, corneal lipid deposits, constipation, and gastrointestinal signs.']
+      ],'The classic pattern is lethargy + obesity + symmetrical alopecia + dry coat, but it is not diagnostic alone.',{
+        caption:'Canine hypothyroidism patterns',headers:['Category','Details'],rows:[
+          ['Most common primary cause','Lymphocytic thyroiditis'],['Primary site','Thyroid'],['Secondary site','Pituitary'],['Tertiary site','Hypothalamus'],['Classic signs','Lethargy, obesity, symmetrical alopecia, thick/dry coat, poor regrowth'],['Serious uncommon signs','Myxedema coma; neurologic, cardiovascular, reproductive findings']
+        ]}),
+      section('11. Canine laboratory findings and diagnosis',[10,11,12,13],'Diagnosis combines signalment, history, physical findings, clinicopathology, and thyroid tests. A low TT4 alone does not prove hypothyroidism.',[
+        ['Clinicopathology','About 25-30% have mild normocytic, normochromic anemia, associated with reduced erythropoietin, marrow activity, serum iron, or iron-binding capacity. About 75% have hypercholesterolemia from reduced lipid clearance; about 30% have mild hyponatremia. CK may increase with hypothyroid myopathy.'],
+        ['Factors that lower or shift T4','Age, breed, environmental or body temperature, diurnal rhythm, obesity, malnutrition, concurrent illness, and drugs. Sighthounds naturally have lower TT4/FT4; puppies may have TT4 2-5 times adult values.'],
+        ['Euthyroid sick syndrome','Diabetes mellitus, chronic renal failure, hepatic insufficiency, and infection can lower TT4 and raise reverse T3 without primary thyroid failure. Anesthetics, phenobarbital, primidone, diazepam, trimethoprim-sulfa, quinidine, phenylbutazone, salicylates, and glucocorticoids can lower TT4.'],
+        ['Useful tests','TT4, TT3, FT4, and endogenous canine TSH are interpreted together. FT4 by equilibrium dialysis is the preferred method discussed. Low FT4 plus high TSH strongly supports primary disease, but 20-30% of hypothyroid dogs can have normal TSH. TgAA identifies autoimmune thyroid pathology or hereditary risk but does not alone prove current deficiency.'],
+        ['Limitations and approach','The old TSH-stimulation test cannot reliably separate early disease from euthyroid sick syndrome and cannot identify secondary or tertiary disease; bovine TSH is no longer commercially available. TRH stimulation, scintigraphy, and biopsy have expense, accuracy, or invasiveness limits. Practical approach: TT4 + TSH, then FT4 by equilibrium dialysis. All three abnormal supports disease; one abnormal result warrants reassessment in 3-6 months.']
+      ],'Interpret the patient and the complete panel, especially when illness, breed, age, or drugs could lower TT4.',{
+        caption:'Canine thyroid-test interpretation',headers:['Result or context','Interpretation'],rows:[
+          ['Low TT4 alone','Insufficient; consider illness, drugs, age, breed, and euthyroid sick syndrome'],['Low FT4 + high TSH','Strongly supports primary hypothyroidism'],['Low FT4 + low TSH','Can fit secondary hypothyroidism'],['Normal TSH','Does not exclude disease; 20-30% of affected dogs may be normal'],['TT4 + TSH + FT4 all abnormal','Hypothyroidism is likely'],['Only one test abnormal','Do not diagnose immediately; reassess in 3-6 months']
+        ]}),
+      section('12. Feline hyperthyroidism: disease, exposures, and mechanism',[13,14,15],'Feline hyperthyroidism is the most common feline endocrinopathy. Adenomatous hyperplasia creates autonomous thyroid tissue, usually in middle-aged or older cats, without a major breed or sex predisposition.',[
+        ['Dietary iodine and goitrogens','Commercial diets usually provide enough iodine. Acute iodine changes can alter FT4, but chronic variation is usually adapted to and is unlikely alone to explain disease. Goitrogens are a proposed pathway, not an established explanation.'],
+        ['Soy isoflavones','Genistein and daidzein can occur in dry cat foods and may interfere with TPO or 5-prime deiodinase. In one study of 18 cats fed 400 mg/kg, TT4 and FT4 rose modestly while T3 did not; evidence remains inconsistent.'],
+        ['Canned food and BADGE','Bisphenol-A-diglycidyl ether from easy-open can linings has been proposed as an exposure. Cats may detoxify some substances less efficiently through hepatic glucuronidation. Epidemiological association does not prove causation, and only a small proportion of commercial-food cats develop hyperthyroidism.'],
+        ['Autonomous signaling','Normally TSH -> TSH receptor -> G protein -> cAMP -> hormone production and growth. Hyperplastic tissue may have activating TSH-receptor mutations, increased stimulatory G-proteins, or reduced inhibitory G-proteins. Feline disease does not appear to be caused by Graves-like stimulating antibodies.'],
+        ['Environmental proposals','Indoor living, cat litter, pesticides/herbicides, flea products, and brominated flame retardants such as PBDEs have been investigated. Associations can reflect confounding; PBDE serum levels reported in cats were 10-400 times human levels, but this remains a proposed association.']
+      ],'Feline hyperthyroidism is autonomous thyroid growth; proposed dietary and environmental associations remain evidence to interpret cautiously.'),
+      section('13. Feline clinical findings and diagnosis',[14,15,16,17],'The typical cat is hypermetabolic: appetite and activity increase while body mass falls.',[
+        ['Clinical signs','Polyphagia, weight loss, vomiting, diarrhea, polydipsia, polyuria, hyperactivity, tachycardia, pupillary dilation, and behavioral change. Long-standing disease may cause hypertrophic cardiomyopathy, high-output heart failure, cachexia, and death.'],
+        ['Blood and urine','Erythrocytosis and a catecholamine-related stress leukogram may occur. BUN can increase while creatinine stays normal because increased GFR and muscle loss mask renal disease. Urine specific gravity is often decreased.'],
+        ['Liver and cholesterol','ALT and AST increase in about 80-90% of hyperthyroid cats. Cholesterol may decrease because hepatic clearance rises.'],
+        ['Testing','TT4 is the usual first test and an increased value strongly supports disease in a compatible cat. FT4 helps detect early or occult disease but should be interpreted with other findings.'],
+        ['T3 suppression','In a normal cat, administered T3 suppresses TSH and lowers T4 by at least 50%. Autonomous hyperthyroid tissue does not suppress appropriately, so T4 fails to fall; this helps in borderline cases. Scintigraphy visualizes hyperfunctional tissue.']
+      ],'Dog: low thyroid, slow metabolism, weight gain. Cat: high thyroid, fast metabolism, weight loss despite appetite.',{
+        caption:'Canine versus feline thyroid disease',headers:['Feature','Canine hypothyroidism','Feline hyperthyroidism'],rows:[
+          ['Hormone state','Low thyroid hormone','High thyroid hormone'],['Common cause','Lymphocytic thyroiditis','Adenomatous hyperplasia / autonomous tissue'],['Metabolic state','Hypometabolic','Hypermetabolic'],['Weight','Gain / obesity','Loss despite increased appetite'],['Heart rate','Bradycardia','Tachycardia'],['Cholesterol','Often increased','Often decreased'],['Screening','TT4 + TSH; FT4 by equilibrium dialysis','TT4; FT4, T3 suppression, or scintigraphy as needed']
+        ]}),
+      section('14. Lesson 3 high-yield chains',[1,17],'Use these chains to review the complete notes before attempting the flashcards and quiz.',[
+        ['Synthesis','Iodide uptake -> TPO organification -> MIT/DIT -> MIT + DIT = T3; DIT + DIT = T4.'],
+        ['Storage and release','T3/T4 on thyroglobulin in colloid -> endocytosis -> lysosome -> blood; MIT/DIT -> iodide + tyrosine recycling.'],
+        ['Peripheral activity','Thyroid makes mostly T4 -> outer-ring deiodination -> active T3; inner-ring deiodination -> low-activity reverse T3.'],
+        ['Transport','TBG high affinity/low capacity; albumin low affinity/high capacity; prealbumin intermediate; free fraction is biologically available.'],
+        ['Axis','TRH -> TSH -> thyroid T3/T4; T3/T4 inhibit TRH and TSH.'],
+        ['Dogs and cats','Dog: low hormone -> lethargy, obesity, alopecia, high cholesterol. Cat: high hormone -> polyphagia, weight loss, tachycardia, hyperactivity.']
+      ],'If you can explain each arrow and each dog-versus-cat contrast, you have the core of Unit 3.')
     ],
     questions:[
       mc('Which thyroid cell produces calcitonin?','Parafollicular C cell',['Follicular cell','Pituitary thyrotrope','Hypothalamic magnocellular neuron'],'C cells produce calcitonin; follicular cells produce T3 and T4.',1),

@@ -3,7 +3,7 @@ import { lessons } from '../src/data.js';
 
 test('every unit has complete, distinct, sourced practice content',()=>{
  for(const l of lessons){
-  expect(l.sections.length).toBe(l.id===1?13:8);expect(l.cards.length).toBe(25);expect(l.questions.length).toBe(30);
+  expect(l.sections.length).toBe(l.id===1?13:l.id===2?11:14);expect(l.cards.length).toBe(25);expect(l.questions.length).toBe(30);
   expect(new Set(l.questions.map(q=>q.prompt)).size).toBe(30);
   expect(l.questions.filter(q=>q.type==='mcq')).toHaveLength(15);
   expect(l.questions.filter(q=>q.type==='identification')).toHaveLength(10);
