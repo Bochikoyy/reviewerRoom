@@ -1,0 +1,19 @@
+{
+  "name": "Sunroom Study Reviewer",
+  "short_name": "Sunroom",
+  "description": "Offline-ready notes, flashcards, quizzes, and focus sessions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fcfbf7",
+  "theme_color": "#f4c542",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/sun.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
