@@ -153,21 +153,18 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
 
     // 2. Initial Popup - Universal InstaPay Slide (Light Mode)
     await page.locator('.donation-switch-pill[data-tab="1"]').click();
-    await page.waitForTimeout(350);
     await page.screenshot({
       path: 'C:/Users/USER/.gemini/antigravity/brain/8473476e-3ade-4021-899e-bf46f6541b9b/donation-instapay-light.png',
     });
 
     // 3. Initial Popup Dark Mode (Desktop) - Universal InstaPay Slide
     await page.evaluate(() => { document.documentElement.dataset.theme = 'dark'; });
-    await page.waitForTimeout(350);
     await page.screenshot({
       path: 'C:/Users/USER/.gemini/antigravity/brain/8473476e-3ade-4021-899e-bf46f6541b9b/donation-instapay-dark.png',
     });
 
     // Switch back to MariBank for dark mode capture
     await page.locator('.donation-switch-pill[data-tab="0"]').click();
-    await page.waitForTimeout(350);
     await page.screenshot({
       path: 'C:/Users/USER/.gemini/antigravity/brain/8473476e-3ade-4021-899e-bf46f6541b9b/donation-initial-dark.png',
     });
