@@ -9,7 +9,7 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
     await expect(overlay).toBeVisible();
 
     // Check QR code image
-    const qrImg = page.locator('.donation-qr-img');
+    const qrImg = page.locator('.donation-qr-img').first();
     await expect(qrImg).toBeVisible();
     await expect(qrImg).toHaveAttribute('src', '/images/donation-qr.png');
 
@@ -77,7 +77,7 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
     await expect(oopsTitle).toHaveText('OOPS OOPS OOPS, DONATE FLES');
 
     // Check QR code image and quote are present
-    await expect(page.locator('.donation-qr-img')).toBeVisible();
+    await expect(page.locator('.donation-qr-img').first()).toBeVisible();
     await expect(page.locator('.donation-quote')).toContainText('No one has ever become poor by giving.');
 
     // Verify 3s countdown applies to recurring reminder as well
@@ -99,19 +99,19 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
     await expect(slides).toHaveCSS('transform', /matrix\(1,\s*0,\s*0,\s*1,\s*0,\s*0\)|none/);
     await expect(page.locator('.donation-account-pill')).toContainText('MariBank (InstaPay)');
 
-    // 1. Click "Any Bank (InstaPay)" tab button
-    await page.locator('[data-action="donation-tab"][data-tab="1"]').click();
-    await expect(page.locator('.donation-account-pill')).toContainText('Any Bank / E-Wallet (InstaPay)');
+    // 1. Click "GCash" tab button
+    await page.locator('.donation-switch-pill[data-tab="1"]').click();
+    await expect(page.locator('.donation-account-pill')).toContainText('GCash (InstaPay)');
     const anyBankImg = page.locator('.donation-qr-slide[data-slide="1"] .donation-qr-img');
     await expect(anyBankImg).toHaveAttribute('src', '/images/donation-qr-instapay.png');
 
     // 2. Click "MariBank" tab button to switch back
-    await page.locator('[data-action="donation-tab"][data-tab="0"]').click();
+    await page.locator('.donation-switch-pill[data-tab="0"]').click();
     await expect(page.locator('.donation-account-pill')).toContainText('MariBank (InstaPay)');
 
     // 3. Click next chevron button
     await page.locator('.donation-nav-btn.next').click();
-    await expect(page.locator('.donation-account-pill')).toContainText('Any Bank / E-Wallet (InstaPay)');
+    await expect(page.locator('.donation-account-pill')).toContainText('GCash (InstaPay)');
 
     // 4. Click prev chevron button
     await page.locator('.donation-nav-btn.prev').click();
@@ -119,7 +119,7 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
 
     // 5. Use ArrowRight keyboard shortcut
     await page.keyboard.press('ArrowRight');
-    await expect(page.locator('.donation-account-pill')).toContainText('Any Bank / E-Wallet (InstaPay)');
+    await expect(page.locator('.donation-account-pill')).toContainText('GCash (InstaPay)');
 
     // 6. Use ArrowLeft keyboard shortcut
     await page.keyboard.press('ArrowLeft');
@@ -129,7 +129,6 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
     const carouselBox = page.locator('#donation-carousel');
     const box = await carouselBox.boundingBox();
     if (box) {
-      await page.touchscreen.tap(box.x + box.width * 0.7, box.y + box.height * 0.5);
       // Dispatch touchstart and touchend to simulate swipe left
       await page.evaluate(() => {
         const c = document.querySelector('#donation-carousel');
@@ -138,7 +137,7 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
         c.dispatchEvent(new TouchEvent('touchstart', { touches: [startTouch], changedTouches: [startTouch] }));
         c.dispatchEvent(new TouchEvent('touchend', { touches: [], changedTouches: [endTouch] }));
       });
-      await expect(page.locator('.donation-account-pill')).toContainText('Any Bank / E-Wallet (InstaPay)');
+      await expect(page.locator('.donation-account-pill')).toContainText('GCash (InstaPay)');
     }
   });
 
@@ -153,19 +152,22 @@ test.describe('Timed Donation QR Popup & 30-Minute Recurring Reminder', () => {
     });
 
     // 2. Initial Popup - Universal InstaPay Slide (Light Mode)
-    await page.locator('[data-action="donation-tab"][data-tab="1"]').click();
+    await page.locator('.donation-switch-pill[data-tab="1"]').click();
+    await page.waitForTimeout(350);
     await page.screenshot({
       path: 'C:/Users/USER/.gemini/antigravity/brain/8473476e-3ade-4021-899e-bf46f6541b9b/donation-instapay-light.png',
     });
 
     // 3. Initial Popup Dark Mode (Desktop) - Universal InstaPay Slide
     await page.evaluate(() => { document.documentElement.dataset.theme = 'dark'; });
+    await page.waitForTimeout(350);
     await page.screenshot({
       path: 'C:/Users/USER/.gemini/antigravity/brain/8473476e-3ade-4021-899e-bf46f6541b9b/donation-instapay-dark.png',
     });
 
     // Switch back to MariBank for dark mode capture
-    await page.locator('[data-action="donation-tab"][data-tab="0"]').click();
+    await page.locator('.donation-switch-pill[data-tab="0"]').click();
+    await page.waitForTimeout(350);
     await page.screenshot({
       path: 'C:/Users/USER/.gemini/antigravity/brain/8473476e-3ade-4021-899e-bf46f6541b9b/donation-initial-dark.png',
     });
