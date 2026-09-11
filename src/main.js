@@ -9,6 +9,10 @@ const icons = {
  clock:'<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6m-3 0v3M5 4 3 6"/>',
  arrow:'<path d="M5 12h14m-5-5 5 5-5 5"/>',
  chevron:'<path d="m9 5 7 7-7 7"/>',
+ chevronLeft:'<path d="m15 19-7-7 7-7"/>',
+ chevronRight:'<path d="m9 5 7 7-7 7"/>',
+ bank:'<path d="m2 9 10-6 10 6v2H2zm2 4v6m4-6v6m4-6v6m4-6v6m4-6v6M2 21h20"/>',
+ card:'<rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/>',
  check:'<path d="m5 12 4 4L19 6"/>',
  close:'<path d="m6 6 12 12M6 18 18 6"/>',
  search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
@@ -208,6 +212,9 @@ app.addEventListener('click',e=>{
  if(action==='close-lightbox'){if(btn.classList.contains('lightbox-close')||e.target.classList.contains('lightbox-overlay')){lightboxFig=null;document.querySelector('.lightbox-overlay')?.remove();document.body.style.overflow='';}return}
  if(action==='close-donation'){closeDonationModal();return}
  if(action==='backdrop-donation'){if(e.target.classList.contains('donation-overlay'))closeDonationModal();return}
+ if(action==='donation-tab'){setDonationSlide(Number(btn.dataset.tab||0));return}
+ if(action==='donation-prev'){setDonationSlide(donationActiveSlide-1);return}
+ if(action==='donation-next'){setDonationSlide(donationActiveSlide+1);return}
  if(action==='export'){const blob=new Blob([JSON.stringify({app:'Sunroom',version:1,exported:new Date().toISOString(),progress,timer},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`sunroom-progress-${new Date().toISOString().slice(0,10)}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Progress exported as a JSON record.');return}
 });
 document.addEventListener('keydown',e=>{
@@ -220,6 +227,10 @@ document.addEventListener('keydown',e=>{
   if(sidebarOpen){sidebarOpen=false;render();document.querySelector('[data-action="menu"]')?.focus()}
   if(timerOpen){timerOpen=false;renderTimer();document.querySelector('.timer-fab')?.focus()}
   return;
+ }
+ if(donationModalActive){
+  if(e.key==='ArrowLeft'){e.preventDefault();setDonationSlide(donationActiveSlide-1);return}
+  if(e.key==='ArrowRight'){e.preventDefault();setDonationSlide(donationActiveSlide+1);return}
  }
  if(sidebarOpen&&e.key==='Tab'){const elements=[...document.querySelectorAll('.sidebar button,.sidebar a')].filter(x=>x.offsetParent!==null),first=elements[0],last=elements.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}return}
  if(e.target.closest('input,textarea,select,dialog'))return;
@@ -261,11 +272,56 @@ let donationModalActive=null;
 let donationCountdownInterval=null;
 const DONATION_RECURRING_INTERVAL_MS=30*60*1000;
 let nextDonationTime=Date.now()+DONATION_RECURRING_INTERVAL_MS;
+let donationActiveSlide=0;
+
+const donationOptions=[
+ {
+  id:'maribank',
+  label:'MariBank',
+  pill:'MariBank (InstaPay) · Chrisnel Graine Caipang',
+  src:'/images/donation-qr.png',
+  alt:'MariBank InstaPay QR Code for Chrisnel Graine Caipang',
+  initialSubtext:'Accepting donations · modawat rako bisag piso 🥰 salamat ha!',
+  recurringSubtext:'You’ve been studying hard for 30 minutes! Keep going and consider sending a little support 🥰'
+ },
+ {
+  id:'instapay',
+  label:'Any Bank (InstaPay)',
+  pill:'Any Bank / E-Wallet (InstaPay) · Chrisnel Graine Caipang',
+  src:'/images/donation-qr-instapay.png',
+  alt:'Universal InstaPay QR Code for Chrisnel Graine Caipang',
+  initialSubtext:'Works with GCash, Maya, BDO, BPI, UnionBank, or any bank! 🥰',
+  recurringSubtext:'Scan with GCash, Maya, BDO, BPI, UnionBank or your bank app 🥰'
+ }
+];
+
+function setDonationSlide(index){
+ donationActiveSlide=(index+donationOptions.length)%donationOptions.length;
+ const overlay=document.querySelector('.donation-overlay');
+ if(!overlay)return;
+ const slides=overlay.querySelector('.donation-qr-slides');
+ if(slides)slides.style.transform=`translateX(-${donationActiveSlide*100}%)`;
+ overlay.querySelectorAll('.donation-switch-pill').forEach((b,i)=>{
+  b.classList.toggle('active',i===donationActiveSlide);
+  b.setAttribute('aria-selected',String(i===donationActiveSlide));
+ });
+ overlay.querySelectorAll('.donation-dot').forEach((d,i)=>{
+  d.classList.toggle('active',i===donationActiveSlide);
+ });
+ const opt=donationOptions[donationActiveSlide];
+ const pill=overlay.querySelector('.donation-account-pill');
+ if(pill)pill.textContent=opt.pill;
+ const sub=overlay.querySelector('.donation-subtext');
+ if(sub&&donationModalActive){
+  sub.textContent=donationModalActive.type==='recurring'?opt.recurringSubtext:opt.initialSubtext;
+ }
+}
 
 function donationModalView(type='initial',remaining=3){
  const isRecurring=type==='recurring';
  const isLocked=remaining>0;
- return `<div class="donation-overlay" data-action="backdrop-donation" role="dialog" aria-modal="true" aria-labelledby="donation-modal-title"><div class="donation-card ${isRecurring?'is-recurring':''}"><button class="icon-btn donation-top-close" data-action="close-donation" aria-label="Close donation notice" ${isLocked?'disabled':''}>${icon('close')}</button>${isRecurring?`<div class="donation-badge">${icon('clock')} 30-Minute Study Reminder</div><h2 class="donation-title oops-alert" id="donation-modal-title">OOPS OOPS OOPS, DONATE FLES</h2>`:`<div class="donation-badge">${icon('sun')} Support the Reviewer</div><h2 class="donation-title" id="donation-modal-title">A Little Sunshine for Your Studies</h2>`}<div class="donation-quote-wrap"><blockquote class="donation-quote">“(No one has ever become poor by giving.)”</blockquote></div><div class="donation-qr-box"><img class="donation-qr-img" src="/images/donation-qr.png" alt="MariBank InstaPay QR Code for Chrisnel Graine Caipang"></div><div class="donation-account-info"><div class="donation-account-pill">MariBank (InstaPay) · Chrisnel Graine Caipang</div><p class="donation-subtext">${isRecurring?'You’ve been studying hard for 30 minutes! Keep going and consider sending a little support 🥰':'Accepting donations · modawat rako bisag piso 🥰 salamat ha!'}</p></div><div class="donation-actions"><button class="btn ${isLocked?'':'primary'} donation-close-btn" data-action="close-donation" ${isLocked?'disabled':''}>${isLocked?`<span class="donation-countdown-badge">${remaining}s</span> Please wait ${remaining}s...`:`Continue to Reviewer ${icon('arrow')}`}</button></div></div></div>`;
+ const opt=donationOptions[donationActiveSlide]||donationOptions[0];
+ return `<div class="donation-overlay" data-action="backdrop-donation" role="dialog" aria-modal="true" aria-labelledby="donation-modal-title"><div class="donation-card ${isRecurring?'is-recurring':''}"><button class="icon-btn donation-top-close" data-action="close-donation" aria-label="Close donation notice" ${isLocked?'disabled':''}>${icon('close')}</button>${isRecurring?`<div class="donation-badge">${icon('clock')} 30-Minute Study Reminder</div><h2 class="donation-title oops-alert" id="donation-modal-title">OOPS OOPS OOPS, DONATE FLES</h2>`:`<div class="donation-badge">${icon('sun')} Support the Reviewer</div><h2 class="donation-title" id="donation-modal-title">A Little Sunshine for Your Studies</h2>`}<div class="donation-quote-wrap"><blockquote class="donation-quote">“(No one has ever become poor by giving.)”</blockquote></div><div class="donation-switch-row" role="tablist" aria-label="Payment method"><button class="donation-switch-pill ${donationActiveSlide===0?'active':''}" data-action="donation-tab" data-tab="0" role="tab" aria-selected="${donationActiveSlide===0}">${icon('bank')} MariBank</button><button class="donation-switch-pill ${donationActiveSlide===1?'active':''}" data-action="donation-tab" data-tab="1" role="tab" aria-selected="${donationActiveSlide===1}">${icon('card')} Any Bank (InstaPay)</button></div><div class="donation-carousel-container" id="donation-carousel" aria-roledescription="carousel" aria-label="Donation QR codes"><button class="icon-btn donation-nav-btn prev" data-action="donation-prev" aria-label="Previous QR code">${icon('chevronLeft')}</button><div class="donation-qr-viewport"><div class="donation-qr-slides" style="transform:translateX(-${donationActiveSlide*100}%);">${donationOptions.map((o,i)=>`<div class="donation-qr-slide" data-slide="${i}"><div class="donation-qr-box"><img class="donation-qr-img" src="${o.src}" alt="${esc(o.alt)}"></div></div>`).join('')}</div></div><button class="icon-btn donation-nav-btn next" data-action="donation-next" aria-label="Next QR code">${icon('chevronRight')}</button></div><div class="donation-dots" role="tablist" aria-label="QR Code indicator">${donationOptions.map((_,i)=>`<span class="donation-dot ${i===donationActiveSlide?'active':''}" data-action="donation-tab" data-tab="${i}" role="tab" aria-label="Slide ${i+1}"></span>`).join('')}</div><div class="donation-account-info"><div class="donation-account-pill">${opt.pill}</div><p class="donation-subtext">${isRecurring?opt.recurringSubtext:opt.initialSubtext}</p><div class="donation-swipe-hint">${icon('chevronLeft')} Swipe left or right to switch QR ${icon('chevronRight')}</div></div><div class="donation-actions"><button class="btn ${isLocked?'':'primary'} donation-close-btn" data-action="close-donation" ${isLocked?'disabled':''}>${isLocked?`<span class="donation-countdown-badge">${remaining}s</span> Please wait ${remaining}s...`:`Continue to Reviewer ${icon('arrow')}`}</button></div></div></div>`;
 }
 
 function openDonationModal(type='initial'){
@@ -275,6 +331,25 @@ function openDonationModal(type='initial'){
  document.querySelector('.donation-overlay')?.remove();
  app.insertAdjacentHTML('beforeend',donationModalView(type,3));
  document.body.style.overflow='hidden';
+
+ const carousel=document.querySelector('#donation-carousel');
+ if(carousel){
+  let startX=0,startY=0;
+  carousel.addEventListener('touchstart',e=>{
+   if(e.touches.length>0){startX=e.touches[0].clientX;startY=e.touches[0].clientY;}
+  },{passive:true});
+  carousel.addEventListener('touchend',e=>{
+   if(e.changedTouches.length>0){
+    const diffX=e.changedTouches[0].clientX-startX;
+    const diffY=e.changedTouches[0].clientY-startY;
+    if(Math.abs(diffX)>30&&Math.abs(diffX)>Math.abs(diffY)){
+     if(diffX<0)setDonationSlide(donationActiveSlide+1);
+     else setDonationSlide(donationActiveSlide-1);
+    }
+   }
+  },{passive:true});
+ }
+
  donationCountdownInterval=setInterval(()=>{
   if(!donationModalActive){clearInterval(donationCountdownInterval);donationCountdownInterval=null;return}
   donationModalActive.remaining-=1;
@@ -331,5 +406,7 @@ if(!isAutomatedTest){
 
 window.__openDonationModal=openDonationModal;
 window.__closeDonationModal=closeDonationModal;
-window.__getDonationState=()=>({donationModalActive,nextDonationTime});
+window.__setDonationSlide=setDonationSlide;
+window.__getDonationSlide=()=>donationActiveSlide;
+window.__getDonationState=()=>({donationModalActive,nextDonationTime,donationActiveSlide});
 window.__setNextDonationTime=(t)=>{nextDonationTime=t};
