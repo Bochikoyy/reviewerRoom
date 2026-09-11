@@ -77,7 +77,7 @@ test('mobile navigation and every mode fit narrow screens',async({page})=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  for(const width of [390,320,768]){
   await page.setViewportSize({width,height:844});await page.goto('/');
-  if(width<760){await page.getByRole('button',{name:'Open subjects'}).click();await page.locator('.lesson-nav').getByRole('button',{name:/Lesson 3/}).click();await expect(page.getByRole('heading',{name:'Small gland, wide-reaching effects.'})).toBeVisible()}
+  if(width<760){await page.getByRole('button',{name:'Open subjects'}).click();await page.locator('.lesson-link[data-subject="endocrinology"][data-id="3"]').click();await expect(page.getByRole('heading',{name:'Small gland, wide-reaching effects.'})).toBeVisible()}
   for(const m of ['Notes','Flashcards','Quiz']){await page.getByRole('tab',{name:m,exact:true}).click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy()}
   await page.getByRole('button',{name:'Let’s give it a try'}).click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
   await page.getByRole('button',{name:'Open focus timer',exact:true}).click();await expect(page.locator('.timer-panel')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
