@@ -71,7 +71,7 @@ function source(page,label='View source'){
 }
 function learnedCount(l){return l.cards.filter(c=>progress.learned[c.id]).length}
 function sidebar(){
- const isMobile=window.innerWidth<=760;
+ const isMobile=window.innerWidth<=1100;
  const isDialog=isMobile&&sidebarOpen;
  const curLessons=activeLessons();
  const learnedTotal=curLessons.reduce((a,l)=>a+learnedCount(l),0);
@@ -239,7 +239,7 @@ document.addEventListener('keydown',e=>{
  if(mode==='flashcards'&&!timerOpen&&!sidebarOpen&&e.target===document.body){if(e.code==='Space'){e.preventDefault();document.querySelector('[data-action="flip"]')?.click()}if(e.key==='ArrowRight')document.querySelector('[data-action="card-next"]:not(:disabled)')?.click();if(e.key==='ArrowLeft')document.querySelector('[data-action="card-prev"]:not(:disabled)')?.click()}
 });
 window.addEventListener('hashchange',()=>{const p=parseHash();if(p)setView(p.unit,p.mode,p.subject)});
-window.addEventListener('resize',()=>{if(window.innerWidth>760&&sidebarOpen){sidebarOpen=false;render()}});
+window.addEventListener('resize',()=>{if(window.innerWidth>1100&&sidebarOpen){sidebarOpen=false;render()}});
 
 // The timer uses an absolute deadline so background tabs and refreshes do not lose time.
 const defaultTimer={study:25,rest:5,phase:'study',remaining:1500,running:false,end:null,sessions:0,sound:true,preset:'25/5',finished:false};
