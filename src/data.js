@@ -479,7 +479,262 @@ export const lessons = [
     ]
   }
 ];
+
+export const pathologyLessons = [
+  {
+    id: 1,
+    subject: 'pathology',
+    title: 'Introductory concepts in clinical pathology',
+    sourceTitle: 'Introductory concepts',
+    subtitle: 'Master clinical diagnostic reasoning, sample collection, anticoagulants, serum versus plasma, laboratory assay modalities, and essential laboratory safety.',
+    pages: 19,
+    time: 25,
+    tags: ['Foundations', 'Pre-analytics', 'Anticoagulants', 'Diagnostic Strategy', 'Lab Safety'],
+    objectives: [
+      'Distinguish whole blood, plasma, and serum, identifying how anticoagulants and clot retraction affect sample yield and composition.',
+      'Compare the mechanisms, tube color codes, additives, and diagnostic indications of EDTA, citrate, oxalate/fluoride, and heparin.',
+      'Apply pre-analytical handling rules, temperature requirements, transport precautions, and basic laboratory safety.'
+    ],
+    sections: [
+      section('1. Clinical pathology: definition and diagnostic foundations', [1, 2], 'Clinical pathology is defined as a subspecialty of pathology that deals with the use of laboratory methods for the diagnosis and treatment of disease. In broader clinical practice, it represents the study of disease in the clinical environment through the use of laboratory assays. A fundamental diagnostic principle is that laboratory tests must never be evaluated in isolation. Two diagnostic procedures are imperative before selecting any laboratory assays: obtaining a complete history and performing a comprehensive physical examination. Knowledge gained from these basic clinical steps allows the clinician to select targeted diagnostic procedures to clarify or classify the animal’s identified problems.', [
+        ['Definition of clinical pathology', 'A subspecialty of pathology that applies laboratory methods to diagnose, stage, and treat disease in veterinary patients.'],
+        ['Study of disease in clinical environments', 'Applies biochemical, hematologic, and cytologic assays directly to clinical cases to elucidate underlying pathophysiology.'],
+        ['Imperative procedure 1: Complete history', 'Essential baseline gathering patient signalment, dietary history, environmental exposure, onset, and progression before ordering tests.'],
+        ['Imperative procedure 2: Complete physical examination', 'Thorough hands-on evaluation of all body systems to detect localized or systemic physical abnormalities.'],
+        ['Rational assay selection', 'Laboratory assays should never be ordered randomly; history and physical exam findings define the differential diagnoses that guide appropriate test selection.']
+      ], 'History and physical examination are mandatory prerequisites that guide rational laboratory assay selection.', {
+        caption: 'Diagnostic sequence in patient evaluation',
+        headers: ['Diagnostic step', 'Primary focus', 'Clinical purpose'],
+        rows: [
+          ['1. Complete history', 'Signalment, duration, symptoms, travel, toxins, medications', 'Identifies risk factors and establishes chronological timeline'],
+          ['2. Complete physical examination', 'Hands-on examination of all body systems (TPR, palpation, auscultation)', 'Detects physical lesions and localizes systemic dysfunction'],
+          ['3. Problem formulation', 'Synthesis of history and physical examination abnormalities', 'Generates a focused list of differential diagnoses'],
+          ['4. Targeted laboratory assays', 'Hematology, biochemistry, urinalysis, cytology, and imaging', 'Confirms, rules out, or stages suspected pathologic processes']
+        ]
+      }),
+      section('2. Four core purposes of laboratory analysis', [2, 3], 'Analyzing clinical specimens through laboratory procedures serves four core clinical functions: detecting occult pathologic states, defining or confirming disease, ruling out differential diagnoses, and monitoring disease progression or therapeutic response.', [
+        ['1. Detect an unidentified pathologic state', 'Uncovers subclinical, preclinical, or occult diseases before overt clinical signs manifest (e.g., geriatric wellness screens, pre-anesthetic panels).'],
+        ['2. Define, classify, or confirm disorders', 'Provides definitive diagnostic confirmation and pathophysiologic classification (e.g., confirming diabetes mellitus or classifying anemia as regenerative).'],
+        ['3. Eliminate (rule out) possible causes', 'Excludes specific diseases from a list of differential diagnoses to narrow diagnostic focus (e.g., ruling out renal failure in a polyuric patient).'],
+        ['4. Assess changes in a pathologic state', 'Monitors the natural progression of an illness, evaluates response to medical or surgical therapy, and detects adverse drug toxicities over time.']
+      ], 'Laboratory assays detect occult pathology, confirm disease, rule out differentials, and monitor therapy or progression.', {
+        caption: 'Four core clinical purposes of laboratory testing',
+        headers: ['Clinical purpose', 'Diagnostic objective', 'Veterinary clinical scenario'],
+        rows: [
+          ['Detect unidentified disease', 'Screening for subclinical or occult pathology', 'Pre-anesthetic blood work detecting subclinical azotemia'],
+          ['Define, classify, or confirm', 'Establishing definitive diagnosis and pathophysiologic mechanism', 'Confirming hypercalcemia of malignancy via PTHrP assay'],
+          ['Eliminate (rule out) causes', 'Excluding plausible differentials from consideration', 'Ruling out canine hypoadrenocorticism with normal resting cortisol'],
+          ['Assess changes over time', 'Tracking disease trajectory and therapeutic response', 'Serial monitoring of blood glucose curves in insulin-treated diabetics']
+        ]
+      }),
+      section('3. Analytes and pre-collection laboratory communication', [3, 4], 'Most clinical laboratory assays are designed to detect or quantify substances or cells in patient samples; the substance or cell of interest is called the analyte. Obtaining clinically useful and accurate results requires submitting appropriate, high-quality specimens. Whenever there is any doubt regarding the appropriate sample type, collection tube, required volume, or handling protocol for a particular test at a specific laboratory, the reference laboratory must be contacted prior to sample collection.', [
+        ['Definition of analyte', 'The specific chemical substance (e.g., glucose, creatinine, electrolytes) or cellular element (e.g., erythrocytes, leukocytes) being measured or detected.'],
+        ['Specimen appropriateness', 'Assay validity depends entirely on sample quality; improper sample type or handling generates misleading pre-analytical errors.'],
+        ['Contacting the laboratory prior to collection', 'Crucial communication rule: call the testing laboratory before drawing the sample if volume, additive, fasting, or transport requirements are uncertain.'],
+        ['Pre-analytical quality control', 'Ensuring correct collection tube and patient preparation prevents rejected specimens, delayed treatment, and repeat venipuncture.']
+      ], 'The analyte is the measured cell or chemical; always consult the testing laboratory before collection if in doubt.'),
+      section('4. Whole blood: cellular composition and time sensitivity', [4, 5], 'Blood is composed of cellular components suspended in plasma. Whole blood samples must be immediately and gently mixed with an appropriate anticoagulant to prevent clot formation and maintain cells in uniform suspension. Analysis or processing of whole blood must be rapid because cells die within a few hours outside the body, making aged samples unacceptable for analysis. Whole blood samples must be analyzed within minutes to hours, rarely within days.', [
+        ['Composition of blood', 'Formed elements (erythrocytes, leukocytes, platelets) suspended in the fluid matrix of plasma.'],
+        ['Immediate anticoagulant mixing', 'Blood drawn for whole-blood testing must immediately be mixed with anticoagulant by gentle inversion (8–10 times) to prevent microscopic fibrin formation.'],
+        ['Rapid in vitro cell death', 'Leukocytes and erythrocytes deteriorate and die within hours of collection; cell swelling, pyknosis, and autolysis rapidly invalidate counts and morphology.'],
+        ['Analysis timeline', 'Processing must take place within minutes to hours; delays beyond hours introduce severe pre-analytical storage artifacts.'],
+        ['Mixing precautions', 'Invert gently; vigorous shaking causes mechanical hemolysis, releasing intracellular contents and destroying fragile cells.']
+      ], 'Cells in whole blood die within hours; mix immediately with anticoagulant and process within minutes to hours.'),
+      section('5. Plasma vs serum: clot retraction and the fibrinogen distinction', [5, 6, 10], 'Plasma and serum are distinct fluid fractions of blood with different preparation requirements and biochemical profiles. Plasma is harvested after centrifuging anticoagulated blood and contains all coagulation proteins, including fibrinogen. Serum is harvested after centrifuging clotted blood where coagulation factors have been consumed. To maximize serum yield, centrifugation must not begin until clot retraction is complete—typically requiring at least 30 minutes at room temperature unless a clot activator is present. Centrifuging prematurely traps serum within a soft fibrin clot, drastically reducing volume yield and contaminating the sample with latent fibrin strands.', [
+        ['Plasma definition', 'The fluid component harvested by centrifugation of an anticoagulated whole blood sample; contains all soluble plasma proteins and the added anticoagulant.'],
+        ['Serum definition', 'The fluid component harvested by centrifugation of a clotted (coagulated) blood sample; lacks clotting factors consumed during coagulation.'],
+        ['The fibrinogen distinction', 'Fibrinogen is the major protein (on a weight/volume basis) present in plasma but completely absent in serum.'],
+        ['Clot retraction timeline', 'Clot tubes must sit undisturbed at room temperature for at least 30 minutes before centrifugation to allow full clot formation and contraction.'],
+        ['Consequences of premature centrifugation', 'Centrifuging before clot retraction traps serum inside a soft, gelatinous fibrin clot, causing poor serum recovery and analyzer-clogging fibrin strands.'],
+        ['Anticoagulant interference in plasma', 'Because plasma contains the anticoagulant used during collection, the additive itself can interfere with certain clinical chemistry assays.']
+      ], 'Plasma = anticoagulated fluid (contains fibrinogen). Serum = clotted blood fluid (lacks fibrinogen; wait ≥ 30 min for clot retraction).', {
+        caption: 'High-yield comparison: Plasma versus Serum',
+        headers: ['Feature', 'Plasma', 'Serum'],
+        rows: [
+          ['Sample source', 'Anticoagulated whole blood', 'Coagulated (clotted) blood'],
+          ['Coagulation status during collection', 'Clotting is chemically prevented', 'Clotting occurs naturally'],
+          ['Preparation before centrifugation', 'Centrifuge immediately; no waiting required', 'Must wait at least 30 min for clot retraction'],
+          ['Fibrinogen content', 'Present (~200–400 mg/dL)', 'Absent (consumed during clot formation)'],
+          ['Coagulation factors', 'Present and intact', 'Consumed (Factors I, II, V, VIII depleted)'],
+          ['Chemical additives', 'Contains added anticoagulant (EDTA, heparin, citrate)', 'None (plain tube) or inert clot activator/gel'],
+          ['Primary laboratory use', 'Routine hematology (CBC), coagulation studies, blood gases', 'Biochemistry panels, immunology, serology, drug monitoring']
+        ]
+      }),
+      section('6. Calcium-chelating anticoagulants: EDTA for routine hematology', [6, 11, 12], 'Calcium-binding agents prevent clotting by binding divalent calcium ions (Ca²⁺), which are essential cofactors for the coagulation cascade. EDTA (ethylenediaminetetraacetic acid) is available as disodium or dipotassium/tripotassium salts (Na₂EDTA, K₂EDTA, K₃EDTA) and is the preferred anticoagulant for almost all routine hematologic tests, including complete blood count (CBC) assays.', [
+        ['Mechanism of action', 'Chelates free ionized calcium (Ca²⁺), halting calcium-dependent clotting factor complexes and preventing fibrin polymerization.'],
+        ['Chemical formulations', 'Available as Na₂EDTA, K₂EDTA, or K₃EDTA; spray-dried K₂EDTA is widely preferred for accurate cell volume measurements.'],
+        ['Why EDTA is preferred for CBC', 'Superior preservation of leukocyte and erythrocyte morphology, minimal osmotic cell swelling/shrinkage at proper ratios, and effective prevention of platelet aggregation.'],
+        ['Tube stopper color', 'Lavender / purple top; purple with white ring indicates EDTA with separator gel for molecular diagnostics.'],
+        ['Underfilling hazard', 'Underfilled tubes have an excessive anticoagulant-to-blood ratio; excess hypertonic EDTA draws water out of RBCs, causing cell shrinkage, false microcytosis, and falsely decreased packed cell volume (PCV).']
+      ], 'EDTA binds Ca²⁺, preserves cell morphology best, and is the gold standard for CBCs (lavender top).'),
+      section('7. Citrate: reversible calcium bonding, coagulation, and transfusions', [7, 11, 12], 'Sodium citrate is a calcium-binding anticoagulant that forms a reversible ionic bond with Ca²⁺. It is the preferred anticoagulant for most tests of the coagulation system. During testing, calcium is added back to citrated plasma to override the citrate and allow coagulation enzymes to function. Due to its low systemic toxicity, citrate is also preferred for whole blood collection in blood transfusions.', [
+        ['Ionic calcium bonding', 'Citrate binds Ca²⁺ through reversible ionic bonding rather than irreversible chelation.'],
+        ['Calcium override in testing', 'Adding exogenous Ca²⁺ back to citrated plasma in the laboratory overrides citrate, allowing clotting factor enzymes to activate in timed assays (e.g., PT, aPTT).'],
+        ['Preferred for coagulation studies', 'Preserves labile clotting factors (Factor V and Factor VIII) much better than other anticoagulants; used in light blue stopper tubes (1:9 ratio).'],
+        ['Strict 1:9 collection ratio', 'Requires exact 9 parts blood to 1 part sodium citrate; underfilling leaves excess free citrate that binds reagent calcium, falsely prolonging clotting times.'],
+        ['Low toxicity for transfusions', 'Citrate is rapidly metabolized by the liver into bicarbonate; its minimal in vivo toxicity makes it the preferred anticoagulant for blood donor collection bags.'],
+        ['ESR tube formulation', 'Black stopper tubes contain sodium citrate at a 1:4 ratio specifically calibrated for erythrocyte sedimentation rate (ESR) testing.']
+      ], 'Citrate reversibly binds Ca²⁺ (light blue top, 1:9 ratio); calcium override allows coagulation testing; low toxicity makes it ideal for transfusions.'),
+      section('8. Oxalates and glycolytic inhibition: sodium fluoride tubes', [8, 11, 12], 'Oxalates (lithium, ammonium, and potassium salts) exert anticoagulant activity by forming ionic bonds with Ca²⁺. Oxalates are used in relatively few laboratory tests because they cause marked morphologic distortion of leukocytes and erythrocytes, making them entirely unsuitable for hematology. However, potassium oxalate is widely combined with sodium fluoride in gray-top tubes to preserve blood glucose and lactate samples.', [
+        ['Mechanism of oxalate', 'Forms ionic bonds with Ca²⁺, precipitating calcium and arresting coagulation.'],
+        ['Unsuitable for hematology', 'Causes marked cellular distortion, cytoplasmic vacuolation, and nuclear pyknosis in leukocytes, alongside erythrocyte shrinkage and hemolysis.'],
+        ['Sodium fluoride synergy', 'Sodium fluoride is a potent inhibitor of enolase, an essential enzyme in the glycolytic pathway; combined with oxalate, it stops cellular glucose consumption.'],
+        ['Glucose and lactate preservation', 'Prevents in vitro glycolysis by red blood cells (which normally consume glucose at ~7–10% per hour at room temperature), preserving true glucose and lactate values.'],
+        ['Tube stopper color', 'Gray top tube; contains potassium oxalate as anticoagulant and sodium fluoride as glycolytic inhibitor.']
+      ], 'Oxalates distort blood cell morphology (unsuitable for CBC); gray top tubes combine oxalate with sodium fluoride to halt glycolysis for glucose and lactate assays.'),
+      section('9. Heparin: clinical chemistry, blood gases, and hematologic drawbacks', [9, 11, 12], 'Heparin (available as lithium, ammonium, potassium, or sodium salts) works by accelerating antithrombin III, which inhibits thrombin and other active coagulation factors. It is widely used for blood gas analysis and emergency clinical chemistry. However, heparin has three major disadvantages that make it unsuitable for routine hematologic smears: it alters leukocyte morphology and staining, allows microclotting as its effects are slowly overridden by the coagulation system, and causes platelet clumps to form.', [
+        ['Mechanism of heparin', 'Potentiates antithrombin III, which rapidly inhibits thrombin (Factor IIa), Factor Xa, and Factor IXa.'],
+        ['Clinical applications', 'Preferred for blood gas analysis, critical-care emergency chemistry panels (no delay for clotting), and avian/reptilian blood where EDTA may cause hemolysis.'],
+        ['Disadvantage 1: Morphology and staining alteration', 'Distorts white blood cell morphology and produces a prominent diffuse blue-to-pink background haze on Romanowsky-stained blood films.'],
+        ['Disadvantage 2: In vitro microclotting', 'Heparin does not inactivate clotting factors permanently; its inhibitory effect is slowly overridden by active enzymes, allowing delayed microclot formation.'],
+        ['Disadvantage 3: Platelet clumping', 'Induces in vitro platelet clumping and aggregation, resulting in pseudothrombocytopenia (falsely low automated platelet counts).'],
+        ['Tube stopper colors', 'Green top (lithium or sodium heparin); light green top contains heparin plus a gel separator (PST).']
+      ], 'Heparin inhibits thrombin (green top; ideal for blood gases/chemistry), but causes blue staining background, platelet clumping, and delayed microclots.', {
+        caption: 'Comprehensive comparison of major blood anticoagulants',
+        headers: ['Anticoagulant', 'Tube color', 'Primary mechanism', 'Key clinical indications', 'Major limitations'],
+        rows: [
+          ['EDTA (K₂ or K₃)', 'Lavender / Purple', 'Irreversible calcium (Ca²⁺) chelation', 'Routine hematology (CBC), blood film morphology, molecular diagnostics', 'Unsuitable for clinical chemistry (chelates Ca²⁺/Mg²⁺, adds K⁺/Na⁺)'],
+          ['Sodium Citrate', 'Light Blue (1:9 ratio)', 'Reversible ionic bonding with Ca²⁺', 'Coagulation assays (PT, aPTT, fibrinogen), whole blood transfusions', 'Requires strict 1:9 draw ratio; unsuited for routine biochemistry'],
+          ['Heparin (Lithium/Sodium)', 'Green / Light Green', 'Activates antithrombin III to inhibit thrombin & clotting factors', 'Blood gas analysis, rapid stat chemistry, avian/reptile samples', 'Distorts leukocyte morphology, stains blue, causes platelet clumps, delayed clots'],
+          ['Potassium Oxalate / NaF', 'Gray', 'Oxalate binds Ca²⁺; NaF inhibits glycolytic enolase', 'Blood glucose, lactate preservation when separation is delayed', 'Severely distorts RBC and WBC morphology; completely unsuitable for CBC']
+        ]
+      }),
+      section('10. The commercial blood tube guide: stopper colors, additives, and uses', [11, 12], 'Standardized stopper colors identify the chemical additives, mechanisms, and intended diagnostic applications of commercial vacuum blood collection tubes. Proper tube selection is essential to avoid analytical interference and sample rejection.', [
+        ['Red stopper (Plain / Clot tube)', 'Contains no anticoagulant; allows natural coagulation; used for serum biochemistry, serology, immunology, and crossmatching.'],
+        ['Yellow / Gold stopper (SST)', 'Contains clot activator and an inert polyester polymer separating gel; gel migrates between clot and serum during centrifugation.'],
+        ['Green stopper (Heparin)', 'Contains sodium or lithium heparin; used for clinical biochemistry and blood gas analysis.'],
+        ['Light green stopper (PST)', 'Contains lithium heparin and separating gel; used for rapid plasma biochemistry determination.'],
+        ['Light blue stopper (Coagulation / PT tube)', 'Contains 3.2% (0.109 mol/L) or 3.8% (0.129 mol/L) sodium citrate at a strict 1:9 anticoagulant-to-blood ratio for coagulation panels.'],
+        ['Lavender / Purple stopper (EDTA)', 'Contains K₂EDTA or K₃EDTA; standard tube for complete blood counts (CBC), automated hematology, and blood parasite exams.'],
+        ['Gray stopper (Glucose / Lactate)', 'Contains sodium fluoride and potassium oxalate; prevents glycolysis to stabilize blood sugar and lactate.'],
+        ['Black stopper (ESR tube)', 'Contains sodium citrate at a 1:4 ratio for measuring erythrocyte sedimentation rate.']
+      ], 'Match stopper color to assay: Red/Yellow = serum · Purple = CBC · Blue = coagulation · Green = chemistry/gases · Gray = glucose.', {
+        caption: 'Commercial blood collection tube reference guide',
+        headers: ['Tube type', 'Color code', 'Additive present', 'Diagnostic application'],
+        rows: [
+          ['No Additive Tube', 'Red', 'None (plain glass/plastic)', 'Serum collection, crossmatching, immunology, serology'],
+          ['Coagulant Tube', 'Red', 'Clot activator (silica particles)', 'Immunology, serology, biochemical tests'],
+          ['Coagulant Tube with Gel (SST)', 'Yellow / Gold', 'Clot activator + separating polymer gel', 'Biochemical panels, therapeutic drug monitoring, serology'],
+          ['Heparin Tube', 'Green', 'Sodium heparin or lithium heparin', 'Biochemical tests, blood gas analysis'],
+          ['Heparin Tube with Gel (PST)', 'Light Green', 'Lithium heparin + separating gel', 'Rapid plasma chemistry determinations'],
+          ['PT / Coagulation Tube', 'Light Blue', 'Sodium citrate (1:9 ratio; 0.109 or 0.129 mol/L)', 'Coagulation studies (PT, aPTT, fibrinogen)'],
+          ['Glucose / Lactate Tube', 'Gray', 'Potassium oxalate + sodium fluoride', 'Blood sugar (glucose) and lactate examination'],
+          ['EDTA Tube', 'Lavender / Purple', 'EDTA K2 or EDTA K3', 'Blood routine examination (CBC), molecular diagnostics'],
+          ['EDTA Tube with Gel', 'Purple / White', 'EDTA K2 + separating gel', 'Molecular diagnostics, viral load testing'],
+          ['ESR Tube', 'Black', 'Sodium citrate (1:4 ratio; 0.109 or 0.129 mol/L)', 'Erythrocyte sedimentation rate test']
+        ]
+      }),
+      section('11. Specimen handling, separation, and the 4°C refrigeration rule', [12, 13], 'Pre-analytical sample integrity depends directly on prompt post-collection handling. Serum and plasma must be separated from cellular elements by centrifugation as soon as possible after collection. All patient samples must be meticulously labeled with patient identification and specimen type. Fluid specimens must be refrigerated at 4°C until submission, whereas glass slides must NEVER be refrigerated.', [
+        ['Rapid separation of serum and plasma', 'For hemostasis and chemistry testing, plasma or serum must be separated from cells promptly after collection; cells consume glucose and leak intracellular potassium, phosphate, and enzymes into fluid.'],
+        ['Meticulous sample labeling', 'All fluid tubes and containers must be clearly labeled with the patient name/ID, date, and specimen type (e.g., serum, plasma, synovial fluid, peritoneal fluid, urine).'],
+        ['Fluid storage temperature: 4°C', 'All harvested fluid samples must be stored refrigerated at 4°C until submission to inhibit bacterial proliferation and preserve analyte stability.'],
+        ['THE SLIDE REFRIGERATION CONTRAINDICATION', 'In sharp contrast to fluid samples, glass slides (cytology smears, blood films) should NEVER be refrigerated.'],
+        ['Why refrigerating slides is harmful', 'Refrigerating slides causes moisture to condense on the smear surface upon removal, leading to immediate cell swelling, osmotic lysis, and complete loss of cytologic detail.']
+      ], 'Separate fluid from cells promptly; store fluids at 4°C; NEVER refrigerate slides because moisture condensation lyses cells.'),
+      section('12. Specimen submission: packaging, cushioning, and cold pack protocols', [13, 14], 'Transporting specimens to external diagnostic laboratories requires rigorous physical protection and temperature management. Tubes and slides must be labeled properly and cushioned against mechanical shock. Fluid samples must be shipped with cool packs, but must never be placed in direct contact with ice.', [
+        ['Proper labeling of submission materials', 'Verify that all primary tubes and slides are clearly labeled with patient identification and specimen contents before packing.'],
+        ['Physical packaging and cushioning', 'Cardboard slide boxes frequently break or crush during postal transit; use rigid plastic containers and wrap them in bubble wrap or cushioning material.'],
+        ['Cool pack shipping protocol', 'Ship liquid specimens with frozen cool packs to maintain chilled temperatures during warm-weather transport.'],
+        ['THE DIRECT ICE CONTACT HAZARD', 'Specimens must NEVER be placed in direct contact with cool packs or ice! They must be insulated by wrapping in paper towels.'],
+        ['Mechanism of freezing injury', 'Direct contact with frozen ice packs freezes whole blood or fluid cells, causing ice crystal formation, membrane rupture, and massive freeze-thaw cell lysis.'],
+        ['Transit speed', 'Ship samples as quickly as possible (ASAP); reducing transit time minimizes false pre-analytical alterations in test results caused by storage.']
+      ], 'Protect slides in rigid cushioned containers; wrap fluid tubes in paper towels before placing near cool packs to prevent freeze lysis.'),
+      section('13. The formalin vapor hazard and clinical history requirements', [14, 15], 'A disastrous pre-analytical shipping mistake is packaging formalin fixatives in the same parcel as cytology slides or blood tubes. Additionally, accurate clinical interpretation requires submitting a complete clinical history including signalment, relevant history, clinical signs, and lesion descriptions.', [
+        ['AVOID FORMALIN IN SAME PACKAGE', 'Never ship formalin containers in the same package as cytology slides or blood tubes; formalin vapor readily escapes and ruins unpreserved specimens.'],
+        ['Formalin vapor artifact', 'Formalin fumes penetrate slide mailers and partially fix cells on air-dried smears, preventing uptake of Romanowsky stains and rendering cytology unreadable.'],
+        ['Signalment essentials', 'Must provide species, age, breed, and sex/neuter status; normal reference intervals and disease predispositions vary greatly across signalment categories.'],
+        ['Relevant history', 'Document recent travel history, potential access to toxins or rodenticides, diet, and current medications (which can alter clinicopathologic parameters).'],
+        ['Pertinent clinical signs', 'Record objective clinical manifestations (e.g., epistaxis, hematuria, icterus, fever, lethargy) to guide pathologists toward appropriate differentials.'],
+        ['Lesion description for cytology', 'Provide precise anatomical location, tissue depth, size, consistency, and imaging features (e.g., "multiple hypoechoic masses in the liver on ultrasound").']
+      ], 'Formalin fumes ruin cytology staining (ship separately); always provide signalment, history, signs, and imaging descriptions.'),
+      section('14. Major types of laboratory assays: hematology, chemistry, and microscopy', [16, 17, 18], 'Diagnostic laboratory testing is divided into three major branches: clinical hematology, clinical chemistry, and clinical microscopy. Clinical hematology measures cell concentrations, morphology, and coagulation. Clinical chemistry measures substance concentrations and enzyme activities using quantitative, semiquantitative, or qualitative techniques. Clinical microscopy evaluates cytology, histopathology, urine sediments, and parasites.', [
+        ['Clinical hematology assays', '1. Quantitation of cell concentrations (automated RBC/WBC/platelet counts). 2. Semiquantitation (platelet/WBC estimates on film). 3. Microscopic cell morphology (differential, toxic changes, nucleated RBCs). 4. Coagulation assessment (PT, aPTT, fibrinogen).'],
+        ['Clinical chemistry: Substance concentration', 'A. Quantitative analysis (exact numerical value, e.g., blood glucose 110 mg/dL). B. Semiquantitative analysis (range or scale, e.g., urine dipstick protein 2+). C. Qualitative analysis (binary positive/negative, e.g., toxicant screening).'],
+        ['Clinical chemistry: Enzyme activity', 'A. Quantitative analysis (measuring catalytic reaction rate in international units, e.g., ALT 120 U/L). B. Qualitative analysis (detecting presence or absence of enzymatic reaction).'],
+        ['Clinical microscopy modalities', '1. Clinical cytology (fine-needle aspirates, body cavity effusions, impression smears). 2. Surgical histopathology (biopsy architecture in fixed tissue). 3. Urine sediment analysis (cells, casts, crystals, bacteria). 4. Clinical parasitology (fecal flotation, blood parasites, skin scrapings).']
+      ], 'Hematology evaluates cells and clotting; chemistry measures concentrations and enzyme activities; microscopy assesses cytology, histology, urine, and parasites.', {
+        caption: 'Classification of clinical laboratory assays',
+        headers: ['Assay branch', 'Major subcategories', 'Analysis modalities', 'Representative clinical examples'],
+        rows: [
+          ['Clinical Hematology', 'Cell concentration, Cell morphology, Coagulation', 'Quantitative, Semiquantitative, Microscopic', 'Complete blood count (CBC), blood film differential, prothrombin time (PT)'],
+          ['Clinical Chemistry (Concentration)', 'Substance concentration measurement', 'Quantitative, Semiquantitative, Qualitative', 'Serum creatinine (mg/dL), urine protein dipstick, ethylene glycol screen'],
+          ['Clinical Chemistry (Activity)', 'Chemical substance catalytic activity', 'Quantitative, Qualitative', 'Alanine aminotransferase (ALT U/L), alkaline phosphatase (ALP U/L)'],
+          ['Clinical Microscopy', 'Cytology, Histopathology, Urine sediment, Parasitology', 'Microscopic structural and cellular examination', 'Liver FNA, surgical margin biopsy, urine sediment casts, fecal float']
+        ]
+      }),
+      section('15. Basic laboratory safety: sharps, chemicals, biohazards, and PPE', [18, 19], 'Working with clinical specimens involves biological, chemical, and physical risks. Laboratory safety relies on four fundamental pillars: sharps handling, chemical safety, biological material containment, and personal protective equipment (PPE).', [
+        ['Sharps hazards and precautions', 'Needles, scalpel blades, glass capillary tubes, and broken slide glass present puncture and laceration risks; dispose immediately into puncture-resistant sharps bins; never recap needles two-handed.'],
+        ['Chemical hazards and controls', 'Fixatives (formalin), stains (Wright-Giemsa), clearing agents, and reagents require adequate ventilation, chemical fume hoods, eye-wash stations, and access to Safety Data Sheets (SDS).'],
+        ['Biological materials hazards', 'Patient blood, body fluids, tissues, and exudates may harbor infectious or zoonotic pathogens (e.g., Leptospira, Rabies, Brucella); require biohazard waste bags, decontamination, and surface disinfection.'],
+        ['Personal Protective Equipment (PPE)', 'Mandatory barrier protection including dedicated laboratory coats, disposable nitrile or latex gloves, protective eyewear or face shields when splashing is possible, and closed-toe footwear.']
+      ], 'Safeguard sharps in rigid bins, ventilate chemicals, contain biohazards, and always wear appropriate PPE (coat, gloves, eye protection).', {
+        caption: 'Core laboratory safety pillars and hazard controls',
+        headers: ['Safety pillar', 'Common laboratory sources', 'Primary clinical risk', 'Standard control measures'],
+        rows: [
+          ['Sharps', 'Needles, scalpel blades, capillary tubes, broken slides', 'Punctures, lacerations, accidental pathogen inoculation', 'Puncture-resistant sharps containers; one-hand scoop or never recap'],
+          ['Chemicals', 'Formalin, methanol stains, acids, cleaning solvents', 'Vapor toxicity, mucosal irritation, chemical burns', 'Chemical fume hoods, proper ventilation, eye-wash stations, SDS sheets'],
+          ['Biological materials', 'Blood, urine, effusions, feces, tissue biopsies', 'Infectious exposure, zoonotic transmission, contamination', 'Biosafety cabinets, disinfectant protocols, biohazard disposal'],
+          ['Personal Protective Equipment', 'Lab coats, nitrile gloves, safety glasses, face shields', 'Direct skin/mucosal contact with biohazards and chemicals', 'Wear dedicated lab coat, change gloves between tasks, closed-toe shoes']
+        ]
+      })
+    ],
+    questions: [
+      mc('What is the primary definition of clinical pathology?', 'A subspecialty of pathology dealing with laboratory methods for diagnosis and treatment of disease', ['A surgical specialty focused exclusively on post-mortem necropsy examinations', 'A field restricted to developing pharmaceutical compounds for infectious diseases', 'An imaging modality evaluating radiographic features of internal organs'], 'Clinical pathology focuses on applying laboratory methods and assays in the clinical environment to diagnose and treat disease.', 2),
+      mc('Which two diagnostic procedures are imperative before selecting laboratory assays?', 'Complete history and complete physical examination', ['Radiography and ultrasonography', 'Cytology and surgical biopsy', 'Blood gas analysis and coagulation profile'], 'History and physical examination are the two foundational diagnostic procedures that guide rational assay selection.', 2),
+      mc('Which of the following is NOT one of the four main clinical purposes of analyzing laboratory samples?', 'To replace clinical history and physical examination', ['To detect an unidentified pathologic state', 'To define, classify, or confirm a disease state', 'To assess changes in a pathologic state due to therapy or progression'], 'Laboratory tests should never replace patient history and physical examination; they are used to clarify and confirm problems.', 3),
+      mc('In clinical laboratory testing, what is an analyte?', 'The specific substance or cell of interest being detected or quantified', ['The anticoagulant added to the collection tube', 'The centrifuge rotor speed used to harvest plasma', 'The biohazardous waste container for discarded sharps'], 'An analyte is the specific chemical substance or cellular element targeted for detection or measurement in a laboratory assay.', 4),
+      mc('Why must whole blood analysis or processing be performed relatively rapidly after collection?', 'Blood cells die within a few hours, rendering aged samples unacceptable', ['Anticoagulant evaporates completely within thirty minutes', 'Plasma proteins spontaneously convert into hemoglobin', 'Blood cells replicate uncontrollably inside collection tubes'], 'Whole blood cells autolyze and die within hours outside the living vasculature, introducing severe analytical artifacts.', 5),
+      mc('Which anticoagulant is preferred for almost all routine hematologic tests, including the complete blood count (CBC)?', 'EDTA', ['Sodium citrate', 'Lithium heparin', 'Potassium oxalate'], 'EDTA preserves cell morphology best and prevents platelet clumping, making it the universal anticoagulant for CBC assays.', 6),
+      mc('How does sodium citrate achieve its anticoagulant effect, and how is it overridden in coagulation testing?', 'Forms an ionic bond with Ca²⁺; overridden by adding Ca²⁺ back to citrated plasma', ['Irreversibly destroys prothrombin; overridden by adding vitamin K', 'Inhibits enolase enzyme; overridden by adding glucose', 'Destroys platelets; overridden by adding fresh whole blood'], 'Citrate forms an ionic bond with calcium; adding calcium back during testing overrides citrate so coagulation enzymes can function.', 7),
+      mc('Why is sodium citrate preferred for whole blood collection in blood transfusions?', 'Because it has low in vivo toxicity', ['Because it permanently fixes leukocytes', 'Because it prevents bacterial growth without refrigeration', 'Because it raises patient blood glucose levels'], 'Citrate has low systemic toxicity because recipient tissues and the liver rapidly metabolize it into bicarbonate.', 7),
+      mc('What is the primary diagnostic role of gray-top collection tubes containing potassium oxalate and sodium fluoride?', 'Blood glucose and lactate assays', ['Complete blood counts (CBC)', 'Coagulation studies (PT and aPTT)', 'Blood gas analysis and pH testing'], 'Sodium fluoride inhibits enolase to stop glycolysis, preserving true glucose and lactate concentrations.', 8),
+      mc('What is the biochemical mechanism of action of heparin?', 'It activates antithrombin to inhibit thrombin and other coagulation factors', ['It chelates divalent calcium ions irreversibly', 'It precipitates fibrinogen out of solution', 'It oxidizes cellular hemoglobin into methemoglobin'], 'Heparin potentiates antithrombin III, which neutralizes thrombin and activated serine protease clotting factors.', 9),
+      mc('Which of the following is a major disadvantage of heparin when used for hematologic evaluation?', 'It alters leukocyte staining and morphology and causes platelet clumps to form', ['It causes complete irreversible hemolysis of all erythrocytes', 'It accelerates in vitro glycolysis and consumes blood glucose', 'It precipitates calcium oxalate crystals on blood films'], 'Heparin causes white cells to stain with a diffuse blue background, distorts morphology, and promotes platelet clumping.', 9),
+      mc('To maximize serum yield and avoid trapping fluid in a soft clot, what is the minimum recommended time for clot retraction before centrifuging plain tubes?', 'At least 30 minutes', ['At least 5 minutes', 'At least 4 hours', 'At least 24 hours'], 'Clot retraction typically takes at least 30 minutes at room temperature if no rapid clot activator is present.', 10),
+      mc('Which major protein (on a weight/volume basis) is present in plasma but absent in serum?', 'Fibrinogen', ['Albumin', 'Transferrin', 'Immunoglobulin G (IgG)'], 'Fibrinogen is consumed during the clotting process, so it is absent in serum but present in plasma.', 10),
+      mc('Why should glass cytology and blood smears NEVER be stored in the refrigerator?', 'Moisture condensation upon removal causes cells to lyse and destroys morphology', ['Cold temperatures cause glass slide holders to catch fire', 'Refrigeration causes immediate evaporation of cellular cytoplasm', 'Cold temperatures convert air-dried stains into toxic formalin vapor'], 'Refrigeration induces water condensation when slides are removed into room air, causing osmotic lysis of air-dried cells.', 13),
+      mc('Why must formalin containers NEVER be shipped in the same package as cytology slides or blood tubes?', 'Formalin vapors leak and partially fix cells, preventing proper Romanowsky staining', ['Formalin reacts with cardboard to produce explosive shock-sensitive crystals', 'Formalin vapors neutralize the anticoagulant effect of EDTA in blood tubes', 'Formalin fumes freeze fluid samples and crack glass tubes'], 'Formalin vapors penetrate slide containers and fix air-dried smears, turning cells into refractile, unstainable ghost cells.', 15),
+      id('Name the subspecialty of pathology that deals with the use of laboratory methods for the diagnosis and treatment of disease.', 'Clinical pathology', ['veterinary clinical pathology', 'clinical path'], 'Clinical pathology applies laboratory methods to disease diagnosis and clinical care.', 2),
+      id('What term denotes the specific substance or cell of interest that an assay is designed to detect or quantify?', 'Analyte', ['analytes'], 'An analyte is the specific cellular or chemical target of an analytical assay.', 4),
+      id('Name the fluid component of blood harvested after centrifugation of an anticoagulated blood sample.', 'Plasma', [], 'Plasma is the liquid fraction of anticoagulated blood containing all clotting proteins.', 6),
+      id('Name the fluid component of blood harvested after centrifugation of a clotted blood sample.', 'Serum', [], 'Serum is the fluid remaining after blood has fully clotted and retracted.', 10),
+      id('Give the common acronym for the calcium-binding anticoagulant preferred for routine complete blood count assays.', 'EDTA', ['Na2EDTA', 'K2EDTA', 'K3EDTA'], 'EDTA is the preferred anticoagulant for routine hematology and CBCs.', 6),
+      id('Which anticoagulant is preferred for coagulation system testing and whole blood transfusions?', 'Sodium citrate', ['citrate'], 'Sodium citrate reversibly binds calcium and has low in vivo toxicity.', 7),
+      id('What enzyme inhibitor is combined with oxalate in gray-top tubes to arrest in vitro glycolysis?', 'Sodium fluoride', ['fluoride', 'NaF'], 'Sodium fluoride inhibits glycolytic enolase to preserve glucose.', 8),
+      id('Which anticoagulant acts by potentiating antithrombin to inhibit thrombin?', 'Heparin', ['lithium heparin', 'sodium heparin'], 'Heparin inhibits clotting factors via antithrombin activation.', 9),
+      id('What temperature in degrees Celsius is recommended for storing fluid specimens prior to laboratory submission?', '4°C', ['4 degrees C', '4 C', '4 degrees Celsius', '4'], 'Harvested fluid samples should be refrigerated at 4°C until transport.', 13),
+      id('Name the volatile tissue preservative whose vapors ruin staining if shipped in the same package as cytology slides.', 'Formalin', ['formaldehyde', '10% formalin', 'neutral buffered formalin'], 'Formalin vapor fixes air-dried cytology smears, preventing diagnostic staining.', 15),
+      essay('Compare plasma and serum regarding sample preparation, coagulation factor composition, and the clinical hazard of premature centrifugation.', 'Plasma is the fluid component of blood harvested after centrifuging anticoagulated blood; it contains all coagulation factors, including fibrinogen, as well as the added anticoagulant. In contrast, serum is harvested after whole blood has clotted, consuming fibrinogen and other clotting factors. To obtain maximum serum yield, the tube must sit for at least 30 minutes at room temperature to allow complete clot retraction. Centrifuging before clot retraction traps fluid inside a soft fibrin clot, severely reducing serum yield and causing latent fibrin strands that foul chemistry analyzers.', ['Distinguish anticoagulated plasma from clotted serum preparation.', 'Identify fibrinogen as the major protein absent in serum but present in plasma.', 'Explain why centrifugation requires at least 30 minutes of clot retraction and the consequences of premature spinning.'], 10),
+      essay('Contrast the biochemical mechanisms, primary diagnostic indications, and hematologic limitations of EDTA, sodium citrate, and heparin.', 'EDTA chelates divalent calcium ions irreversibly; it is the preferred anticoagulant for routine hematology (CBC) because it preserves cell morphology best and prevents platelet clumping. Sodium citrate forms reversible ionic bonds with calcium, allowing calcium to be added back during testing to initiate coagulation in timed assays (PT, aPTT); its low toxicity makes it ideal for blood transfusions, but it requires an exact 1:9 draw ratio. Heparin accelerates antithrombin III to inhibit thrombin and factor Xa; it is preferred for blood gas analysis and emergency clinical chemistry, but it is unsuitable for blood films because it distorts leukocyte morphology, causes a diffuse blue background stain, triggers platelet clumping, and allows delayed microclotting.', ['Compare the calcium-binding mechanisms of EDTA and citrate with the antithrombin mechanism of heparin.', 'State the primary clinical indications for each anticoagulant (EDTA for CBC, citrate for coagulation/transfusion, heparin for blood gas/stat chemistry).', 'Detail the three major disadvantages of heparin for hematology (staining alteration, platelet clumping, delayed clotting).'], 6),
+      essay('Explain why glass cytology slides must never be refrigerated, and describe the proper packaging protocol for shipping fluid samples with cool packs.', 'Fluid samples must be refrigerated at 4°C to preserve analyte stability and inhibit bacterial overgrowth. In contrast, glass slides containing air-dried cytology or blood smears must never be refrigerated; removing chilled slides into warm ambient air causes moisture condensation on the glass, which induces osmotic lysis of cells and destroys diagnostic microscopic detail. When shipping fluid tubes with cool packs, tubes must be cushioned and wrapped in paper towels or insulation rather than placed in direct contact with ice. Direct contact with frozen cool packs causes freezing of the specimen, creating intracellular ice crystals that rupture cell membranes and cause catastrophic freeze-thaw hemolysis and cell lysis.', ['Explain why fluids are refrigerated at 4°C but glass slides must remain at room temperature.', 'Identify moisture condensation as the mechanism of cell lysis on refrigerated slides.', 'Explain why fluid samples must be insulated with paper towels to prevent direct ice contact and freeze-thaw lysis.'], 13),
+      essay('Explain why formalin must never be packaged with cytology slides or blood smears, and outline the essential components of a thorough patient history.', 'Formalin containers must never be shipped in the same package as cytology slides or blood smears because formalin vapor readily escapes from containers, even when tightly capped. Formalin fumes penetrate slide mailers and partially fix cells on air-dried smears, preventing the uptake of Romanowsky stains and rendering cells refractile, pale, and ungradable. A complete clinical history must accompany every submission and should include: 1) Patient signalment (species, breed, age, sex/neuter status) to interpret reference intervals; 2) Relevant history including travel, toxin access, diet, and current medications; 3) Pertinent clinical signs such as epistaxis, fever, or icterus; and 4) Precise cytologic lesion descriptions including anatomical site, size, consistency, and imaging findings.', ['Detail the formalin vapor penetration hazard and resulting Romanowsky staining failure.', 'List patient signalment components and explain why they are critical for reference intervals.', 'Identify relevant history, clinical signs, and lesion/imaging descriptions needed for accurate pathologic interpretation.'], 15),
+      essay('Outline the three major branches of clinical laboratory assays and describe the four pillars of basic laboratory safety.', 'The three major branches of laboratory assays are: 1) Clinical hematology, which quantifies blood cells, evaluates cell morphology on blood films, and assesses coagulation; 2) Clinical chemistry, which measures substance concentrations (quantitatively, semiquantitatively, or qualitatively) and evaluates chemical substance or enzyme catalytic activity; and 3) Clinical microscopy, which encompasses cytology, surgical histopathology, urine sediment examination, and parasitology. Basic laboratory safety rests on four pillars: 1) Sharps safety, requiring immediate disposal of needles, scalpel blades, and broken glass into rigid puncture-resistant containers without two-handed recapping; 2) Chemical safety, ensuring proper ventilation, fume hoods, and SDS access for stains, fixatives, and reagents; 3) Biological materials safety, containing and decontaminating infectious fluids and zoonotic pathogens; and 4) Personal Protective Equipment (PPE), requiring lab coats, gloves, eye protection, and closed-toe footwear.', ['Outline the three assay branches (hematology, chemistry, microscopy) and their measurement modalities.', 'Distinguish concentration measurement from enzymatic activity in clinical chemistry.', 'Detail the four laboratory safety pillars: sharps, chemicals, biological hazards, and PPE.'], 17)
+    ]
+  }
+];
+
 for (const lesson of lessons) {
-  lesson.questions.forEach((q,i)=>q.id=`u${lesson.id}-q${i+1}`);
-  lesson.cards=lesson.questions.filter(q=>q.type!=='essay').map(q=>({id:q.id,front:q.prompt,back:q.answer,detail:q.explanation,page:q.page}));
+  lesson.subject = 'endocrinology';
+  lesson.questions.forEach((q, i) => q.id = `u${lesson.id}-q${i + 1}`);
+  lesson.cards = lesson.questions.filter(q => q.type !== 'essay').map(q => ({ id: q.id, front: q.prompt, back: q.answer, detail: q.explanation, page: q.page }));
 }
+
+for (const lesson of pathologyLessons) {
+  lesson.questions.forEach((q, i) => q.id = `p${lesson.id}-q${i + 1}`);
+  lesson.cards = lesson.questions.filter(q => q.type !== 'essay').map(q => ({ id: q.id, front: q.prompt, back: q.answer, detail: q.explanation, page: q.page }));
+}
+
+export const subjects = {
+  endocrinology: {
+    id: 'endocrinology',
+    name: 'Endocrinology',
+    icon: 'leaf',
+    lessons: lessons
+  },
+  pathology: {
+    id: 'pathology',
+    name: 'Pathology',
+    icon: 'book',
+    lessons: pathologyLessons
+  }
+};

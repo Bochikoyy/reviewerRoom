@@ -1,0 +1,21 @@
+.study-diagram{max-width:100%;min-width:0;margin:24px 0 25px;border:1px solid var(--border);border-radius:9px;background:var(--surface);overflow:hidden;break-inside:avoid}
+.study-diagram figcaption{padding:14px 16px;font-family:Manrope,sans-serif;font-size:16px;font-weight:700;line-height:1.6;background:var(--yellow-soft);color:var(--yellow-text);overflow-wrap:anywhere}
+.study-diagram figcaption .eyebrow{display:block;font-family:'DM Sans',sans-serif;font-size:9px;letter-spacing:1.1px;margin-bottom:3px}
+.study-diagram__scroll{max-width:100%;min-width:0;overflow:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--yellow-text) var(--sidebar);background:var(--sidebar)}
+.study-diagram__scroll:focus-visible{outline:2px solid var(--yellow-text);outline-offset:-3px}
+.study-diagram__canvas{display:block;margin:auto;max-width:none;flex-shrink:0;font-family:'DM Sans',sans-serif}
+.study-diagram__node rect{fill:var(--surface);stroke:var(--border);stroke-width:1.5}
+.study-diagram__node--first rect{fill:var(--yellow-soft);stroke:var(--yellow-text);stroke-opacity:.45}
+.study-diagram__node-label{fill:var(--text);font-size:14px;font-weight:600}
+.study-diagram__edge>path{fill:none;stroke:var(--yellow-text);stroke-width:1.75;stroke-linejoin:round}
+.study-diagram__canvas marker path{fill:var(--yellow-text)}
+.study-diagram__edge-key circle{fill:var(--surface);stroke:var(--yellow-text);stroke-width:1}
+.study-diagram__edge-key text{fill:var(--yellow-text);font-size:11px;font-weight:700}
+.study-diagram__connections{border-top:1px solid var(--border);padding:15px 18px 17px;font-size:13px;line-height:1.8;color:var(--muted);overflow-wrap:anywhere}
+.study-diagram__connections>p{font-size:11px;font-weight:700;color:var(--yellow-text);margin:0 0 8px}
+.study-diagram__connections ol{margin:0;padding-left:24px;display:grid;gap:7px}
+.study-diagram__connections li{padding-left:3px}
+.study-diagram__connections li::marker{color:var(--yellow-text);font-size:11px;font-weight:700}
+.study-diagram__connections strong{font-weight:600;color:var(--text)}
+@media(max-width:520px){.study-diagram figcaption{font-size:14px;padding:12px 13px}.study-diagram__connections{font-size:12px;padding:12px 13px 15px}}
+@media print{.study-diagram{--surface:white;--sidebar:#faf9f3;--border:#d7d4c9;--yellow-soft:#f6f3e7;--yellow-text:#655018;--text:#25231d;--muted:#444;overflow:visible;print-color-adjust:exact;-webkit-print-color-adjust:exact}.study-diagram__scroll{overflow:visible}.study-diagram__canvas{max-width:100%;height:auto;max-height:220mm}.study-diagram__connections{font-size:10pt}.study-diagram figcaption{font-size:12pt}}
