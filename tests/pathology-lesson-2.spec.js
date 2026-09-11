@@ -1,21 +1,21 @@
 import { test, expect } from '@playwright/test';
 import { pathologyLessons, subjects } from '../src/data.js';
 
-test('pathology lesson 1 data conforms to exact academic curriculum specifications', () => {
+test('pathology lesson 2 data conforms to exact academic curriculum specifications', () => {
   expect(subjects.pathology).toBeDefined();
   expect(subjects.pathology.name).toBe('Pathology');
-  expect(pathologyLessons.length).toBeGreaterThanOrEqual(1);
+  expect(pathologyLessons.length).toBeGreaterThanOrEqual(2);
 
-  const lesson = pathologyLessons[0];
-  expect(lesson.id).toBe(1);
-  expect(lesson.title).toBe('Introductory concepts in clinical pathology');
-  expect(lesson.sourceTitle).toBe('Introductory concepts');
-  expect(lesson.subtitle).toContain('clinical diagnostic reasoning');
-  expect(lesson.pages).toBe(19);
-  expect(lesson.objectives.length).toBeGreaterThanOrEqual(3);
+  const lesson = pathologyLessons[1];
+  expect(lesson.id).toBe(2);
+  expect(lesson.title).toContain('Leukocytes');
+  expect(lesson.sourceTitle).toBe('Leukocytes');
+  expect(lesson.subtitle).toContain('leukocyte');
+  expect(lesson.pages).toBe(22);
+  expect(lesson.objectives.length).toBeGreaterThanOrEqual(4);
 
-  // 15 sections
-  expect(lesson.sections).toHaveLength(15);
+  // 16 sections
+  expect(lesson.sections).toHaveLength(16);
   for (const s of lesson.sections) {
     expect(s.title).toBeTruthy();
     expect(s.summary).toBeTruthy();
@@ -26,17 +26,24 @@ test('pathology lesson 1 data conforms to exact academic curriculum specificatio
 
   // Ensure tables exist for key comparative sections
   const tables = lesson.sections.filter(s => s.table);
-  expect(tables.length).toBeGreaterThanOrEqual(5);
+  expect(tables.length).toBeGreaterThanOrEqual(8);
+
+  // Ensure cell visualization figures exist and total 12
+  const totalFigures = lesson.sections
+    .filter(s => s.figure)
+    .map(s => Array.isArray(s.figure) ? s.figure.length : 1)
+    .reduce((a, b) => a + b, 0);
+  expect(totalFigures).toBe(12);
 
   // 25 flashcards
   expect(lesson.cards).toHaveLength(25);
   for (const c of lesson.cards) {
-    expect(c.id).toMatch(/^p1-q\d+$/);
+    expect(c.id).toMatch(/^p2-q\d+$/);
     expect(c.front).toBeTruthy();
     expect(c.back).toBeTruthy();
     expect(c.detail).toBeTruthy();
     expect(c.page).toBeGreaterThanOrEqual(1);
-    expect(c.page).toBeLessThanOrEqual(19);
+    expect(c.page).toBeLessThanOrEqual(22);
   }
 
   // 30 questions: 15 MCQ, 10 Identification, 5 Essay
@@ -70,33 +77,45 @@ test('pathology lesson 1 data conforms to exact academic curriculum specificatio
   }
 });
 
-test('pathology notes render comprehensive curriculum, tables, search, and bookmarks', async ({ page }) => {
-  await page.goto('/#pathology/lesson-1/notes');
+test('pathology lesson 2 notes render cell micrographs, tables, search, and bookmarks', async ({ page }) => {
+  await page.goto('/#pathology/lesson-2/notes');
 
   // Verify header and hero
   await expect(page.locator('.course-label')).toContainText('PATHOLOGY');
-  await expect(page.locator('h1')).toContainText('Introductory concepts in clinical pathology');
+  await expect(page.locator('h1')).toContainText('Leukocytes');
   await expect(page.locator('.breadcrumb')).toContainText('Pathology');
 
   // Verify note sections rendered
   const noteSections = page.locator('.note-section');
-  await expect(noteSections).toHaveCount(15);
+  await expect(noteSections).toHaveCount(16);
+
+  // Verify cell visualization figures are rendered
+  const figures = page.locator('.note-figure');
+  const figureCount = await figures.count();
+  expect(figureCount).toBe(12);
+
+  // Verify images actually load and have positive dimensions
+  const firstImg = page.locator('.note-figure img').first();
+  await firstImg.scrollIntoViewIfNeeded();
+  await expect(firstImg).toBeVisible();
+  const naturalWidth = await firstImg.evaluate(img => img.naturalWidth);
+  expect(naturalWidth).toBeGreaterThan(0);
 
   // Verify comparative tables are rendered
   const tables = page.locator('.note-table-wrap table');
   await expect(tables.first()).toBeVisible();
   const tableCount = await tables.count();
-  expect(tableCount).toBeGreaterThanOrEqual(5);
+  expect(tableCount).toBeGreaterThanOrEqual(8);
 
-  // Test search filtering
+  // Test search filtering for Greyhound vacuolated eosinophil
   const searchInput = page.locator('#notes-search');
-  await searchInput.fill('fibrinogen');
+  await searchInput.fill('Greyhound');
   await expect(page.locator('.search-results')).toContainText('section');
-  await expect(page.locator('.note-section h2').first()).toContainText('Plasma vs serum');
+  await expect(page.locator('.note-section h2').first()).toContainText('Eosinophil morphology');
 
   // Clear search
   await page.locator('[data-action="clear-search"]').click();
-  await expect(page.locator('.note-section')).toHaveCount(15);
+  await expect(page.locator('.note-section')).toHaveCount(16);
 
   // Bookmark a section
   const firstBookmarkBtn = page.locator('.note-section').first().locator('[data-action="bookmark"]');
@@ -109,21 +128,40 @@ test('pathology notes render comprehensive curriculum, tables, search, and bookm
 
   // Unfilter bookmarks
   await page.locator('[data-action="filter-bookmarks"]').click();
-  await expect(page.locator('.note-section')).toHaveCount(15);
+  await expect(page.locator('.note-section')).toHaveCount(16);
 
   // Mark lesson as read and verify sidebar indicator
   const markReadBtn = page.locator('[data-action="mark-read"]');
   await markReadBtn.click();
   await expect(markReadBtn).toContainText('Mark unread');
-  await expect(page.locator('[data-subject="pathology"][data-id="1"] .read-check')).toBeVisible();
+  await expect(page.locator('[data-subject="pathology"][data-id="2"] .read-check')).toBeVisible();
 
-  // Verify PDF download link points to Pathology-1.pdf
+  // Verify PDF download link points to Pathology-2.pdf
   const pdfLink = page.locator('.pdf-download');
-  await expect(pdfLink).toHaveAttribute('href', '/lessons/Pathology-1.pdf');
+  await expect(pdfLink).toHaveAttribute('href', '/lessons/Pathology-2.pdf');
+
+  // Capture screenshot of notes with figures for visual validation
+  await page.screenshot({ path: 'test-results/pathology-lesson-2-notes.png', fullPage: false });
+  const sec2 = page.locator('#section-1');
+  await sec2.scrollIntoViewIfNeeded();
+  await page.screenshot({ path: 'test-results/pathology-2-cell-figures-light.png' });
+
+  // Also test in dark mode
+  await page.locator('[data-action="theme"]').click();
+  await page.screenshot({ path: 'test-results/pathology-lesson-2-notes-dark.png', fullPage: false });
+  await page.screenshot({ path: 'test-results/pathology-2-cell-figures-dark.png' });
+
+  // Toxic changes
+  const sec9 = page.locator('#section-8');
+  await sec9.scrollIntoViewIfNeeded();
+  await page.screenshot({ path: 'test-results/pathology-2-toxic-changes-dark.png' });
+
+  await page.locator('[data-action="theme"]').click();
+  await page.screenshot({ path: 'test-results/pathology-2-toxic-changes-light.png' });
 });
 
-test('pathology flashcards support 25-card active recall, flipping, and rating', async ({ page }) => {
-  await page.goto('/#pathology/lesson-1/flashcards');
+test('pathology lesson 2 flashcards support 25-card active recall, flipping, and rating', async ({ page }) => {
+  await page.goto('/#pathology/lesson-2/flashcards');
 
   // Verify deck size
   await expect(page.locator('.learned-pill')).toContainText('0 / 25 learned');
@@ -152,8 +190,8 @@ test('pathology flashcards support 25-card active recall, flipping, and rating',
   await expect(page.locator('.learned-pill')).toContainText('1 / 25 learned');
 });
 
-test('pathology 30-question quiz scores 25/25 on key with essay rubric self-review', async ({ page }) => {
-  await page.goto('/#pathology/lesson-1/quiz');
+test('pathology lesson 2 30-question quiz scores 25/25 on key with essay rubric self-review', async ({ page }) => {
+  await page.goto('/#pathology/lesson-2/quiz');
 
   // Intro view
   await expect(page.locator('.quiz-intro h2')).toContainText('A check-in, not a finish line');
@@ -165,7 +203,7 @@ test('pathology 30-question quiz scores 25/25 on key with essay rubric self-revi
   await page.locator('[data-action="start-quiz"]').click();
   await expect(page.locator('.quiz-workspace')).toBeVisible();
 
-  const lesson = pathologyLessons[0];
+  const lesson = pathologyLessons[1];
 
   // Fill in all 30 questions
   for (let i = 0; i < 30; i++) {
@@ -222,46 +260,4 @@ test('pathology 30-question quiz scores 25/25 on key with essay rubric self-revi
 
   // Back to start of quiz, previous best preserved
   await expect(page.locator('.quiz-workspace')).toBeVisible();
-});
-
-test('subject folder accordion toggle and inter-subject navigation work seamlessly', async ({ page }) => {
-  await page.goto('/#endocrinology/lesson-1/notes');
-
-  const endoToggle = page.locator('[data-id="endocrinology"].subject-folder-toggle');
-  const pathToggle = page.locator('[data-id="pathology"].subject-folder-toggle');
-
-  await expect(endoToggle).toHaveAttribute('aria-expanded', 'true');
-  await expect(pathToggle).toHaveAttribute('aria-expanded', 'true');
-
-  // Collapse pathology folder
-  await pathToggle.click();
-  await expect(pathToggle).toHaveAttribute('aria-expanded', 'false');
-  await expect(page.locator('#subject-collection-1')).toBeHidden();
-
-  // Re-expand pathology folder
-  await pathToggle.click();
-  await expect(pathToggle).toHaveAttribute('aria-expanded', 'true');
-  await expect(page.locator('#subject-collection-1')).toBeVisible();
-
-  // Click Pathology Lesson 1 link in sidebar
-  const pathLesson1 = page.locator('#subject-collection-1 [data-action="lesson"][data-id="1"]');
-  await pathLesson1.click();
-
-  // URL updates and content switches
-  await expect(page).toHaveURL(/#pathology\/lesson-1\/notes/);
-  await expect(page.locator('.course-label')).toContainText('PATHOLOGY');
-  await expect(page.locator('h1')).toContainText('Introductory concepts in clinical pathology');
-  await expect(page.locator('[data-id="pathology"].subject-folder-toggle')).toHaveClass(/selected-subject/);
-  await expect(page.locator('[data-id="endocrinology"].subject-folder-toggle')).not.toHaveClass(/selected-subject/);
-  await page.locator('.sidebar').screenshot({ path: 'test-results/sidebar-pathology-selected.png' });
-  await page.locator('[data-action="theme"]').click();
-  await page.locator('.sidebar').screenshot({ path: 'test-results/sidebar-pathology-selected-dark.png' });
-  await page.locator('[data-action="theme"]').click();
-
-  // Click Endocrinology Lesson 2 link in sidebar
-  const endoLesson2 = page.locator('#subject-collection-0 [data-action="lesson"][data-id="2"]');
-  await endoLesson2.click();
-
-  await expect(page).toHaveURL(/#lesson-2\/notes/);
-  await expect(page.locator('.course-label')).toContainText('ENDOCRINOLOGY');
 });
