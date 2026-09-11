@@ -206,10 +206,21 @@ app.addEventListener('click',e=>{
  if(action==='retake'){confirmDialog('A fresh start?','This replaces this lesson’s current answers and essay self-review. Your best objective score will stay saved.','Start again',()=>{const k=progressKey();progress.quizzes[k]=makeQuiz();save();reviewOnly=false;refreshMode()});return}
  if(action==='open-lightbox'){e.preventDefault();const d=document.createElement('div');d.innerHTML=btn.dataset.figCaption||'';const caption=d.innerHTML;lightboxFig={src:btn.dataset.figSrc,alt:btn.dataset.figAlt,caption};const existing=document.querySelector('.lightbox-overlay');if(existing)existing.remove();app.insertAdjacentHTML('beforeend',lightboxView());document.body.style.overflow='hidden';document.querySelector('.lightbox-close')?.focus();return}
  if(action==='close-lightbox'){if(btn.classList.contains('lightbox-close')||e.target.classList.contains('lightbox-overlay')){lightboxFig=null;document.querySelector('.lightbox-overlay')?.remove();document.body.style.overflow='';}return}
+ if(action==='close-donation'){closeDonationModal();return}
+ if(action==='backdrop-donation'){if(e.target.classList.contains('donation-overlay'))closeDonationModal();return}
  if(action==='export'){const blob=new Blob([JSON.stringify({app:'Sunroom',version:1,exported:new Date().toISOString(),progress,timer},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`sunroom-progress-${new Date().toISOString().slice(0,10)}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Progress exported as a JSON record.');return}
 });
 document.addEventListener('keydown',e=>{
- if(e.key==='Escape'){if(lightboxFig){lightboxFig=null;document.querySelector('.lightbox-overlay')?.remove();document.body.style.overflow='';return}if(sidebarOpen){sidebarOpen=false;render();document.querySelector('[data-action="menu"]')?.focus()}if(timerOpen){timerOpen=false;renderTimer();document.querySelector('.timer-fab')?.focus()}return}
+ if(e.key==='Escape'){
+  if(donationModalActive){
+   if(donationModalActive.remaining<=0)closeDonationModal();
+   return;
+  }
+  if(lightboxFig){lightboxFig=null;document.querySelector('.lightbox-overlay')?.remove();document.body.style.overflow='';return}
+  if(sidebarOpen){sidebarOpen=false;render();document.querySelector('[data-action="menu"]')?.focus()}
+  if(timerOpen){timerOpen=false;renderTimer();document.querySelector('.timer-fab')?.focus()}
+  return;
+ }
  if(sidebarOpen&&e.key==='Tab'){const elements=[...document.querySelectorAll('.sidebar button,.sidebar a')].filter(x=>x.offsetParent!==null),first=elements[0],last=elements.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}return}
  if(e.target.closest('input,textarea,select,dialog'))return;
  if(e.key==='/'&&mode==='notes'){e.preventDefault();document.querySelector('#notes-search')?.focus()}
@@ -245,7 +256,80 @@ document.querySelector('#timer-root').addEventListener('click',e=>{const btn=e.t
  if(action==='test-sound'){unlockAudio();chime();toast(timer.sound?'Alarm sound played.':'Enable the sound button first.');return}
  if(action==='add'||action==='subtract'){timer.remaining=Math.min(10800,Math.max(60,remaining()+(action==='add'?300:-300)));if(timer.running)timer.end=Date.now()+timer.remaining*1000;timer.finished=false;timerSave();renderTimer()}
 });
- function tick(){if(!timer.running)return;const seconds=remaining();if(seconds<=0){timer.running=false;timer.remaining=0;timer.end=null;timer.finished=true;if(timer.phase==='study')timer.sessions++;timerSave();chime();if('Notification'in window&&Notification.permission==='granted')try{new Notification(timer.phase==='study'?'Study session complete':'Rest complete',{body:timer.phase==='study'?'Time for a little rest.':'Ready when you are.',icon:'/sun.svg'})}catch{}toast(timer.phase==='study'?'Focus session complete. Time for a little rest.':'Rest complete. Ready for another little step?');renderTimer()}else{const digits=document.querySelector('#timer-digits');if(digits)digits.textContent=timeLabel(seconds);const fab=document.querySelector('.timer-fab span');if(fab)fab.textContent=timeLabel(seconds);document.querySelector('[data-timer="subtract"]')?.toggleAttribute('disabled',seconds<=60)}}
+// Timed Donation Modal & 30-Minute Recurring Reminder
+let donationModalActive=null;
+let donationCountdownInterval=null;
+const DONATION_RECURRING_INTERVAL_MS=30*60*1000;
+let nextDonationTime=Date.now()+DONATION_RECURRING_INTERVAL_MS;
+
+function donationModalView(type='initial',remaining=3){
+ const isRecurring=type==='recurring';
+ const isLocked=remaining>0;
+ return `<div class="donation-overlay" data-action="backdrop-donation" role="dialog" aria-modal="true" aria-labelledby="donation-modal-title"><div class="donation-card ${isRecurring?'is-recurring':''}"><button class="icon-btn donation-top-close" data-action="close-donation" aria-label="Close donation notice" ${isLocked?'disabled':''}>${icon('close')}</button>${isRecurring?`<div class="donation-badge">${icon('clock')} 30-Minute Study Reminder</div><h2 class="donation-title oops-alert" id="donation-modal-title">OOPS OOPS OOPS, DONATE FLES</h2>`:`<div class="donation-badge">${icon('sun')} Support the Reviewer</div><h2 class="donation-title" id="donation-modal-title">A Little Sunshine for Your Studies</h2>`}<div class="donation-quote-wrap"><blockquote class="donation-quote">“(No one has ever become poor by giving.)”</blockquote></div><div class="donation-qr-box"><img class="donation-qr-img" src="/images/donation-qr.png" alt="MariBank InstaPay QR Code for Chrisnel Graine Caipang"></div><div class="donation-account-info"><div class="donation-account-pill">MariBank (InstaPay) · Chrisnel Graine Caipang</div><p class="donation-subtext">${isRecurring?'You’ve been studying hard for 30 minutes! Keep going and consider sending a little support 🥰':'Accepting donations · modawat rako bisag piso 🥰 salamat ha!'}</p></div><div class="donation-actions"><button class="btn ${isLocked?'':'primary'} donation-close-btn" data-action="close-donation" ${isLocked?'disabled':''}>${isLocked?`<span class="donation-countdown-badge">${remaining}s</span> Please wait ${remaining}s...`:`Continue to Reviewer ${icon('arrow')}`}</button></div></div></div>`;
+}
+
+function openDonationModal(type='initial'){
+ if(donationModalActive)return;
+ donationModalActive={type,remaining:3};
+ if(donationCountdownInterval){clearInterval(donationCountdownInterval);donationCountdownInterval=null}
+ document.querySelector('.donation-overlay')?.remove();
+ app.insertAdjacentHTML('beforeend',donationModalView(type,3));
+ document.body.style.overflow='hidden';
+ donationCountdownInterval=setInterval(()=>{
+  if(!donationModalActive){clearInterval(donationCountdownInterval);donationCountdownInterval=null;return}
+  donationModalActive.remaining-=1;
+  const r=donationModalActive.remaining;
+  const overlay=document.querySelector('.donation-overlay');
+  if(!overlay){clearInterval(donationCountdownInterval);donationCountdownInterval=null;return}
+  const closeBtn=overlay.querySelector('.donation-close-btn');
+  const topClose=overlay.querySelector('.donation-top-close');
+  if(r>0){
+   if(closeBtn){
+    closeBtn.innerHTML=`<span class="donation-countdown-badge">${r}s</span> Please wait ${r}s...`;
+    closeBtn.disabled=true;
+   }
+   if(topClose)topClose.disabled=true;
+  }else{
+   clearInterval(donationCountdownInterval);
+   donationCountdownInterval=null;
+   if(closeBtn){
+    closeBtn.disabled=false;
+    closeBtn.className='btn primary donation-close-btn';
+    closeBtn.innerHTML=`Continue to Reviewer ${icon('arrow')}`;
+    closeBtn.focus();
+   }
+   if(topClose)topClose.disabled=false;
+  }
+ },1000);
+}
+
+function closeDonationModal(){
+ if(!donationModalActive||donationModalActive.remaining>0)return;
+ if(donationCountdownInterval){clearInterval(donationCountdownInterval);donationCountdownInterval=null}
+ donationModalActive=null;
+ document.querySelector('.donation-overlay')?.remove();
+ document.body.style.overflow='';
+ nextDonationTime=Date.now()+DONATION_RECURRING_INTERVAL_MS;
+ try{localStorage.setItem('sunroom-next-donation',String(nextDonationTime))}catch{}
+}
+
+ function tick(){
+  if(!donationModalActive&&Date.now()>=nextDonationTime){
+   openDonationModal('recurring');
+  }
+  if(!timer.running)return;
+  const seconds=remaining();
+  if(seconds<=0){timer.running=false;timer.remaining=0;timer.end=null;timer.finished=true;if(timer.phase==='study')timer.sessions++;timerSave();chime();if('Notification'in window&&Notification.permission==='granted')try{new Notification(timer.phase==='study'?'Study session complete':'Rest complete',{body:timer.phase==='study'?'Time for a little rest.':'Ready when you are.',icon:'/sun.svg'})}catch{}toast(timer.phase==='study'?'Focus session complete. Time for a little rest.':'Rest complete. Ready for another little step?');renderTimer()}else{const digits=document.querySelector('#timer-digits');if(digits)digits.textContent=timeLabel(seconds);const fab=document.querySelector('.timer-fab span');if(fab)fab.textContent=timeLabel(seconds);document.querySelector('[data-timer="subtract"]')?.toggleAttribute('disabled',seconds<=60)}}
 setInterval(tick,500);
 document.addEventListener('visibilitychange',tick);
 render();renderTimer();tick();
+
+const isAutomatedTest=typeof navigator!=='undefined'&&navigator.webdriver&&!window.__FORCE_DONATION_POPUP__&&!location.search.includes('donation=');
+if(!isAutomatedTest){
+ openDonationModal('initial');
+}
+
+window.__openDonationModal=openDonationModal;
+window.__closeDonationModal=closeDonationModal;
+window.__getDonationState=()=>({donationModalActive,nextDonationTime});
+window.__setNextDonationTime=(t)=>{nextDonationTime=t};

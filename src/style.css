@@ -28,4 +28,186 @@ body{font-size:16px}
 .section-summary,.concept dd{font-size:17px;line-height:2}.concept dt{font-size:17px}.objectives li{font-size:15px;line-height:1.9}.hero-copy>p{font-size:16px}.takeaway p{font-size:16px;line-height:1.85}.note-table-wrap table{font-size:15px;line-height:1.85}.note-table-wrap caption{font-size:16px}.note-table-wrap th,.note-table-wrap td{font-size:15px;padding:14px 16px}.note-table-wrap thead th{font-size:13px}.on-page a{font-size:12px}
 @media(max-width:760px){.section-summary,.concept dd{font-size:16px;line-height:1.95}.concept dt{font-size:16px}.hero-copy>p{font-size:15px}.objectives li{font-size:14px;line-height:1.9}.takeaway p{font-size:15px}.note-table-wrap table{font-size:14px}.note-table-wrap caption{font-size:15px}.note-table-wrap th,.note-table-wrap td{font-size:14px;padding:13px 14px}.note-table-wrap thead th{font-size:12px}.on-page a{font-size:11px}}
 @media(max-width:520px){.section-summary,.concept dd{font-size:15px}.concept dt{font-size:15px}.objectives li{font-size:13px}.takeaway p{font-size:14px}.note-table-wrap table{font-size:13px}.note-table-wrap caption{font-size:14px}.note-table-wrap th,.note-table-wrap td{font-size:13px;padding:12px 13px}}
-@media print{.site-header,.sidebar,.sidebar-backdrop,.study-toolbar,.notes-controls,.lesson-aside,.hero-art,#timer-root,.content-footer,.note-bookmark,.lesson-end,.skip-link{display:none!important}.main{margin:0;padding:0}.notes-layout{display:block}.note-section{break-inside:avoid}.lesson-hero{padding:0 0 20px}.source-link{display:none}body{background:white;color:black}.concept dd,.section-summary{color:#333}.takeaway,.objectives{background:#f6f3e7}}
+@media print{.site-header,.sidebar,.sidebar-backdrop,.study-toolbar,.notes-controls,.lesson-aside,.hero-art,#timer-root,.content-footer,.note-bookmark,.lesson-end,.skip-link,.donation-overlay{display:none!important}.main{margin:0;padding:0}.notes-layout{display:block}.note-section{break-inside:avoid}.lesson-hero{padding:0 0 20px}.source-link{display:none}body{background:white;color:black}.concept dd,.section-summary{color:#333}.takeaway,.objectives{background:#f6f3e7}}
+
+/* Timed Donation Modal & 30-Minute Recurring Reminder */
+.donation-overlay{
+  position:fixed;
+  inset:0;
+  z-index:300;
+  background:rgba(0,0,0,.76);
+  backdrop-filter:blur(8px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  animation:donation-fade-in .25s ease;
+}
+.donation-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:20px;
+  width:100%;
+  max-width:440px;
+  box-shadow:0 24px 70px rgba(0,0,0,.5);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  padding:32px 28px 26px;
+  position:relative;
+  animation:donation-scale-up .25s cubic-bezier(0.16,1,0.3,1);
+  overflow:hidden;
+}
+.donation-card::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:4px;
+  background:linear-gradient(90deg,var(--yellow),#f59e0b,var(--yellow));
+}
+.donation-card.is-recurring::before{
+  background:linear-gradient(90deg,#f43f5e,#fb7185,#f43f5e);
+}
+.donation-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:var(--yellow-text);
+  margin-bottom:10px;
+}
+.donation-badge .icon{
+  width:14px;
+  height:14px;
+}
+.donation-title{
+  font-size:20px;
+  font-weight:800;
+  color:var(--heading);
+  line-height:1.35;
+  margin:0 0 10px;
+}
+.donation-title.oops-alert{
+  color:#e11d48;
+  font-size:22px;
+  letter-spacing:-0.5px;
+  font-weight:900;
+  text-transform:uppercase;
+}
+[data-theme="dark"] .donation-title.oops-alert{
+  color:#fb7185;
+}
+.donation-quote-wrap{
+  background:color-mix(in srgb,var(--sidebar) 75%,transparent);
+  border-left:3.5px solid var(--yellow);
+  padding:12px 18px;
+  border-radius:0 10px 10px 0;
+  margin:6px 0 16px;
+  width:100%;
+  box-sizing:border-box;
+}
+.donation-quote{
+  font-size:14px;
+  font-style:italic;
+  font-weight:600;
+  color:var(--text);
+  margin:0;
+  line-height:1.55;
+  font-family:Newsreader,serif;
+}
+.donation-qr-box{
+  background:#ffffff;
+  padding:14px;
+  border-radius:16px;
+  box-shadow:0 4px 20px rgba(0,0,0,.12),0 0 0 1px rgba(0,0,0,.06);
+  margin:4px 0 16px;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+}
+.donation-qr-img{
+  width:210px;
+  height:210px;
+  object-fit:contain;
+  display:block;
+}
+.donation-account-info{
+  margin-bottom:20px;
+  width:100%;
+}
+.donation-account-pill{
+  display:inline-block;
+  font-size:12px;
+  font-weight:700;
+  color:var(--heading);
+  background:color-mix(in srgb,var(--sidebar) 95%,transparent);
+  padding:5px 14px;
+  border-radius:20px;
+  border:1px solid var(--border);
+  margin-bottom:7px;
+}
+.donation-subtext{
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.5;
+  margin:0;
+}
+.donation-actions{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.donation-close-btn{
+  width:100%;
+  padding:12px 18px;
+  font-size:14px;
+  font-weight:700;
+  justify-content:center;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  border-radius:12px;
+  transition:all .2s;
+}
+.donation-close-btn:disabled{
+  opacity:0.65;
+  cursor:not-allowed;
+  background:var(--sidebar);
+  color:var(--muted);
+  border-color:var(--border);
+}
+.donation-countdown-badge{
+  background:color-mix(in srgb,var(--yellow-text) 18%,transparent);
+  color:var(--yellow-text);
+  padding:2px 8px;
+  border-radius:12px;
+  font-size:12px;
+  font-weight:800;
+}
+.donation-top-close{
+  position:absolute;
+  top:14px;
+  right:14px;
+}
+.donation-top-close:disabled{
+  opacity:0.25;
+  cursor:not-allowed;
+  pointer-events:none;
+}
+@keyframes donation-fade-in{from{opacity:0}to{opacity:1}}
+@keyframes donation-scale-up{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+@media(max-width:480px){
+  .donation-card{padding:24px 20px 20px;}
+  .donation-qr-img{width:180px;height:180px;}
+  .donation-title{font-size:18px;}
+  .donation-title.oops-alert{font-size:19px;}
+  .donation-quote{font-size:13px;}
+}
+
