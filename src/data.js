@@ -1,5 +1,6 @@
 // Study summaries and original practice questions derived from the supplied PDFs.
 // Page references use the physical PDF page numbers. This is course revision content.
+import { industryElectiveLessons } from './industry-elective-data.js';
 const section = (title, pages, summary, points, takeaway, table = null, figure = null) => ({title,pages,summary,points,takeaway,table,figure});
 const mc = (prompt, answer, wrong, explanation, page) => ({type:'mcq',prompt,answer,options:[answer,...wrong],explanation,page});
 const id = (prompt, answer, aliases, explanation, page) => ({type:'identification',prompt,answer,aliases,explanation,page});
@@ -1607,6 +1608,12 @@ for (const lesson of pathologyLessons) {
   lesson.cards = lesson.questions.filter(q => q.type !== 'essay').map(q => ({ id: q.id, front: q.prompt, back: q.answer, detail: q.explanation, page: q.page }));
 }
 
+for (const lesson of industryElectiveLessons) {
+  lesson.subject = 'industry-elective';
+  lesson.questions.forEach((q, i) => q.id = `ie${lesson.id}-q${i + 1}`);
+  lesson.cards = lesson.questions.filter(q => q.type !== 'essay').map(q => ({ id: q.id, front: q.prompt, back: q.answer, detail: q.explanation, page: q.page }));
+}
+
 export const subjects = {
   endocrinology: {
     id: 'endocrinology',
@@ -1619,5 +1626,14 @@ export const subjects = {
     name: 'Pathology',
     icon: 'book',
     lessons: pathologyLessons
+  },
+  'industry-elective': {
+    id: 'industry-elective',
+    name: 'Industry Elective',
+    icon: 'code',
+    lessons: industryElectiveLessons
   }
 };
+subjects.industryElective = subjects['industry-elective'];
+
+export { industryElectiveLessons };
