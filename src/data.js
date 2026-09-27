@@ -1,6 +1,7 @@
 // Study summaries and original practice questions derived from the supplied PDFs.
 // Page references use the physical PDF page numbers. This is course revision content.
 import { industryElectiveLessons } from './industry-elective-data.js';
+import { digestionLessons } from './digestion-data.js';
 const section = (title, pages, summary, points, takeaway, table = null, figure = null) => ({title,pages,summary,points,takeaway,table,figure});
 const mc = (prompt, answer, wrong, explanation, page) => ({type:'mcq',prompt,answer,options:[answer,...wrong],explanation,page});
 const id = (prompt, answer, aliases, explanation, page) => ({type:'identification',prompt,answer,aliases,explanation,page});
@@ -1620,8 +1621,14 @@ export const subjects = {
     name: 'Industry Elective',
     icon: 'code',
     lessons: industryElectiveLessons
+  },
+  digestion: {
+    id: 'digestion',
+    name: 'Digestion',
+    icon: 'book',
+    lessons: digestionLessons
   }
 };
 subjects.industryElective = subjects['industry-elective'];
 
-export { industryElectiveLessons };
+export { industryElectiveLessons, digestionLessons };

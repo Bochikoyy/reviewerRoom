@@ -1,0 +1,882 @@
+Pharmaceutical Biochemistry
+Digestion
+Ryan Christopher G. Atuel, RPh, MSc
+Department of Pharmacy
+College of Nursing and Allied Health Sciences
+Cebu Institute of Technology University
+Cebu, Philippines
+
+-- 1 of 58 --
+
+Pharmaceutical Biochemistry
+• Digestion is the chemical
+breakdown of large food molecules
+into smaller molecules that can be
+used by cells.
+• The breakdown occurs when certain
+specific enzymes are mixed with the
+food.
+2	Digestion
+Digestion and Absorption
+
+-- 2 of 58 --
+
+Pharmaceutical Biochemistry
+•Carbohydrates → absorbed as
+monosaccharides
+•Lipids/Fats → absorbed as free
+fatty acids + glycerol
+•Proteins → absorbed as amino
+acids + small peptides
+3	Digestion
+Major Dietary Components
+“Digestion = hydrolysis → smaller absorbable units”
+
+-- 3 of 58 --
+
+Pharmaceutical Biochemistry 4	Digestion
+Carbohydrates Digestion
+• Carbohydrates from food (starch, glycogen, sugars) must be broken down
+into monosaccharides for absorption.
+Main sites of digestion:
+1.Mouth – partial digestion by
+salivary amylase
+2.Small intestine – major digestion by
+pancreatic amylase
+3.Intestinal mucosa – final digestion to monosaccharides
+💡 End products: Glucose, Galactose, Fructose → absorbed into blood.
+
+-- 4 of 58 --
+
+Pharmaceutical Biochemistry 5	Digestion
+Carbohydrate Digestion
+Enzyme: Salivary α-amylase
+•Hydrolyzes α-glycosidic bonds in starch
+(plants) & glycogen (meats).
+•Produces: maltose + smaller
+polysaccharides
+•Only brief digestion in mouth → food
+swallowed quickly.
+•In the stomach: no carbohydrate digestion
+(amylase inactivated by acid).
+
+-- 5 of 58 --
+
+Pharmaceutical Biochemistry 6	Digestion
+Carbohydrate Digestion
+Principal Sites:
+•Mouth: salivary α-amylase begins starch & glycogen
+hydrolysis.
+•Intestinal lumen: pancreatic α-amylase continues
+digestion to maltose & small oligosaccharides.
+Enzymes: Glycoside Hydrolases (Glycosidases)
+•Catalyze hydrolysis of glycosidic bonds in
+carbohydrates.
+•Types:
+• Endoglycosidases – cleave internal bonds in
+polysaccharides (e.g., α-amylase).
+• Disaccharidases – act on di- and trisaccharides
+(e.g., maltase, sucrase, lactase).
+Glycosidases are specific for sugar structure, bond configuration (α or β), and linkage type.
+—> explains why amylase cannot digest cellulose (β-1,4 bonds).
+
+-- 6 of 58 --
+
+Pharmaceutical Biochemistry 7	Digestion
+Carbohydrate Digestion
+Polysaccharides
+1. Starch is a major plant storage form of glucose. It occurs in two forms:
+• alpha-amylose = glucoses are linked together in straight chains
+• Amylopectin = glucose chains are highly branched
+• Note: Except for the branch points of amylopectin,
+• the glucose monomers in starch are linked via alpha(1->4) glycosidic bonds,
+which, in the digestive tract of mammals, are hydrolyzed by amylases.
+2. Dietary fibers (Cellulose) is the other major plant carbohydrate.
+▪ Major constituent of plant cell walls
+▪ Cellulose is composed on unbranched, linear chains of D-glucose molecules,
+linked to one another by beta(1->4) glycosidic bonds
+▪ no vertebrate has the capacity to enzymatically digest
+Glycosidases are specific for sugar structure, bond configuration (α or β), and linkage type.
+—> explains why amylase cannot digest cellulose (β-1,4 bonds).
+
+-- 7 of 58 --
+
+Pharmaceutical Biochemistry 8	Digestion
+Carbohydrate Digestion
+Polysaccharides
+1. Starch is a major plant storage form of glucose. It occurs in two forms:
+• alpha-amylose = glucoses are linked together in straight chains
+• Amylopectin = glucose chains are highly branched
+• Note: Except for the branch points of amylopectin,
+• the glucose monomers in starch are linked via alpha(1->4) glycosidic bonds,
+which, in the digestive tract of mammals, are hydrolyzed by amylases.
+2. Dietary fibers (Cellulose) is the other major plant carbohydrate.
+▪ Major constituent of plant cell walls
+▪ Cellulose is composed on unbranched, linear chains of D-glucose molecules,
+linked to one another by beta(1->4) glycosidic bonds
+▪ no vertebrate has the capacity to enzymatically digest
+Glycosidases are specific for sugar structure, bond configuration (α or β), and linkage type.
+—> explains why amylase cannot digest cellulose (β-1,4 bonds).
+
+-- 8 of 58 --
+
+Pharmaceutical Biochemistry 9	Digestion
+Carbohydrate Digestion
+1. Salivary α-Amylase
+•Acts briefly during mastication.
+•Hydrolyzes random α(1→4) bonds in starch (amylose,
+amylopectin) and glycogen.
+•Cannot hydrolyze α(1→6) or β(1→4) bonds → dextrins (short
+branched chains) remain.
+•Inactivated by stomach acid → digestion pauses in the
+stomach.
+Humans lack β
+(1→
+4)-endoglucosidase → cannot digest cellulose.
+2. Pancreatic α-Amylase
+•Active in small intestine after acid neutralization by
+bicarbonate.
+•Continues digestion → produces maltose, maltotriose, and
+isomaltose.
+
+-- 9 of 58 --
+
+Pharmaceutical Biochemistry 10	Digestion
+Carbohydrate Digestion
+The three major breakdown
+products from carbohydrate
+digestion are thus glucose,
+galactose, and fructose. These
+monosaccharides are absorbed
+into the bloodstream
+through the intestinal wall. The
+folds of the intestinal wall are lined
+with fingerlike projections called villi,
+which are rich in blood capillaries
+
+-- 10 of 58 --
+
+Pharmaceutical Biochemistry 11	Digestion
+Carbohydrate Digestion
+Enzyme Substrate Bond Products
+Isomaltase Isomaltose α(1→6) Glucose
+Maltase Maltose,
+Maltotriose α(1→4) Glucose
+Sucrase Sucrose α(1→2) Glucose + Fructose
+Lactase Lactose β(1→4) Galactose +
+Glucose
+Trehalase Trehalose (from
+fungi) α(1→1) 2 Glucose
+3. Intestinal Disaccharidases (Brush Border Enzymes)
+•Sucrase–Isomaltase (SI complex) → single protein with two enzyme sites.
+•Maltase–Glucoamylase (MGA) → one protein, two activities; glucoamylase
+acts on dextrins.
+
+-- 11 of 58 --
+
+Pharmaceutical Biochemistry 12	Digestion
+Carbohydrate Digestion
+Absorption of Monosaccharide
+Site: Upper jejunum (main site of sugar absorption).
+Final Products: Glucose, Galactose, Fructose.
+Mechanism Summary:
+•Na⁺/K⁺-ATPase maintains gradient → drives SGLT-1
+transport.
+•Monosaccharides exit via GLUT-2 → portal circulation
+→ liver.
+•In the liver, galactose & fructose → converted to glucose
+derivatives.
+Absorption depends on specific transporters, not
+passive diffusion.
+→ SGLT-1 (active), GLUT-5 (facilitated), GLUT-2 (exit).
+
+-- 12 of 58 --
+
+Pharmaceutical Biochemistry 13	Digestion
+Carbohydrate Digestion
+Abnormal Degradation of Disaccharides
+Normal digestion:
+Efficient digestion → All carbohydrates absorbed in the upper jejunum
+Only monosaccharides can be absorbed
+If disaccharidase deficiency → undigested carbs in large intestine:
+• Osmotic diarrhea: water drawn into lumen
+• Bacterial fermentation → CO₂ + H₂ + short-chain acids
+• Causes abdominal cramps, bloating, and flatulence
+Type Description
+Genetic Inherited enzyme defect (e.g., lactase, sucrase-isomaltase)
+Acquired Intestinal disease, malnutrition, mucosal injury, or severe diarrhea (temporary)
+
+-- 13 of 58 --
+
+Pharmaceutical Biochemistry 14	Digestion
+Carbohydrate Digestion
+Common Disorders & Diagnosis
+1. Lactose Intolerance (Lactase Deficiency):
+•Affects >60% of adults worldwide
+•Common in African & Asian descent (up to 90%)
+•Caused by ↓ lactase gene expression on chromosome 2
+•Symptoms: Bloating, cramps, diarrhea after milk
+•Management:
+• Limit milk, choose yogurt/aged cheese
+• Use lactase-treated products or supplements
+• Ensure calcium from green vegetables
+2. Congenital Sucrase-Isomaltase Deficiency:
+•Autosomal recessive, intolerance to sucrose
+•Prevalence: 1:5,000 (Europe), 1:20 (Inuit)
+•Treatment: Restrict sucrose, enzyme therapy
+Diagnosis:
+•Oral disaccharide tolerance tests
+•Hydrogen breath test → ↑H₂ = poor carbohydrate absorption
+
+-- 14 of 58 --
+
+Pharmaceutical Biochemistry 15	Digestion
+Carbohydrate Digestion
+
+-- 15 of 58 --
+
+Pharmaceutical Biochemistry 16	Digestion
+Carbohydrate Digestion
+Key concept map for
+the classification and
+structure of
+monosaccharides and
+the digestion of
+dietary carbohydrates.
+
+-- 16 of 58 --
+
+Pharmaceutical Biochemistry 17	Digestion
+Lipid Digestion
+Site Process / Enzyme Products Formed Notes
+Mouth
+Minimal digestion
+(salivary enzymes
+ineffective)
+— TAGs are
+insoluble in water
+Stomach
+Gastric lipase
+hydrolyzes ~10% of
+TAGs
+Diacylglycerols +
+Free fatty acids
+High-fat foods →
+longer satiety
+(“feeling full”)
+Small
+Intestine
+1. Bile salts (from
+gallbladder)
+emulsify fat
+2. Pancreatic lipase
+hydrolyzes TAGs
+Monoacylglycerols
++ Free fatty acids
+Emulsification
+increases
+surface area for
+enzyme action
+Micelle formation:
+•Tiny droplets containing fatty acids, monoacylglycerols, and bile salts
+•Make lipids soluble for absorption through intestinal membranes
+
+-- 17 of 58 --
+
+Pharmaceutical Biochemistry 18	Digestion
+Lipid Digestion
+Inside Intestinal Cells:
+•Reassembly: Free fatty acids + Monoacylglycerols → TAGs
+•Packaging: TAGs + Cholesterol + Phospholipids + Proteins → Chylomicrons
+Transport Pathway:
+1. Chylomicrons enter lymphatic vessels → thoracic duct → bloodstream
+2. In blood vessels, lipoprotein lipase hydrolyzes TAGs
+3. Products absorbed by tissues:
+•Fatty acids → Energy (via β-oxidation)
+•Glycerol → Glucose synthesis or energy
+•TAGs → Stored in adipose tissue
+Timeline:
+•↑ Chylomicrons in blood 2–6 hrs after meal
+•↓ as TAGs stored or metabolized
+
+-- 18 of 58 --
+
+Pharmaceutical Biochemistry 19	Digestion
+Lipid Digestion
+Average Lipid Intake: ~78 g/day
+•>90% Triacylglycerols (TAGs)
+•Remainder: Cholesterol, cholesteryl esters, phospholipids, free FA
+Site Process / Enzyme Main Products Notes / Clinical
+Points
+Mouth & Stomach
+Lingual lipase (tongue
+glands) Gastric lipase
+(gastric mucosa)
+Free FA + Diglycerides
+- Active at pH 4–6 - Acts
+on short/medium-chain
+FA (milk fat) - Important
+for infants and CF
+patients
+Clinical Insight Cystic Fibrosis (CF)
+↓ CFTR function → thick
+mucus → blocks
+pancreatic enzyme
+release
+Results in pancreatic
+insufficiency, fat
+malabsorption; treated
+with enzyme
+replacement + fat-
+soluble vitamins
+
+-- 19 of 58 --
+
+Pharmaceutical Biochemistry 20	Digestion
+Lipid Digestion
+Emulsification in the Intestine Emulsification is the breakdown of large dietary fat droplets into
+smaller ones to increase surface area for enzyme action.
+•Site: Occurs in the duodenum.
+•Purpose: Allows lipase enzymes to efficiently digest lipids at the
+fat–water interface.
+•Mechanisms:
+1.Bile Salts – Amphipathic molecules (from liver, stored in
+gallbladder) derived from cholesterol and conjugated with glycine
+or taurine.
+•Act as natural detergents that coat lipid droplets.
+•Prevent coalescence and stabilize smaller droplets.
+2.Peristalsis – Mechanical churning that further breaks down fat
+globules.
+•Result: Formation of stable, small lipid droplets ready for lipase
+digestion and absorption.
+
+-- 20 of 58 --
+
+Pharmaceutical Biochemistry 21	Digestion
+Lipid Digestion
+Enzymatic Degradation & Hormonal Regulation
+Degradation Enzyme(s) Products Key Notes
+TAGs Pancreatic lipase +
+Colipase
+2-Monoacylglycerol
+(MAG) + FFA
+Colipase anchors lipase;
+activated by trypsin;
+inhibited by Orlistat
+Cholesteryl esters Cholesterol esterase Cholesterol + FFA
+Requires bile salts for
+activation
+(INCREASED)
+Phospholipids Phospholipase A₂ →
+Lysophospholipase
+Lysophospholipids +
+FFA
+PA₂ = activated by
+TRYPSIN
+Produces
+glycerylphosphoryl
+base
+(absorbed/excreted)
+
+-- 21 of 58 --
+
+Pharmaceutical Biochemistry 22	Digestion
+Lipid Digestion
+Enzymatic Degradation & Hormonal Regulation
+Hormonal Control of Lipid Digestion:
+•Cholecystokinin (CCK):
+• Released in response to lipids & peptides
+• Stimulates gallbladder contraction → bile
+release
+• Stimulates pancreatic enzyme secretion
+• Slows gastric emptying
+•Secretin:
+• Released in response to acidic chyme
+• Stimulates bicarbonate secretion from
+pancreas
+• Neutralizes intestinal pH for enzyme activity
+
+-- 22 of 58 --
+
+Pharmaceutical Biochemistry 23	Digestion
+Lipid Digestion
+
+-- 23 of 58 --
+
+Pharmaceutical Biochemistry 24	Digestion
+Lipid Digestion
+
+-- 24 of 58 --
+
+Pharmaceutical Biochemistry 25	Digestion
+
+-- 25 of 58 --
+
+Pharmaceutical Biochemistry 26	Digestion
+Protein Digestion
+•Starts in: Stomach (no protein digestion in mouth)
+•Key Processes:
+•In the Stomach:
+•Hormone Gastrin → stimulates HCl and pepsinogen secretion
+•HCl Functions:
+1.Kills bacteria
+2.Denatures proteins (unwinds structure)
+3.Activates pepsinogen → pepsin
+•Pepsin: Hydrolyzes ~10% of peptide bonds → large polypeptides
+•In the Small Intestine:
+•Secretin → triggers pancreatic bicarbonate (HCO₃⁻) to neutralize acid
+•pH 7–8 allows activation of proteolytic enzymes:
+•Trypsin, Chymotrypsin, Carboxypeptidase, Aminopeptidase
+•Break peptides → amino acids
+•Absorption:
+•Active transport through intestinal wall → bloodstream
+•Result: Free amino acids distributed to body tissues for protein synthesis & metabolism
+
+-- 26 of 58 --
+
+Pharmaceutical Biochemistry 27	Digestion
+Protein Digestion
+Digestion in the Stomach
+•Gastric Juice = HCl + Pepsinogen (proenzyme)
+• HCl (from parietal cells):
+• Kills bacteria
+• Denatures proteins → exposes peptide bonds
+• pH 2–3 (too weak to hydrolyze directly)
+• Pepsin (from chief cells):
+• Secreted as inactive pepsinogen (zymogen)
+• Activated by HCl → pepsin
+• Endopeptidase → breaks large proteins into polypeptides
+& few amino acids
+
+-- 27 of 58 --
+
+Pharmaceutical Biochemistry 28	Digestion
+Protein Digestion
+Digestion by gastric secretion
+•Gastric Juice = HCl + Pepsinogen (proenzyme)
+• HCl (from parietal cells):
+• Kills bacteria
+• Denatures proteins → exposes peptide bonds
+• pH 2–3 (too weak to hydrolyze directly)
+• Pepsin (from chief cells):
+• Secreted as inactive pepsinogen (zymogen)
+• Activated by HCl → pepsin
+• Endopeptidase → breaks large proteins into polypeptides
+& few amino acids
+
+-- 28 of 58 --
+
+Pharmaceutical Biochemistry 29	Digestion
+Protein Digestion
+Digestion by pancreatic enzyme
+•Secretin → stimulates pancreas to secrete bicarbonate (HCO₃⁻) → neutralizes acid
+•Pancreatic proteases continue digestion:
+• Endopeptidases: trypsin, chymotrypsin, elastase
+• Exopeptidases: carboxypeptidases A & B
+• Each enzyme specific to certain amino acid R-groups
+Zymogen Activation
+1.Cholecystokinin (CCK) → triggers enzyme release
+2.Enteropeptidase (brush border) activates trypsinogen → trypsin
+3.Trypsin activates all other pancreatic zymogens → proteolytic cascade
+Clinical Notes
+•Pancreatic deficiency (e.g., pancreatitis, cystic fibrosis) → incomplete digestion →
+steatorrhea (fat in stool)
+•Celiac disease: immune reaction to gluten → villi damage → malabsorption
+
+-- 29 of 58 --
+
+Pharmaceutical Biochemistry 30	Digestion
+Protein Digestion
+Figure 19.5 Cleavage of dietary protein in the small intestine by pancreatic proteases. The peptide bonds
+susceptible to hydrolysis are shown for each of the five major pancreatic proteases.
+[Note: The first three are serine endopeptidases, whereas the last two are exopeptidases. Each is produced
+from an inactive zymogen.]
+
+-- 30 of 58 --
+
+Pharmaceutical Biochemistry 31	Digestion
+Protein Digestion
+
+-- 31 of 58 --
+
+Pharmaceutical Biochemistry 32	Digestion
+Digestion
+• The energy in glucose is used to produce ATP via the reactions of
+glycolysis, cellular respiration, and the electron transport system.
+• Glycerol and fatty acids can be converted to pyruvate and Acetyl CoA
+and then enter cellular respiration.
+• The body uses amino acids to construct proteins. Excess amino acids
+can be used to synthesize pyruvate, acetyl CoA, and alpha
+ketogluterate, which enters the Krebs cycle.
+
+-- 32 of 58 --
+
+Pharmaceutical Biochemistry 33	Digestion
+
+-- 33 of 58 --
+
+Pharmaceutical Biochemistry 34	Digestion
+
+-- 34 of 58 --
+
+Pharmaceutical Biochemistry 35	Digestion
+Digestion in GI Tract
+• Mouth
+• Stomach
+• Duodenum
+• Pancreas
+• Liver
+• The Large Intestine
+
+-- 35 of 58 --
+
+Pharmaceutical Biochemistry 36	Digestion
+Digestion in GI Tract
+•Mouth
+• Chewing breaks food into smaller particles so that chemical
+digestion can occur faster.
+• Enzymes: Salivary amylase breaks starch (a polysaccharide)
+down to maltose (a disaccharide).
+• Bicarbonate ions in saliva act as buffers, maintaining a pH
+between 6.5 and 7.5.
+• Mucins (mucous) lubricate and help hold chewed food
+together in a clump called a bolus.
+
+-- 36 of 58 --
+
+Pharmaceutical Biochemistry 37	Digestion
+Digestion in GI Tract
+•Stomach
+• The stomach stores up to 2 liters of food. Gastric glands within
+the stomach produce secretions called gastric juice.
+• The muscular walls of the stomach contract vigorously to mix
+food with gastric juice, producing a mixture called chyme.
+
+-- 37 of 58 --
+
+Pharmaceutical Biochemistry 38	Digestion
+Digestion in GI Tract
+• Gastric Juice
+• Pepsinogen is converted to pepsin, which digests proteins. Pepsinogen
+production is stimulated by the presence of gastrin in the blood.
+• Hydrochloric acid (HCl) converts pepsinogen to pepsin which breaks down
+proteins to peptides.
+• HCl maintains a pH in the stomach of approximately 2.0. It also dissolves
+food and kills microorganisms.
+• Mucous protects the stomach from HCl and pepsin
+• Secretion of Gastric Juice: Gastrin is a hormone that stimulates the
+stomach to secrete gastric juice
+
+-- 38 of 58 --
+
+Pharmaceutical Biochemistry 39	Digestion
+Digestion in GI Tract
+• Duodenum
+• First part of the small intestine.
+• Chyme enters in tiny spurts.
+• At this point, proteins and carbohydrates are only partially digested and lipid
+digestion has not begun.
+
+-- 39 of 58 --
+
+Pharmaceutical Biochemistry 40	Digestion
+Digestion in GI Tract
+• Pancreas
+• The pancreas acts as an exocrine gland by producing pancreatic juice which
+empties into the small intestine via a duct.
+• The pancreas also acts as an endocrine gland to produce insulin.
+Pancreatic juice contains sodium bicarbonate which neutralizes the acidic
+material from the stomach.
+• Pancreatic amylase digests starch to maltose.
+• Trypsin and Chymotrypsin digest proteins to peptides. Like pepsin
+(produced in the stomach), they are specific for certain amino acids, not
+all of them. They therefore produce peptides.
+• Lipase digests fats to glycerol and fatty acids.
+
+-- 40 of 58 --
+
+Pharmaceutical Biochemistry 41	Digestion
+Digestion in GI Tract
+• Liver
+• The liver produces bile which is stored in gallbladder and sent to the duodenum
+through a duct.
+• Bile emulsifies fats (separates it into small droplets) so they can mix with water
+and be acted upon by enzymes.
+
+-- 41 of 58 --
+
+Pharmaceutical Biochemistry 42	Digestion
+Digestion in GI Tract
+•Small Intestine
+• there are numerous projections called villi that function to increase the surface
+area of the intestine.
+• Individual villus cells have microvilli = greatly increase absorptive surface area.
+• Peptidases and maltase are embedded within the plasma membrane of the
+microvilli.
+• Peptidases complete the digestion of peptides to amino acids.
+• Maltase completes the digestion of disaccharides.
+
+-- 42 of 58 --
+
+Pharmaceutical Biochemistry 43	Digestion
+Digestion in GI Tract
+• Large Intestine
+• Functions in three processes:
+• Recovery of water and electrolytes from ingesta
+• Formation and storage of feces:
+• As ingesta is moved through the large intestine, it is dehydrated, mixed with bacteria and
+mucus, and formed into feces.
+• Microbial fermentation:
+• The large intestine of all species teems with microbial life. Those microbes produce
+enzymes capable of digesting many of molecules that to vertebrates are indigestible,
+cellulose being a premier example.
+• Absorption: water, sodium ions and chloride ions
+• Secretion: bicarbonate ions and mucus
+Ingesta: material taken into the
+body by way of the digestive tract
+
+-- 43 of 58 --
+
+Pharmaceutical Biochemistry 44	Digestion
+Digestion in GI Tract
+• Hormones
+Involved
+Digestion
+
+-- 44 of 58 --
+
+Pharmaceutical Biochemistry 45	Digestion
+Digestion in GI Tract
+• Digestive
+Enzymes
+grouped
+by source
+
+-- 45 of 58 --
+
+Pharmaceutical Biochemistry 46	Digestion
+Overview of
+Digestion & Absorption
+
+-- 46 of 58 --
+
+Pharmaceutical Biochemistry 47	Digestion
+Fiber Carbohydrate
+Mouth and
+salivary glands
+The mechanical action of the mouth and teeth crushes
+and tears fiber in food and mixes it with saliva to
+moisten it for swallowing.
+The salivary glands secrete saliva into the mouth to moisten
+the food. The salivary enzyme amylase begins digestion:
+Stomach Fiber is unchanged. Stomach acid inactivates salivary enzymes, halting starch
+digestion. To a small extent, stomach acid hydrolyzes
+maltose and sucrose
+Small intestine Fiber is unchanged. The pancreas produces enzymes and releases them through
+the pancreatic duct duct into the small intestine:
+Then enzymes on the surfaces of the small intestinal cells
+break disaccharides into monosaccharides, and the cells
+absorb them :
+Large intestine Most fiber passes intact through the digestive tract to
+the large intestine. Here, bacterial enzymes digest
+some fiber:
+Fiber holds water; regulates bowel activity; and binds
+cholesterol and some minerals, carrying them out of the
+body as it is excreted with feces
+
+-- 47 of 58 --
+
+Pharmaceutical Biochemistry 48	Digestion
+Fat Protein
+Mouth and
+salivary glands
+The sublingual salivary gland in the base of the
+tongue secretes as salivary lipase. Some hard fats
+begin to melt as they reach body temperature.
+Chewing and crushing moisten protein-rich foods and mix
+them with saliva to be swallowed.
+Stomach The acid-stable salivary lipase splits one bond of
+triglycerides to produce diglycerides and fatty acids.
+The stomach’s churning action mixes fat with water
+and acid. A gastric lipase accesses and hydrolyzes a
+very small amount of fat.
+Hydrochloric acid (HCL) uncoils protein strands and
+activates stomach enzymes:
+Small intestine Bile flows in from the liver and gallbladder (via the
+common bile duct):
+Pancreatic lipase flows in from the pancreas (via the
+pancreatic duct):
+Then enzymes on the surface of the small intestinal cells
+hydrolyze these peptides and the cells absorb them.
+Large intestine Some fat and cholesterol, trapped in fiber, exit in
+feces.
+
+-- 48 of 58 --
+
+Pharmaceutical Biochemistry 49	Digestion
+Vitamin Water and Minerals
+Mouth and
+salivary
+glands
+No action. The salivary glands add water to disperse and
+carry food.
+Stomach Intrinsic factor attaches to vitamin
+B12.
+Stomach acid (HCl) acts on iron to reduce it,
+making it more absorbable. The stomach secretes
+enough watery fluid to turn a moist, chewed mass
+of solid food into liquid chyme.
+Small
+intestine
+Bile emulsifies fat-soluble vitamins
+and aids in their absorption with
+other fats. Water-soluble vitamins
+are absorbed.
+The small intestine, pancreas, and liver add
+enough fluid so that approximately 2 gallons are
+secreted into the intestine in a day. Many minerals
+are absorbed. Vitamin D aids in the absorption of
+calcium.
+Large
+intestine
+Bacteria produce vitamin K,which
+is absorbed.
+More minerals and most of the water are absorbed.
+
+-- 49 of 58 --
+
+Pharmaceutical Biochemistry 50	Digestion
+• To digest food, five different body organs secrete digestive juices: the salivary glands, the
+stomach, the small intestine, the liver (via the gallbladder), and the pancreas.
+• These secretions enter the GI tract at various points along the way, bringing an abundance of
+water and a variety of enzymes. Each of the juices has a turn to mix with the food and promote
+its breakdown to small units that can be absorbed into the body.
+DIGESTION IN THE MOUTH
+• Digestion of carbohydrate begins in the mouth, where the salivary glands secrete saliva,
+which contains water, salts, and enzymes (including salivary amylase) that break the bonds in
+the chains of starch.
+• The enzymes in the mouth do not affect the fats, proteins, vitamins, minerals, and fiber that are
+present in the foods people eat.
+Digestion Process
+
+-- 50 of 58 --
+
+Pharmaceutical Biochemistry 51	Digestion
+DIGESTION IN THE STOMACH
+• Gastric juice, secreted by the gastric glands, is composed of water, enzymes, and
+hydrochloric acid.
+• The strong acidity of the stomach prevents bacterial growth and kills most bacteria that enter
+the body with food.
+• The strong acidity wouldn't harm the stomach itself, scince the cells of the stomach wall secrete
+mucus, a thick, slimy, white polysaccharide that coats and protects the stomach’s lining.
+• The major digestive event in the stomach is the initial breakdown of proteins. There, the acid
+helps to denature the protein so that the stomach enzymes can attack the bonds.
+• Both the enzyme pepsin and the stomach acid itself act as catalysts in the process. Minor
+events are the digestion of some fat by a gastric lipase, the digestion of sucrose (to a very small
+extent) by the stomach acid, and the attachment of a protein carrier to vitamin B12.
+Digestion Process
+
+-- 51 of 58 --
+
+Pharmaceutical Biochemistry 52	Digestion
+DIGESTION IN THE SMALL INTESTINE
+• The pancreas and the liver contribute additional digestive juices through the duct leading into the
+duodenum, and the small intestine adds intestinal juice. These juices contain digestive enzymes,
+bicarbonate, and bile.
+• The pancreatic juice also contains sodium bicarbonate, which neutralizes the acidic chyme as it
+enters the small intestine. From this point on, the contents of the digestive tract are neutral or slightly
+alkaline. The enzymes of both the intestine and the pancreas work best in this environment.
+• Bile is secreted by the liver and is concentrated and stored in the gallbladder.
+• Bile is not an enzyme but an emulsifier that brings fats into suspension in water. After the fats are
+emulsified, enzymes can work on them, and they can be.
+Digestion Process
+
+-- 52 of 58 --
+
+Pharmaceutical Biochemistry 53	Digestion
+DIGESTION IN THE LARGE INTESTINE
+• Undigested residues, such as some fibers, are not absorbed but continue
+through the digestive tract as a semisolid mass that stimulates the tract’s
+muscles, helping them remain strong and able to perform peristalsis
+efficiently.
+• Fiber also retains water, keeping the stools soft, and carries some bile
+acids, sterols, and fat out of the body.
+Digestion Process
+
+-- 53 of 58 --
+
+Pharmaceutical Biochemistry 54	Digestion
+• Most absorption takes place in the small intestine.
+• Small intestine’s inner surface looks smooth, but
+viewed through a microscope, it turns out to be
+wrinkled into hundreds of folds.
+• Each fold is covered with thousands of fingerlike
+projections called villi.
+• A single villus, magnified still more, turns out to be
+composed of several hundred cells, each covered
+with microscopic hairs called microvilli.
+Absorptive System
+
+-- 54 of 58 --
+
+Pharmaceutical Biochemistry 55	Digestion
+• Once a molecule has entered a cell in a villus, the next step is to transmit it the bloodstream
+and the lymphatic system.
+• Both systems supply vessels to each villus. Through these vessels, the nutrients leave the cell
+and enter either the lymph or the blood. In either case, the nutrients end up in the blood.
+• The water- soluble nutrients (and the smaller products of fat digestion) are released directly
+into the bloodstream by way of the capillaries, but the larger fats and the fat-soluble vitamins
+find direct access into the capillaries impossible because these nutrients are insoluble in water
+(and blood is mostly water). They require some packaging before they are released.
+• The intestinal cells assemble the products of fat digestion into larger molecules called
+triglycerides, which then packaged for transport.
+• They cluster together with special proteins to form chylomicrons, one kind of lipoproteins.
+Finally, the cells release the chylomicrons into the lymphatic system.
+Absorptive System
+
+-- 55 of 58 --
+
+Pharmaceutical Biochemistry 56	Digestion
+• Within the circulatory system, lipids always travel from place
+to place bundled with protein, that is, as lipoproteins.
+• VLDL, LDL, HDL , and chylomicrons transport newly
+absorbed lipids from the intestinal cells to the rest of the
+body.
+• The liver can assemble different lipoproteins, which are
+known as very-low-density lipoproteins (VLDL). As the
+body’s cells remove triglycerides from the VLDL, the
+proportions of their lipid and protein contents shift. As this
+occurs, VLDL become cholesterol-rich low-density
+lipoproteins (LDL).
+• Cholesterol returning to the liver for metabolism or excretion
+from other parts of the body is packaged in lipoproteins
+known as high-density lipoproteins (HDL).
+Transport of Lipids: LIPOPROTEINS
+
+-- 56 of 58 --
+
+Pharmaceutical Biochemistry 57	Digestion
+• Harvey, R. A., & Ferrier, D. R. (2025). Lippincott Illustrated Reviews:
+Biochemistry (7th ed.). Wolters Kluwer.
+• Stoker, H. S. (2014). General, Organic, and Biological Chemistry (7th ed.).
+Cengage Learning.
+• https://pressbooks.calstate.edu/nutritionandfitness/chapter/digestion/
+• https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-
+system-how-it-works
+• https://youtu.be/Og5xAdC8EUI?si=GNGNjR9nSCTy7VU0
+Reference
+
+-- 57 of 58 --
+
+Pharmaceutical Biochemistry Lipids 58
+THANK
+YOU
+Ryan Christopher G. Atuel, RPh, MSc
+ryanchristopher.atuel@cit.edu.ph
+Department of Pharmacy
+College of Nursing and Allied Health Sciences
+Cebu Institute of Technology University
+Cebu, Philippines
+
+-- 58 of 58 --
+
