@@ -1,4 +1,4 @@
-const VERSION='sunroom-v2';
+const VERSION='sunroom-v3';
 const SHELL_CACHE=`${VERSION}-shell`;
 const CONTENT_CACHE=`${VERSION}-content`;
 const FALLBACKS=['/','/index.html','/manifest.webmanifest','/sun.svg'];
