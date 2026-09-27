@@ -1,7 +1,7 @@
 {
   "name": "reviewer",
   "version": "1.0.0",
-  "description": "Sunroom — a personal endocrinology study space",
+  "description": "Sunroom — a personal study space",
   "main": "index.js",
   "scripts": {
     "dev": "vite --host 127.0.0.1",

@@ -222,10 +222,10 @@ test('sidebar displays Industry Elective lessons 1 and 2 with switching', async 
 
   // Open sidebar if not visible
   const sidebar = page.locator('#subject-sidebar');
-  await expect(page.locator('.subject-label')).toContainText('Subjects 03');
+  await expect(page.locator('.subject-label')).toContainText('Subjects 02');
 
   // Verify Industry Elective folder has 2 lessons
-  const ieFolder = page.locator('#subject-collection-2');
+  const ieFolder = page.locator('#subject-collection-0');
   const lessonLinks = ieFolder.locator('button.lesson-link');
   await expect(lessonLinks).toHaveCount(2);
 

@@ -217,11 +217,11 @@ test('industry elective lesson 1 quiz flow and scoring', async ({ page }) => {
   await expect(essayReview.locator('.rubric-score')).toContainText('1 / 3 points covered');
 });
 
-test('sidebar displays all 3 subjects and supports switching', async ({ page }) => {
-  await page.goto('/#endocrinology/lesson-1/notes');
+test('sidebar displays subjects and supports switching', async ({ page }) => {
+  await page.goto('/#digestion/lesson-1/notes');
 
   // Check sidebar subject count
-  await expect(page.locator('.subject-label span')).toContainText('03');
+  await expect(page.locator('.subject-label span')).toContainText('02');
 
   // Verify Industry Elective folder in sidebar
   const ieToggle = page.locator('[data-id="industry-elective"].subject-folder-toggle');
@@ -229,7 +229,7 @@ test('sidebar displays all 3 subjects and supports switching', async ({ page }) 
   await expect(ieToggle).toContainText('Industry Elective');
 
   // Click on Lesson 1 under Industry Elective
-  const ieLessonLink = page.locator('#subject-collection-2 [data-id="1"]');
+  const ieLessonLink = page.locator('#subject-collection-0 [data-id="1"]');
   await ieLessonLink.click();
 
   // URL should update to industry elective
@@ -238,9 +238,9 @@ test('sidebar displays all 3 subjects and supports switching', async ({ page }) 
 
   // Toggle Industry Elective folder accordion
   await ieToggle.click();
-  await expect(page.locator('#subject-collection-2')).toBeHidden();
+  await expect(page.locator('#subject-collection-0')).toBeHidden();
   await ieToggle.click();
-  await expect(page.locator('#subject-collection-2')).toBeVisible();
+  await expect(page.locator('#subject-collection-0')).toBeVisible();
 });
 
 test('captures screenshots of Industry Elective notes, diagrams, lightbox, flashcards, and quiz', async ({ page }) => {

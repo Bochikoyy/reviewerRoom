@@ -1,6 +1,6 @@
 # Sunroom
 
-A responsive yellow-themed Endocrinology reviewer built with Vite and plain JavaScript. It opens directly into the lesson workspace, without a dashboard or account requirement.
+A responsive yellow-themed study reviewer built with Vite and plain JavaScript. It opens directly into the lesson workspace, without a dashboard or account requirement.
 
 ## Run locally
 
