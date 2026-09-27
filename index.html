@@ -17,6 +17,19 @@
     <div id="app"></div>
     <div id="timer-root"></div>
     <div id="toast" role="status" aria-live="polite"></div>
+    <script>
+      if (['127.0.0.1', 'localhost'].includes(location.hostname) && 'serviceWorker' in navigator) {
+        Promise.all([
+          navigator.serviceWorker.getRegistrations().then(registrations => Promise.all(registrations.map(registration => registration.unregister()))),
+          'caches' in window ? caches.keys().then(keys => Promise.all(keys.map(key => caches.delete(key)))) : Promise.resolve()
+        ]).then(() => {
+          if (navigator.serviceWorker.controller && !sessionStorage.getItem('sunroom-dev-cache-reset')) {
+            sessionStorage.setItem('sunroom-dev-cache-reset', '1');
+            location.reload();
+          }
+        });
+      }
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

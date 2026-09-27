@@ -1615,18 +1615,6 @@ for (const lesson of industryElectiveLessons) {
 }
 
 export const subjects = {
-  endocrinology: {
-    id: 'endocrinology',
-    name: 'Endocrinology',
-    icon: 'leaf',
-    lessons: lessons
-  },
-  pathology: {
-    id: 'pathology',
-    name: 'Pathology',
-    icon: 'book',
-    lessons: pathologyLessons
-  },
   'industry-elective': {
     id: 'industry-elective',
     name: 'Industry Elective',
